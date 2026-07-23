@@ -1,0 +1,10 @@
+[
+  { "value": "mcq", "label": "Multiple Choice Questions" },
+  { "value": "SQ", "label": "Short Questions of 2 marks" },
+  { "value": "LQ", "label": "Long Questions of 3 and 4 marks" },
+  { "value": "critical-thinking", "label": "Critical Thinking Questions" },
+  { "value": "definition", "label": "Definition Based Questions" },
+  { "value": "theory", "label": "Theory Based Questions" },
+  { "value": "numerical", "label": "Numerical Questions" },
+  { "value": "criticalNumerical", "label": "Critical Numerical Questions" }
+]

@@ -1,0 +1,4628 @@
+{
+    "physics": {
+        "force": [
+            {
+                "value": "newtons-first-law",
+                "label": "Newton's First Law"
+            },
+            {
+                "value": "newtons-second-law",
+                "label": "Newton's Second Law"
+            },
+            {
+                "value": "newtons-third-law",
+                "label": "Newton's Third Law"
+            },
+            {
+                "value": "balanced-and-unbalanced-force",
+                "label": "Balanced and Unbalanced Force"
+            },
+            {
+                "value": "friction",
+                "label": "Friction"
+            },
+            {
+                "value": "mass-and-weight",
+                "label": "Mass and Weight"
+            },
+            {
+                "value": "momentum",
+                "label": "Momentum"
+            },
+            {
+                "value": "impulse",
+                "label": "Impulse"
+            },
+            {
+                "value": "centripetal-force",
+                "label": "Centripetal Force"
+            }
+        ],
+        "physicalQualitiesAndTheirMeasurement": [
+            {
+                "value": "physical-quantities",
+                "label": "Physical Quantities"
+            },
+            {
+                "value": "fundamental-quantities",
+                "label": "Fundamental Quantities"
+            },
+            {
+                "value": "derived-quantities",
+                "label": "Derived Quantities"
+            },
+            {
+                "value": "units-and-measurement",
+                "label": "Units and Measurement"
+            },
+            {
+                "value": "si-units",
+                "label": "SI Units"
+            },
+            {
+                "value": "measuring-instruments",
+                "label": "Measuring Instruments"
+            },
+            {
+                "value": "least-count",
+                "label": "Least Count"
+            },
+            {
+                "value": "measurement-errors",
+                "label": "Measurement Errors"
+            },
+            {
+                "value": "scientific-notation",
+                "label": "Scientific Notation"
+            }
+        ],
+        "motion": [
+            {
+                "value": "distance-and-displacement",
+                "label": "Distance and Displacement"
+            },
+            {
+                "value": "speed-and-velocity",
+                "label": "Speed and Velocity"
+            },
+            {
+                "value": "uniform-motion",
+                "label": "Uniform Motion"
+            },
+            {
+                "value": "non-uniform-motion",
+                "label": "Non-uniform Motion"
+            },
+            {
+                "value": "acceleration",
+                "label": "Acceleration"
+            },
+            {
+                "value": "equations-of-motion",
+                "label": "Equations of Motion"
+            },
+            {
+                "value": "graphs-of-motion",
+                "label": "Graphs of Motion"
+            },
+            {
+                "value": "free-fall",
+                "label": "Free Fall"
+            },
+            {
+                "value": "projectile-motion",
+                "label": "Projectile Motion"
+            }
+        ],
+        "workPowerAndEnergy": [
+            {
+                "value": "work",
+                "label": "Work"
+            },
+            {
+                "value": "power",
+                "label": "Power"
+            },
+            {
+                "value": "energy",
+                "label": "Energy"
+            },
+            {
+                "value": "kinetic-energy",
+                "label": "Kinetic Energy"
+            },
+            {
+                "value": "potential-energy",
+                "label": "Potential Energy"
+            },
+            {
+                "value": "law-of-conservation-of-energy",
+                "label": "Law of Conservation of Energy"
+            },
+            {
+                "value": "mechanical-energy",
+                "label": "Mechanical Energy"
+            },
+            {
+                "value": "efficiency",
+                "label": "Efficiency"
+            }
+        ],
+        "wavesAndSound": [
+            {
+                "value": "wave",
+                "label": "Wave"
+            },
+            {
+                "value": "types-of-waves",
+                "label": "Types of Waves"
+            },
+            {
+                "value": "sound",
+                "label": "Sound"
+            },
+            {
+                "value": "properties-of-sound",
+                "label": "Properties of Sound"
+            },
+            {
+                "value": "echo",
+                "label": "Echo"
+            },
+            {
+                "value": "noise-pollution",
+                "label": "Noise Pollution"
+            },
+            {
+                "value": "frequency-and-time-period",
+                "label": "Frequency and Time Period"
+            },
+            {
+                "value": "amplitude",
+                "label": "Amplitude"
+            },
+            {
+                "value": "velocity-of-sound",
+                "label": "Velocity of Sound"
+            }
+        ],
+        "reflectionOfLight": [
+            {
+                "value": "reflection",
+                "label": "Reflection"
+            },
+            {
+                "value": "laws-of-reflection",
+                "label": "Laws of Reflection"
+            },
+            {
+                "value": "plane-mirror",
+                "label": "Plane Mirror"
+            },
+            {
+                "value": "concave-mirror",
+                "label": "Concave Mirror"
+            },
+            {
+                "value": "convex-mirror",
+                "label": "Convex Mirror"
+            },
+            {
+                "value": "image-formation",
+                "label": "Image Formation"
+            },
+            {
+                "value": "ray-diagram",
+                "label": "Ray Diagram"
+            },
+            {
+                "value": "multiple-reflection",
+                "label": "Multiple Reflection"
+            }
+        ],
+        "staticElectricity": [
+            {
+                "value": "electric-charge",
+                "label": "Electric Charge"
+            },
+            {
+                "value": "types-of-charge",
+                "label": "Types of Charge"
+            },
+            {
+                "value": "charging-by-friction",
+                "label": "Charging by Friction"
+            },
+            {
+                "value": "electroscope",
+                "label": "Electroscope"
+            },
+            {
+                "value": "conductors-and-insulators",
+                "label": "Conductors and Insulators"
+            },
+            {
+                "value": "lightning",
+                "label": "Lightning"
+            },
+            {
+                "value": "earthing",
+                "label": "Earthing"
+            },
+            {
+                "value": "coulombs-law",
+                "label": "Coulomb's Law"
+            }
+        ]
+    },
+    "math": {
+        "realNumbers": [
+            {
+                "value": "classificationOfRealNumbers",
+                "label": "Classification of Real Numbers"
+            },
+            {
+                "value": "naturalNumbers",
+                "label": "Natural Numbers"
+            },
+            {
+                "value": "integers",
+                "label": "Integers"
+            },
+            {
+                "value": "fractionalNumbers",
+                "label": "Fractional Numbers"
+            },
+            {
+                "value": "rationalNumbers",
+                "label": "Rational Numbers"
+            },
+            {
+                "value": "irrationalNumbers",
+                "label": "Irrational Numbers"
+            },
+            {
+                "value": "propertiesOfRealNumbers",
+                "label": "Properties of Real Numbers"
+            },
+            {
+                "value": "decimalFractions",
+                "label": "Decimal Fractions"
+            },
+            {
+                "value": "finiteDecimalFractions",
+                "label": "Finite Decimal Fractions"
+            },
+            {
+                "value": "repeatingDecimalFractions",
+                "label": "Repeating Decimal Fractions"
+            },
+            {
+                "value": "infiniteDecimalFractions",
+                "label": "Infinite Decimal Fractions"
+            },
+            {
+                "value": "convertingRepeatingDecimals",
+                "label": "Converting Repeating Decimals to Fractions"
+            },
+            {
+                "value": "similarDissimilarRepeatingFractions",
+                "label": "Similar and Dissimilar Repeating Fractions"
+            },
+            {
+                "value": "operationsOnRepeatingDecimals",
+                "label": "Operations on Repeating Decimals"
+            },
+            {
+                "value": "approximateValues",
+                "label": "Approximate Values"
+            }
+        ],
+        "setsAndFunctions": [
+            {
+                "value": "sets",
+                "label": "Sets"
+            },
+            {
+                "value": "rosterMethod",
+                "label": "Roster Method"
+            },
+            {
+                "value": "setBuilderMethod",
+                "label": "Set Builder Method"
+            },
+            {
+                "value": "finiteAndInfiniteSets",
+                "label": "Finite and Infinite Sets"
+            },
+            {
+                "value": "emptySet",
+                "label": "Empty Set"
+            },
+            {
+                "value": "vennDiagrams",
+                "label": "Venn Diagrams"
+            },
+            {
+                "value": "subsets",
+                "label": "Subsets"
+            },
+            {
+                "value": "properSubsets",
+                "label": "Proper Subsets"
+            },
+            {
+                "value": "equivalentSets",
+                "label": "Equivalent Sets"
+            },
+            {
+                "value": "differenceOfSets",
+                "label": "Difference of Sets"
+            },
+            {
+                "value": "universalSet",
+                "label": "Universal Set"
+            },
+            {
+                "value": "complementOfSet",
+                "label": "Complement of a Set"
+            },
+            {
+                "value": "unionOfSets",
+                "label": "Union of Sets"
+            },
+            {
+                "value": "intersectionOfSets",
+                "label": "Intersection of Sets"
+            },
+            {
+                "value": "disjointSets",
+                "label": "Disjoint Sets"
+            },
+            {
+                "value": "powerSets",
+                "label": "Power Sets"
+            },
+            {
+                "value": "orderedPairs",
+                "label": "Ordered Pairs"
+            },
+            {
+                "value": "cartesianProduct",
+                "label": "Cartesian Product"
+            },
+            {
+                "value": "relations",
+                "label": "Relations"
+            }
+        ],
+        "algebraicExpressions": [
+            {
+                "value": "algebraicExpressions",
+                "label": "Algebraic Expressions"
+            },
+            {
+                "value": "polynomials",
+                "label": "Polynomials"
+            },
+            {
+                "value": "additionSubtractionOfPolynomials",
+                "label": "Addition and Subtraction of Polynomials"
+            },
+            {
+                "value": "multiplicationOfPolynomials",
+                "label": "Multiplication of Polynomials"
+            },
+            {
+                "value": "divisionOfPolynomials",
+                "label": "Division of Polynomials"
+            },
+            {
+                "value": "factorization",
+                "label": "Factorization"
+            },
+            {
+                "value": "algebraicIdentities",
+                "label": "Algebraic Identities"
+            }
+        ],
+        "exponentsAndLogarithms": [
+            {
+                "value": "exponents",
+                "label": "Exponents"
+            },
+            {
+                "value": "lawsOfExponents",
+                "label": "Laws of Exponents"
+            },
+            {
+                "value": "logarithms",
+                "label": "Logarithms"
+            },
+            {
+                "value": "lawsOfLogarithms",
+                "label": "Laws of Logarithms"
+            }
+        ],
+        "equationsInOneVariable": [
+            {
+                "value": "linearEquations",
+                "label": "Linear Equations in One Variable"
+            },
+            {
+                "value": "solvingEquations",
+                "label": "Solving Equations"
+            },
+            {
+                "value": "wordProblemsOnEquations",
+                "label": "Word Problems on Equations"
+            }
+        ],
+        "linesAnglesAndTriangles": [
+            {
+                "value": "linesAndAngles",
+                "label": "Lines and Angles"
+            },
+            {
+                "value": "triangles",
+                "label": "Triangles"
+            },
+            {
+                "value": "angleSumProperty",
+                "label": "Angle Sum Property of Triangle"
+            },
+            {
+                "value": "congruentTriangles",
+                "label": "Congruent Triangles"
+            }
+        ],
+        "practicalGeometry": [
+            {
+                "value": "constructionOfTriangles",
+                "label": "Construction of Triangles"
+            },
+            {
+                "value": "constructionOfQuadrilaterals",
+                "label": "Construction of Quadrilaterals"
+            }
+        ],
+        "circle": [
+            {
+                "value": "basicConceptsOfCircle",
+                "label": "Basic Concepts of Circle"
+            },
+            {
+                "value": "circleTheorems",
+                "label": "Circle Theorems"
+            },
+            {
+                "value": "cyclicQuadrilaterals",
+                "label": "Cyclic Quadrilaterals"
+            }
+        ],
+        "trigonometricRatio": [
+            {
+                "value": "trigonometricRatios",
+                "label": "Trigonometric Ratios"
+            },
+            {
+                "value": "trigonometricIdentities",
+                "label": "Trigonometric Identities"
+            },
+            {
+                "value": "trigonometricValues",
+                "label": "Trigonometric Values of Standard Angles"
+            }
+        ],
+        "distanceAndElevation": [
+            {
+                "value": "angleOfElevation",
+                "label": "Angle of Elevation"
+            },
+            {
+                "value": "angleOfDepression",
+                "label": "Angle of Depression"
+            },
+            {
+                "value": "heightAndDistanceProblems",
+                "label": "Problems on Height and Distance"
+            }
+        ],
+        "algebraicRatioAndProportion": [
+            {
+                "value": "ratioAndProportion",
+                "label": "Ratio and Proportion"
+            },
+            {
+                "value": "continuedProportion",
+                "label": "Continued Proportion"
+            },
+            {
+                "value": "variation",
+                "label": "Variation"
+            }
+        ],
+        "simpleSimultaneousEquations": [
+            {
+                "value": "simultaneousEquations",
+                "label": "Simultaneous Equations"
+            },
+            {
+                "value": "eliminationMethod",
+                "label": "Elimination Method"
+            },
+            {
+                "value": "substitutionMethod",
+                "label": "Substitution Method"
+            }
+        ],
+        "finiteSeries": [
+            {
+                "value": "arithmeticSeries",
+                "label": "Arithmetic Series"
+            },
+            {
+                "value": "geometricSeries",
+                "label": "Geometric Series"
+            },
+            {
+                "value": "sumOfFiniteSeries",
+                "label": "Sum of Finite Series"
+            }
+        ],
+        "ratioSimilarityAndSymmetry": [
+            {
+                "value": "ratioAndSimilarity",
+                "label": "Ratio and Similarity"
+            },
+            {
+                "value": "similarTriangles",
+                "label": "Similar Triangles"
+            },
+            {
+                "value": "symmetry",
+                "label": "Symmetry"
+            }
+        ],
+        "areaRelatedTheoremsAndConstructions": [
+            {
+                "value": "pythagorasTheorem",
+                "label": "Pythagoras Theorem"
+            },
+            {
+                "value": "areaRelatedTheorems",
+                "label": "Area Related Theorems"
+            },
+            {
+                "value": "constructions",
+                "label": "Constructions"
+            }
+        ],
+        "mensuration": [
+            {
+                "value": "areaAndPerimeter",
+                "label": "Area and Perimeter"
+            },
+            {
+                "value": "volumeAndSurfaceArea",
+                "label": "Volume and Surface Area"
+            },
+            {
+                "value": "cylinderConeSphere",
+                "label": "Cylinder, Cone and Sphere"
+            }
+        ],
+        "statistics": [
+            {
+                "value": "dataRepresentation",
+                "label": "Data Representation"
+            },
+            {
+                "value": "meanMedianMode",
+                "label": "Mean, Median and Mode"
+            },
+            {
+                "value": "frequencyDistribution",
+                "label": "Frequency Distribution"
+            }
+        ]
+    },
+    "chemistry": {
+        "conceptsOfChemistry": [
+            {
+                "value": "introductionToChemistry",
+                "label": "Introduction to Chemistry"
+            },
+            {
+                "value": "scopesOfChemistry",
+                "label": "Scopes of Chemistry"
+            },
+            {
+                "value": "relationshipWithOtherSciences",
+                "label": "Relationship with Other Branches of Science"
+            },
+            {
+                "value": "importanceOfChemistry",
+                "label": "Importance of Studying Chemistry"
+            },
+            {
+                "value": "researchProcessInChemistry",
+                "label": "Process of Research in Chemistry"
+            },
+            {
+                "value": "safetyMeasuresInLab",
+                "label": "Safety Measures in Chemistry Laboratory"
+            },
+            {
+                "value": "hazardSymbols",
+                "label": "Hazard Symbols and Precautions"
+            }
+        ],
+        "statesOfMatter": [
+            {
+                "value": "statesOfMatter",
+                "label": "States of Matter (Solid, Liquid, Gas)"
+            },
+            {
+                "value": "kineticTheoryOfParticles",
+                "label": "Kinetic Theory of Particles"
+            },
+            {
+                "value": "diffusion",
+                "label": "Diffusion"
+            },
+            {
+                "value": "effusion",
+                "label": "Effusion"
+            },
+            {
+                "value": "meltingAndBoiling",
+                "label": "Melting and Boiling"
+            },
+            {
+                "value": "meltingPointAndBoilingPoint",
+                "label": "Melting Point and Boiling Point"
+            },
+            {
+                "value": "heatingAndCoolingCurve",
+                "label": "Heating and Cooling Curve"
+            }
+        ],
+        "structureOfMatter": [
+            {
+                "value": "atomicStructure",
+                "label": "Structure of Atom"
+            },
+            {
+                "value": "electronConfiguration",
+                "label": "Electron Configuration"
+            },
+            {
+                "value": "quantumNumbers",
+                "label": "Quantum Numbers"
+            },
+            {
+                "value": "periodicTableIntroduction",
+                "label": "Introduction to Periodic Table"
+            }
+        ],
+        "periodicTable": [
+            {
+                "value": "periodicTable",
+                "label": "Periodic Table"
+            },
+            {
+                "value": "periodicTrends",
+                "label": "Periodic Trends"
+            },
+            {
+                "value": "groupsAndPeriods",
+                "label": "Groups and Periods"
+            },
+            {
+                "value": "propertiesOfElements",
+                "label": "Properties of Elements"
+            }
+        ],
+        "chemicalBond": [
+            {
+                "value": "chemicalBond",
+                "label": "Chemical Bond"
+            },
+            {
+                "value": "ionicBond",
+                "label": "Ionic Bond"
+            },
+            {
+                "value": "covalentBond",
+                "label": "Covalent Bond"
+            },
+            {
+                "value": "metallicBond",
+                "label": "Metallic Bond"
+            },
+            {
+                "value": "bondProperties",
+                "label": "Properties of Bonds"
+            }
+        ],
+        "conceptOfMole": [
+            {
+                "value": "moleConcept",
+                "label": "Concept of Mole"
+            },
+            {
+                "value": "molarMass",
+                "label": "Molar Mass"
+            },
+            {
+                "value": "chemicalCalculations",
+                "label": "Chemical Calculations"
+            },
+            {
+                "value": "percentageComposition",
+                "label": "Percentage Composition"
+            },
+            {
+                "value": "empiricalAndMolecularFormula",
+                "label": "Empirical and Molecular Formula"
+            }
+        ],
+        "chemicalReactions": [
+            {
+                "value": "chemicalReactions",
+                "label": "Chemical Reactions"
+            },
+            {
+                "value": "typesOfReactions",
+                "label": "Types of Chemical Reactions"
+            },
+            {
+                "value": "balancingEquations",
+                "label": "Balancing Chemical Equations"
+            },
+            {
+                "value": "stoichiometry",
+                "label": "Stoichiometry"
+            }
+        ],
+        "chemistryAndEnergy": [
+            {
+                "value": "chemicalEnergy",
+                "label": "Chemical Energy"
+            },
+            {
+                "value": "exothermicAndEndothermic",
+                "label": "Exothermic and Endothermic Reactions"
+            },
+            {
+                "value": "heatOfReaction",
+                "label": "Heat of Reaction"
+            },
+            {
+                "value": "fuelAndCombustion",
+                "label": "Fuel and Combustion"
+            }
+        ],
+        "acidBaseBalance": [
+            {
+                "value": "acidsAndBases",
+                "label": "Acids and Bases"
+            },
+            {
+                "value": "phScale",
+                "label": "pH Scale"
+            },
+            {
+                "value": "neutralization",
+                "label": "Neutralization Reaction"
+            },
+            {
+                "value": "acidBaseIndicators",
+                "label": "Acid-Base Indicators"
+            },
+            {
+                "value": "salts",
+                "label": "Salts"
+            }
+        ],
+        "mineralResourcesMetals": [
+            {
+                "value": "metalsAndNonmetals",
+                "label": "Metals and Non-metals"
+            },
+            {
+                "value": "extractionOfMetals",
+                "label": "Extraction of Metals"
+            },
+            {
+                "value": "propertiesOfMetals",
+                "label": "Properties and Uses of Metals"
+            }
+        ],
+        "mineralResourcesFossils": [
+            {
+                "value": "fossilFuels",
+                "label": "Fossil Fuels"
+            },
+            {
+                "value": "coalAndPetroleum",
+                "label": "Coal and Petroleum"
+            },
+            {
+                "value": "naturalGas",
+                "label": "Natural Gas"
+            },
+            {
+                "value": "alkane",
+                "label": "Alkanes"
+            },
+            {
+                "value": "alkene",
+                "label": "Alkenes"
+            },
+            {
+                "value": "alkyne",
+                "label": "Alkyne"
+            },
+            {
+                "value": "alcohols",
+                "label": "Alcohols"
+            },
+            {
+                "value": "aldehyde",
+                "label": "Aldehyde"
+            },
+            {
+                "value": "fattyAcids",
+                "label": "Fatty Acids"
+            },
+            {
+                "value": "polymers",
+                "label": "Polymers"
+            }
+        ],
+        "chemistryInOurLives": [
+            {
+                "value": "chemistryInDailyLife",
+                "label": "Chemistry in Daily Life"
+            },
+            {
+                "value": "environmentalChemistry",
+                "label": "Environmental Chemistry"
+            },
+            {
+                "value": "polymersAndPlastics",
+                "label": "Polymers and Plastics"
+            },
+            {
+                "value": "agriculturalChemistry",
+                "label": "Agricultural Chemistry"
+            },
+            {
+                "value": "medicinalChemistry",
+                "label": "Medicinal Chemistry"
+            }
+        ]
+    },
+    "biology": {
+        "lessonsOnLife": [
+            {
+                "value": "conceptOfBiology",
+                "label": "Concept of Biology"
+            },
+            {
+                "value": "branchesOfBiology",
+                "label": "Branches of Biology"
+            },
+            {
+                "value": "classificationOfOrganisms",
+                "label": "Classification of Organisms"
+            },
+            {
+                "value": "fiveKingdomClassification",
+                "label": "Five Kingdom Classification"
+            },
+            {
+                "value": "taxonomicHierarchy",
+                "label": "Taxonomic Hierarchy"
+            },
+            {
+                "value": "binomialNomenclature",
+                "label": "Binomial Nomenclature"
+            }
+        ],
+        "cellsAndTissues": [
+            {
+                "value": "prokaryoticAndEukaryoticCells",
+                "label": "Prokaryotic and Eukaryotic Cells"
+            },
+            {
+                "value": "cellOrganelles",
+                "label": "Cell Organelles and Their Functions"
+            },
+            {
+                "value": "plantCellVsAnimalCell",
+                "label": "Plant Cell vs Animal Cell"
+            },
+            {
+                "value": "plantTissues",
+                "label": "Plant Tissues"
+            },
+            {
+                "value": "animalTissues",
+                "label": "Animal Tissues"
+            },
+            {
+                "value": "cellToOrganSystem",
+                "label": "Organisation from Cell to Organ System"
+            }
+        ],
+        "cellDivision": [
+            {
+                "value": "mitosis",
+                "label": "Mitosis"
+            },
+            {
+                "value": "meiosis",
+                "label": "Meiosis"
+            },
+            {
+                "value": "cellCycle",
+                "label": "Cell Cycle"
+            }
+        ],
+        "bioenergetics": [
+            {
+                "value": "photosynthesis",
+                "label": "Photosynthesis"
+            },
+            {
+                "value": "cellularRespiration",
+                "label": "Cellular Respiration"
+            },
+            {
+                "value": "energyFlow",
+                "label": "Energy Flow in Living Organisms"
+            }
+        ],
+        "foodNutritionAndDigestion": [
+            {
+                "value": "nutritionTypes",
+                "label": "Types of Nutrition"
+            },
+            {
+                "value": "humanDigestiveSystem",
+                "label": "Human Digestive System"
+            },
+            {
+                "value": "digestionProcess",
+                "label": "Digestion and Absorption"
+            },
+            {
+                "value": "balancedDiet",
+                "label": "Balanced Diet"
+            }
+        ],
+        "transportInOrganisms": [
+            {
+                "value": "transportInPlants",
+                "label": "Transport in Plants"
+            },
+            {
+                "value": "humanCirculatorySystem",
+                "label": "Human Circulatory System"
+            },
+            {
+                "value": "bloodAndLymph",
+                "label": "Blood and Lymph"
+            }
+        ],
+        "exchangeOfGases": [
+            {
+                "value": "respiratorySystem",
+                "label": "Respiratory System"
+            },
+            {
+                "value": "gasExchangeInHumans",
+                "label": "Gas Exchange in Humans"
+            },
+            {
+                "value": "breathingMechanism",
+                "label": "Breathing Mechanism"
+            }
+        ],
+        "excretorySystem": [
+            {
+                "value": "excretionInPlants",
+                "label": "Excretion in Plants"
+            },
+            {
+                "value": "humanExcretorySystem",
+                "label": "Human Excretory System"
+            },
+            {
+                "value": "kidneyStructureAndFunction",
+                "label": "Kidney Structure and Function"
+            }
+        ],
+        "firmnessAndLocomotion": [
+            {
+                "value": "skeletalSystem",
+                "label": "Skeletal System"
+            },
+            {
+                "value": "muscularSystem",
+                "label": "Muscular System"
+            },
+            {
+                "value": "locomotionInHumans",
+                "label": "Locomotion in Humans"
+            }
+        ],
+        "coordination": [
+            {
+                "value": "nervousSystem",
+                "label": "Nervous System"
+            },
+            {
+                "value": "endocrineSystem",
+                "label": "Endocrine System"
+            },
+            {
+                "value": "hormones",
+                "label": "Hormones and Their Functions"
+            }
+        ],
+        "reproductionInOrganisms": [
+            {
+                "value": "asexualReproduction",
+                "label": "Asexual Reproduction"
+            },
+            {
+                "value": "sexualReproduction",
+                "label": "Sexual Reproduction"
+            },
+            {
+                "value": "humanReproductiveSystem",
+                "label": "Human Reproductive System"
+            }
+        ],
+        "heredityAndEvolution": [
+            {
+                "value": "heredity",
+                "label": "Heredity"
+            },
+            {
+                "value": "mendelsLaws",
+                "label": "Mendel's Laws of Inheritance"
+            },
+            {
+                "value": "biologicalEvolution",
+                "label": "Biological Evolution"
+            }
+        ],
+        "environmentOfLife": [
+            {
+                "value": "ecosystem",
+                "label": "Ecosystem"
+            },
+            {
+                "value": "foodChainAndFoodWeb",
+                "label": "Food Chain and Food Web"
+            },
+            {
+                "value": "biodiversity",
+                "label": "Biodiversity and Conservation"
+            },
+            {
+                "value": "environmentalIssues",
+                "label": "Environmental Issues"
+            }
+        ],
+        "biotechnology": [
+            {
+                "value": "introductionToBiotechnology",
+                "label": "Introduction to Biotechnology"
+            },
+            {
+                "value": "geneticEngineering",
+                "label": "Genetic Engineering"
+            },
+            {
+                "value": "applicationsOfBiotechnology",
+                "label": "Applications of Biotechnology"
+            }
+        ]
+    },
+    "higherMath": {
+        "setAndFunction": [
+            {
+                "value": "setConcept",
+                "label": "Set Concept"
+            },
+            {
+                "value": "universalSet",
+                "label": "Universal Set"
+            },
+            {
+                "value": "subsets",
+                "label": "Subsets and Proper Subsets"
+            },
+            {
+                "value": "setOperations",
+                "label": "Union, Intersection, Difference and Complement"
+            },
+            {
+                "value": "vennDiagram",
+                "label": "Venn Diagram"
+            },
+            {
+                "value": "powerSet",
+                "label": "Power Set"
+            },
+            {
+                "value": "cartesianProduct",
+                "label": "Cartesian Product"
+            },
+            {
+                "value": "relations",
+                "label": "Relations"
+            },
+            {
+                "value": "functions",
+                "label": "Functions"
+            },
+            {
+                "value": "domainAndRange",
+                "label": "Domain and Range"
+            },
+            {
+                "value": "oneOneOntoFunctions",
+                "label": "One-One and Onto Functions"
+            },
+            {
+                "value": "inverseFunction",
+                "label": "Inverse Function"
+            }
+        ],
+        "algebraicExpression": [
+            {
+                "value": "polynomials",
+                "label": "Polynomials"
+            },
+            {
+                "value": "algebraicIdentities",
+                "label": "Algebraic Identities"
+            },
+            {
+                "value": "factorization",
+                "label": "Factorization"
+            },
+            {
+                "value": "algebraicFractions",
+                "label": "Algebraic Fractions"
+            }
+        ],
+        "geometry": [
+            {
+                "value": "linesAndAngles",
+                "label": "Lines and Angles"
+            },
+            {
+                "value": "triangles",
+                "label": "Triangles"
+            },
+            {
+                "value": "circleTheorems",
+                "label": "Circle Theorems"
+            },
+            {
+                "value": "quadrilaterals",
+                "label": "Quadrilaterals"
+            }
+        ],
+        "geometricConstructions": [
+            {
+                "value": "basicConstructions",
+                "label": "Basic Geometric Constructions"
+            },
+            {
+                "value": "triangleConstruction",
+                "label": "Construction of Triangles"
+            },
+            {
+                "value": "circleConstruction",
+                "label": "Construction Related to Circles"
+            }
+        ],
+        "equation": [
+            {
+                "value": "linearEquations",
+                "label": "Linear Equations"
+            },
+            {
+                "value": "quadraticEquations",
+                "label": "Quadratic Equations"
+            },
+            {
+                "value": "simultaneousEquations",
+                "label": "Simultaneous Equations"
+            }
+        ],
+        "inequality": [
+            {
+                "value": "linearInequalities",
+                "label": "Linear Inequalities"
+            },
+            {
+                "value": "quadraticInequalities",
+                "label": "Quadratic Inequalities"
+            },
+            {
+                "value": "inequalitiesInTwoVariables",
+                "label": "Inequalities in Two Variables"
+            }
+        ],
+        "infiniteSeries": [
+            {
+                "value": "sequenceAndSeries",
+                "label": "Sequence and Series"
+            },
+            {
+                "value": "arithmeticSeries",
+                "label": "Arithmetic Series"
+            },
+            {
+                "value": "geometricSeries",
+                "label": "Geometric Series"
+            },
+            {
+                "value": "infiniteGeometricSeries",
+                "label": "Infinite Geometric Series"
+            }
+        ],
+        "trigonometry": [
+            {
+                "value": "trigonometricRatios",
+                "label": "Trigonometric Ratios"
+            },
+            {
+                "value": "trigonometricIdentities",
+                "label": "Trigonometric Identities"
+            },
+            {
+                "value": "trigonometricFunctions",
+                "label": "Trigonometric Functions"
+            },
+            {
+                "value": "heightAndDistance",
+                "label": "Height and Distance"
+            }
+        ],
+        "exponentialAndLogarithmicFunction": [
+            {
+                "value": "exponentialFunctions",
+                "label": "Exponential Functions"
+            },
+            {
+                "value": "logarithmicFunctions",
+                "label": "Logarithmic Functions"
+            },
+            {
+                "value": "lawsOfLogarithms",
+                "label": "Laws of Logarithms"
+            }
+        ],
+        "binomialExpansion": [
+            {
+                "value": "binomialTheorem",
+                "label": "Binomial Theorem"
+            },
+            {
+                "value": "binomialExpansionForPositiveInteger",
+                "label": "Binomial Expansion for Positive Integer"
+            }
+        ],
+        "coordinateGeometry": [
+            {
+                "value": "distanceFormula",
+                "label": "Distance Formula"
+            },
+            {
+                "value": "sectionFormula",
+                "label": "Section Formula"
+            },
+            {
+                "value": "straightLineEquation",
+                "label": "Equation of Straight Line"
+            },
+            {
+                "value": "circleEquation",
+                "label": "Equation of Circle"
+            }
+        ],
+        "planarVector": [
+            {
+                "value": "vectorConcept",
+                "label": "Vector Concept"
+            },
+            {
+                "value": "vectorAddition",
+                "label": "Vector Addition and Subtraction"
+            },
+            {
+                "value": "scalarProduct",
+                "label": "Scalar Product"
+            }
+        ],
+        "solidGeometry": [
+            {
+                "value": "solidFigures",
+                "label": "Solid Figures"
+            },
+            {
+                "value": "volumeAndSurfaceArea",
+                "label": "Volume and Surface Area"
+            }
+        ],
+        "probability": [
+            {
+                "value": "probabilityConcept",
+                "label": "Probability Concept"
+            },
+            {
+                "value": "theoreticalProbability",
+                "label": "Theoretical Probability"
+            },
+            {
+                "value": "eventAndOutcome",
+                "label": "Event and Outcome"
+            }
+        ]
+    },
+    "bangla": {
+        "stories": [
+            {
+                "value": "upokarok",
+                "label": "উপকারক"
+            },
+            {
+                "value": "fulerBibah",
+                "label": "ফুলের বিবাহ"
+            },
+            {
+                "value": "suta",
+                "label": "সূতা"
+            },
+            {
+                "value": "library",
+                "label": "লাইব্রেরি"
+            },
+            {
+                "value": "boiPora",
+                "label": "বই পড়া"
+            },
+            {
+                "value": "obhagirsorgo",
+                "label": "অভাগীর স্বর্গ"
+            },
+            {
+                "value": "nirihoBangali",
+                "label": "নিরীহ বাঙালি"
+            },
+            {
+                "value": "pallisahitto",
+                "label": "পল্লিসাহিত্য"
+            },
+            {
+                "value": "udamOporishrom",
+                "label": "উদাম ও পরিশ্রম"
+            },
+            {
+                "value": "jibonShikkherGyan",
+                "label": "জীবন শিক্ষের জ্ঞান"
+            },
+            {
+                "value": "amAantirBhepu",
+                "label": "আম-আঁটির ভেপু"
+            },
+            {
+                "value": "manushMuhammad",
+                "label": "মানুষ মুহাম্মদ (সা.)"
+            },
+            {
+                "value": "utpiditoShoktirUdbodhon",
+                "label": "উৎপীড়িত শক্তির উদ্বোধন"
+            },
+            {
+                "value": "nimGach",
+                "label": "নিমগাছ"
+            },
+            {
+                "value": "shikkhaOMonushyotwo",
+                "label": "শিক্ষা ও মনুষ্যত্ব"
+            },
+            {
+                "value": "probasBondhu",
+                "label": "প্রবাস বন্ধু"
+            },
+            {
+                "value": "momotadi",
+                "label": "মমতাদি"
+            },
+            {
+                "value": "bonomanush",
+                "label": "বনমানুষ"
+            },
+            {
+                "value": "ekattorerDinGuli",
+                "label": "একাত্তরের দিনগুলি"
+            },
+            {
+                "value": "swadhinotaAmarSwadhinota",
+                "label": "স্বাধীনতা আমার স্বাধীনতা"
+            },
+            {
+                "value": "ekusherGolpo",
+                "label": "একুশের গল্প"
+            },
+            {
+                "value": "amaderSonskriti",
+                "label": "আমাদের সংস্কৃতি"
+            },
+            {
+                "value": "sahityerRupORiti",
+                "label": "সাহিত্যের রূপ ও রীতি"
+            },
+            {
+                "value": "banglaShobdo",
+                "label": "বাংলা শব্দ"
+            },
+            {
+                "value": "amaderNotunGourabGatha",
+                "label": "আমাদের নতুন গৌরবগাথা"
+            }
+        ],
+        "poems": [
+            {
+                "value": "bondona",
+                "label": "বন্দনা"
+            },
+            {
+                "value": "hamd",
+                "label": "হামদ"
+            },
+            {
+                "value": "bosbogi",
+                "label": "বসবগী"
+            },
+            {
+                "value": "kopotakkhoNod",
+                "label": "কপোতাক্ষ নদ"
+            },
+            {
+                "value": "jibonSongit",
+                "label": "জীবন-সঙ্গীত"
+            },
+            {
+                "value": "pran",
+                "label": "প্রাণ"
+            },
+            {
+                "value": "jatAbishkar",
+                "label": "জাত-আবিষ্কার"
+            },
+            {
+                "value": "okkhorDhr",
+                "label": "অক্ষরধৃ"
+            },
+            {
+                "value": "abarGan",
+                "label": "আবার গান"
+            },
+            {
+                "value": "hayrabaji",
+                "label": "হায়রাবাজি"
+            },
+            {
+                "value": "jibonBinimoy",
+                "label": "জীবন বিনিময়"
+            },
+            {
+                "value": "manush",
+                "label": "মানুষ"
+            },
+            {
+                "value": "umarFaruk",
+                "label": "উমর ফারুক"
+            },
+            {
+                "value": "soinikEiMath",
+                "label": "সৈনিক এই মাঠ"
+            },
+            {
+                "value": "jabAmiTomarDeshe",
+                "label": "যাব আমি তোমার দেশে"
+            },
+            {
+                "value": "ektiKobita",
+                "label": "একটি কবিতা"
+            },
+            {
+                "value": "amarDesh",
+                "label": "আমার দেশ"
+            },
+            {
+                "value": "amiKonoAgontukNoi",
+                "label": "আমি কোনো আগন্তুক নই"
+            },
+            {
+                "value": "drishti",
+                "label": "দৃষ্টি"
+            },
+            {
+                "value": "meDinerKobita",
+                "label": "মে-দিনের কবিতা"
+            },
+            {
+                "value": "ama",
+                "label": "আমা"
+            },
+            {
+                "value": "poster",
+                "label": "পোস্টার"
+            },
+            {
+                "value": "ranar",
+                "label": "রানার"
+            },
+            {
+                "value": "tomakePawarJonnoHeSwadhinota",
+                "label": "তোমাকে পাওয়ার জন্য, হে স্বাধীনতা"
+            },
+            {
+                "value": "obakSworgodesh",
+                "label": "অবাক স্বর্গদেশ"
+            },
+            {
+                "value": "boreshwor",
+                "label": "বোরেশ্বর"
+            },
+            {
+                "value": "chuniyaAmarArektiya",
+                "label": "চুনিয়া আমার আরেকটিয়া"
+            },
+            {
+                "value": "mihil",
+                "label": "মিহিল"
+            }
+        ]
+    },
+    "islam": {
+        "akaid": [
+            {
+                "value": "islam",
+                "label": "ইসলাম"
+            },
+            {
+                "value": "iman",
+                "label": "ঈমান"
+            },
+            {
+                "value": "manobikMullyobodhBikasheImanerGurutto",
+                "label": "মানবিক মূল্যবোধ বিকাশে ঈমানের গুরুত্ব"
+            },
+            {
+                "value": "tawhid",
+                "label": "তাওহিদ"
+            },
+            {
+                "value": "allahTaalarPorichoy",
+                "label": "আল্লাহ তায়ালার পরিচয়"
+            },
+            {
+                "value": "shirk",
+                "label": "শিরক"
+            },
+            {
+                "value": "nifaq",
+                "label": "নিফাক"
+            },
+            {
+                "value": "risalat",
+                "label": "রিসালাত"
+            },
+            {
+                "value": "naitikJibonBikasheRisalatONobuwat",
+                "label": "নৈতিক জীবন বিকাশে রিসালাত ও নবুয়ত"
+            },
+            {
+                "value": "naitikJibonGothoneAsmaniKitaberVumika",
+                "label": "নৈতিক জীবন গঠনে আসমানি কিতাবের ভূমিকা"
+            },
+            {
+                "value": "akhirat",
+                "label": "আখিরাত"
+            },
+            {
+                "value": "akhiraterKoyektiStor",
+                "label": "আখিরাতের কয়েকটি স্তর"
+            },
+            {
+                "value": "akhirateBiswasherVumika",
+                "label": "নৈতিক জীবন গঠনে আখিরাতে বিশ্বাসের ভূমিকা"
+            }
+        ],
+        "islamicShariahSources": [
+            {
+                "value": "quranProthomUtso",
+                "label": "শরিয়তের প্রথম উৎস : আল-কুরআন"
+            },
+            {
+                "value": "quranSongrokkhonOSongkolon",
+                "label": "আল-কুরআন সংরক্ষণ ও সংকলন"
+            },
+            {
+                "value": "makkiOMadaniSura",
+                "label": "মাক্কি ও মাদানি সূরা"
+            },
+            {
+                "value": "tilawatGuruttoOMahattwo",
+                "label": "তিলাওয়াত : গুরুত্ব ও মাহাত্ম্য"
+            },
+            {
+                "value": "suraAshShams",
+                "label": "সূরা আশ-শামস"
+            },
+            {
+                "value": "suraAdDuha",
+                "label": "সূরা আদ-দুহা"
+            },
+            {
+                "value": "suraAlInshirah",
+                "label": "সূরা আল-ইনশিরাহ"
+            },
+            {
+                "value": "suraAtTin",
+                "label": "সূরা আত-তীন"
+            },
+            {
+                "value": "suraAlMaun",
+                "label": "সূরা আল-মাউন"
+            },
+            {
+                "value": "sunnahDitiyoUtso",
+                "label": "শরিয়তের দ্বিতীয় উৎস : সুন্নাহ"
+            },
+            {
+                "value": "hadithNiyyot",
+                "label": "হাদিস ১ (নিয়ত সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithIslamerVitti",
+                "label": "হাদিস ২ (ইসলামের ভিত্তি সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithDanShilota",
+                "label": "হাদিস ৩ (দানশীলতা সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithBrikkhoropon",
+                "label": "হাদিস ৪ (বৃক্ষরোপণ সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithShobottomoManush",
+                "label": "হাদিস ৫ (সবোত্তম মানুষ সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithManobPrem",
+                "label": "হাদিস ৬ (মানবপ্রেম ও সৃষ্টির সেবা সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithPoropokar",
+                "label": "হাদিস ৭ (পরোপকার সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithShotota",
+                "label": "হাদিস ৮ (ব্যবসায়ে সততা সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithDhoirjoOKkhoma",
+                "label": "হাদিস ৯ (ধৈর্য ও ক্ষমা সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "hadithJikir",
+                "label": "হাদিস ১০ (যিকির সম্পর্কিত হাদিস)"
+            },
+            {
+                "value": "ijma",
+                "label": "শরিয়তের তৃতীয় উৎস : আল-ইজমা"
+            },
+            {
+                "value": "qiyas",
+                "label": "শরিয়তের চতুর্থ উৎস : আল-কিয়াস"
+            },
+            {
+                "value": "ahkamPorivasha",
+                "label": "শরিয়তের আহকাম সংক্রান্ত পরিভাষা"
+            }
+        ],
+        "ibadat": [
+            {
+                "value": "ibadat",
+                "label": "ইবাদত"
+            },
+            {
+                "value": "salat",
+                "label": "সালাত"
+            },
+            {
+                "value": "sawm",
+                "label": "সাওম"
+            },
+            {
+                "value": "zakat",
+                "label": "যাকাত"
+            },
+            {
+                "value": "hajj",
+                "label": "হজ্জ"
+            },
+            {
+                "value": "malikShromikShomporko",
+                "label": "মালিক-শ্রমিক সম্পর্ক"
+            },
+            {
+                "value": "ilm",
+                "label": "ইলম (জ্ঞান)"
+            },
+            {
+                "value": "shikkharthirBoishishto",
+                "label": "শিক্ষার্থীর বৈশিষ্ট্য"
+            },
+            {
+                "value": "shikkhokerGunaboli",
+                "label": "শিক্ষকের গুণাবলি"
+            },
+            {
+                "value": "chatroShikkhokShomporko",
+                "label": "ছাত্র-শিক্ষক সম্পর্ক"
+            },
+            {
+                "value": "shilpoONaitikota",
+                "label": "শিল্প ও নৈতিকতা"
+            },
+            {
+                "value": "jihad",
+                "label": "জিহাদ"
+            },
+            {
+                "value": "jihadOSontrashbad",
+                "label": "জিহাদ ও সন্ত্রাসবাদ"
+            }
+        ],
+        "akhlaq": [
+            {
+                "value": "akhlakeHamidah",
+                "label": "আখলাকে হামিদাহ"
+            },
+            {
+                "value": "taqwa",
+                "label": "তাকওয়া"
+            },
+            {
+                "value": "wadaPalon",
+                "label": "ওয়াদা পালন"
+            },
+            {
+                "value": "shotyobadita",
+                "label": "সত্যবাদিতা"
+            },
+            {
+                "value": "shalinota",
+                "label": "শালীনতা"
+            },
+            {
+                "value": "manobSheba",
+                "label": "মানবসেবা"
+            },
+            {
+                "value": "danshilota",
+                "label": "দানশীলতা"
+            },
+            {
+                "value": "atmomorjadabodhOShamajikShompriti",
+                "label": "আত্মমর্যাদাবোধ ও সামাজিক সম্প্রীতি"
+            },
+            {
+                "value": "narirProtiShodachoron",
+                "label": "নারীর প্রতি সদাচরণ"
+            },
+            {
+                "value": "deshprem",
+                "label": "দেশপ্রেম"
+            },
+            {
+                "value": "kortobboporayonota",
+                "label": "কর্তব্যপরায়ণতা"
+            },
+            {
+                "value": "mitobboyita",
+                "label": "মিতব্যয়িতা"
+            },
+            {
+                "value": "otithiporayonota",
+                "label": "অতিথিপরায়ণতা"
+            },
+            {
+                "value": "shotKajerAdesh",
+                "label": "সৎকাজের আদেশ ও অসৎ কাজে নিষেধ"
+            },
+            {
+                "value": "akhlakeJamimah",
+                "label": "আখলাকে যামিমাহ"
+            },
+            {
+                "value": "protarona",
+                "label": "প্রতারণা"
+            },
+            {
+                "value": "gibat",
+                "label": "গিবত"
+            },
+            {
+                "value": "hingsha",
+                "label": "হিংসা"
+            },
+            {
+                "value": "fitnaFasad",
+                "label": "ফিতনা-ফাসাদ"
+            }
+        ],
+        "adarshaJibonchorit": [
+            {
+                "value": "samokalinShamajikOSangskritikObostha",
+                "label": "মহানবি হযরত মুহাম্মদ (সা.)-এর সমকালীন সামাজিক ও সাংস্কৃতিক অবস্থা"
+            },
+            {
+                "value": "jonmoShoishobOKoishor",
+                "label": "হযরত মুহাম্মদ (সা.)-এর জন্ম, শৈশব ও কৈশোর"
+            },
+            {
+                "value": "joubonNobuwatOIslamProchar",
+                "label": "হযরত মুহাম্মদ (সা.)-এর যৌবনকাল, নবুয়তপ্রাপ্তি ও ইসলাম প্রচার"
+            },
+            {
+                "value": "madaniJibon",
+                "label": "হযরত মুহাম্মদ (সা.)-এর মাদানি জীবন"
+            },
+            {
+                "value": "makkaBijoyOBidayHajj",
+                "label": "হযরত মুহাম্মদ (সা.)-এর মক্কা বিজয় ও বিদায় হজ"
+            },
+            {
+                "value": "abuBakarRa",
+                "label": "খুলাফায়ে রাশেদিনের জীবনাদর্শ : হযরত আবু বকর (রা.)"
+            },
+            {
+                "value": "umarRa",
+                "label": "হযরত উমর (রা.)"
+            },
+            {
+                "value": "usmanRa",
+                "label": "হযরত উসমান (রা.)"
+            },
+            {
+                "value": "aliRa",
+                "label": "হযরত আলি (রা.)"
+            },
+            {
+                "value": "imamBukhari",
+                "label": "মুসলিম মনীষী : ইমাম বুখারি (র.)"
+            },
+            {
+                "value": "imamAbuHanifa",
+                "label": "ইমাম আবু হানিফা (র.)"
+            },
+            {
+                "value": "imamGhazali",
+                "label": "ইমাম গাযালি (র.)"
+            },
+            {
+                "value": "ibneJarirAtTabari",
+                "label": "ইবনে জারির আত-তাবারি (র.)"
+            },
+            {
+                "value": "chikitsaShastro",
+                "label": "জ্ঞান-বিজ্ঞান ও প্রযুক্তি চর্চায় মুসলমানদের অবদান : চিকিৎসা শাস্ত্র"
+            },
+            {
+                "value": "rosayonShastro",
+                "label": "রসায়ন শাস্ত্র"
+            },
+            {
+                "value": "vugolShastro",
+                "label": "ভূগোল শাস্ত্র"
+            },
+            {
+                "value": "gonitShastro",
+                "label": "গণিত শাস্ত্র"
+            }
+        ]
+    },
+    "bgs": {
+        "purboBanglarAndolon": [
+            {
+                "value": "purboBanglarAndolon",
+                "label": "পূর্ববাংলার আন্দোলন ও ভাষাতান্দোলনের উত্থান (১৯৪৭-১৯৫২)"
+            },
+            {
+                "value": "bhashaPotobhumi",
+                "label": "ভাষা আন্দোলনের পটভূমি"
+            },
+            {
+                "value": "urduChapiye",
+                "label": "উর্দু চাপিয়ে দেওয়ার চেষ্টা"
+            },
+            {
+                "value": "bhashaGhotona",
+                "label": "ভাষা আন্দোলনের ঘটনা"
+            },
+            {
+                "value": "bhashaShohid",
+                "label": "ভাষা শহিদ"
+            },
+            {
+                "value": "21February",
+                "label": "২১শে ফেব্রুয়ারি"
+            }
+        ],
+        "bangladeshSwadhinota": [
+            {
+                "value": "bangladeshSwadhinota",
+                "label": "বাংলাদেশের স্বাধীনতা"
+            },
+            {
+                "value": "swadhinotarPotobhumi",
+                "label": "স্বাধীনতার পটভূমি"
+            },
+            {
+                "value": "6Dofa",
+                "label": "৬ দফা আন্দোলন"
+            },
+            {
+                "value": "osohojog",
+                "label": "অসহযোগ আন্দোলন"
+            },
+            {
+                "value": "swadhinotaGhoshona",
+                "label": "স্বাধীনতা ঘোষণা"
+            }
+        ],
+        "muktijuddho": [
+            {
+                "value": "muktijuddho",
+                "label": "মুক্তিযুদ্ধ"
+            },
+            {
+                "value": "searchlight",
+                "label": "অপারেশন সার্চলাইট"
+            },
+            {
+                "value": "muktibahini",
+                "label": "মুক্তিবাহিনী"
+            },
+            {
+                "value": "sectorJuddho",
+                "label": "সেক্টর যুদ্ধ"
+            },
+            {
+                "value": "bijoyDibos",
+                "label": "বিজয় দিবস"
+            }
+        ],
+        "bhugolOPrakritikSompod": [
+            {
+                "value": "bhugolOPrakritikSompod",
+                "label": "বাংলাদেশের ভৌগোলিক অবস্থান ও প্রাকৃতিক সম্পদ"
+            },
+            {
+                "value": "obosthan",
+                "label": "অবস্থান"
+            },
+            {
+                "value": "nodNodi",
+                "label": "নদ-নদী"
+            },
+            {
+                "value": "jolbayu",
+                "label": "জলবায়ু"
+            },
+            {
+                "value": "sompod",
+                "label": "প্রাকৃতিক সম্পদ"
+            }
+        ],
+        "rashtroNagorikotaAin": [
+            {
+                "value": "rashtroNagorikotaAin",
+                "label": "রাষ্ট্র, নাগরিকতা ও আইন"
+            },
+            {
+                "value": "rashtrerDharona",
+                "label": "রাষ্ট্রের ধারণা"
+            },
+            {
+                "value": "nagorikota",
+                "label": "নাগরিকতা"
+            },
+            {
+                "value": "shongbidhan",
+                "label": "সংবিধান"
+            },
+            {
+                "value": "moulikOdhikar",
+                "label": "মৌলিক অধিকার"
+            }
+        ],
+        "sorkarerAngo": [
+            {
+                "value": "sorkarerAngo",
+                "label": "বাংলাদেশ সরকারের বিভিন্ন অঙ্গ ও প্রশাসন ব্যবস্থা"
+            },
+            {
+                "value": "nirbahi",
+                "label": "নির্বাহী বিভাগ"
+            },
+            {
+                "value": "ainSova",
+                "label": "আইনসভা"
+            },
+            {
+                "value": "bichar",
+                "label": "বিচার বিভাগ"
+            },
+            {
+                "value": "sthanio",
+                "label": "স্থানীয় সরকার"
+            }
+        ],
+        "orthonitiBanijjo": [
+            {
+                "value": "orthonitiBanijjo",
+                "label": "বাংলাদেশের অর্থনীতি ও বাণিজ্য"
+            },
+            {
+                "value": "krishi",
+                "label": "কৃষি"
+            },
+            {
+                "value": "shilpo",
+                "label": "শিল্প"
+            },
+            {
+                "value": "rmg",
+                "label": "তৈরি পোশাক"
+            },
+            {
+                "value": "bideshBanijjo",
+                "label": "বৈদেশিক বাণিজ্য"
+            }
+        ],
+        "antorjatikSomporko": [
+            {
+                "value": "antorjatikSomporko",
+                "label": "আন্তর্জাতিক সম্পর্ক ও বাংলাদেশ"
+            },
+            {
+                "value": "pororashtroNiti",
+                "label": "পররাষ্ট্র নীতি"
+            },
+            {
+                "value": "jatishongho",
+                "label": "জাতিসংঘ"
+            },
+            {
+                "value": "saarc",
+                "label": "সার্ক"
+            },
+            {
+                "value": "dwipakkhik",
+                "label": "দ্বিপাক্ষিক সম্পর্ক"
+            }
+        ],
+        "jatioSompad": [
+            {
+                "value": "jatioSompad",
+                "label": "জাতীয় সম্পদ ও ঐতিহ্যিক বাংলাদেশ"
+            },
+            {
+                "value": "sangskriti",
+                "label": "সাংস্কৃতিক ঐতিহ্য"
+            },
+            {
+                "value": "aitihasikSthan",
+                "label": "ঐতিহাসিক স্থান"
+            },
+            {
+                "value": "utsob",
+                "label": "উৎসব"
+            },
+            {
+                "value": "lokSongskriti",
+                "label": "লোকসংস্কৃতি"
+            }
+        ],
+        "orthonaitikUnnoyon": [
+            {
+                "value": "orthonaitikUnnoyon",
+                "label": "অর্থনৈতিক উন্নয়ন ও বাংলাদেশের অর্থনৈতিক প্রকৃতি"
+            },
+            {
+                "value": "porikalpona",
+                "label": "পরিকল্পনা"
+            },
+            {
+                "value": "darridroBimocchon",
+                "label": "দারিদ্র্য বিমোচন"
+            },
+            {
+                "value": "teksoiUnnoyon",
+                "label": "টেকসই উন্নয়ন"
+            }
+        ],
+        "sorkarerOrthoBank": [
+            {
+                "value": "sorkarerOrthoBank",
+                "label": "বাংলাদেশ সরকারের অর্থ ও ব্যাংক ব্যবস্থা"
+            },
+            {
+                "value": "budget",
+                "label": "বাজেট"
+            },
+            {
+                "value": "banking",
+                "label": "ব্যাংকিং ব্যবস্থা"
+            }
+        ],
+        "poribeshKaryokrom": [
+            {
+                "value": "poribeshKaryokrom",
+                "label": "বাংলাদেশের পরিবেশ কার্যক্রম ও সমন্বয়করণ"
+            },
+            {
+                "value": "durjogBabsosthapona",
+                "label": "দুর্যোগ ব্যবস্থাপনা"
+            },
+            {
+                "value": "poribeshSongrokhon",
+                "label": "পরিবেশ সংরক্ষণ"
+            },
+            {
+                "value": "jolabayuPoriborton",
+                "label": "জলবায়ু পরিবর্তন"
+            },
+            {
+                "value": "bonSompod",
+                "label": "বন সম্পদ রক্ষা"
+            },
+            {
+                "value": "poribeshAin",
+                "label": "পরিবেশ আইন"
+            }
+        ],
+        "samajikPoriborton": [
+            {
+                "value": "samajikPoriborton",
+                "label": "বাংলাদেশের সামাজিক পরিবর্তন"
+            },
+            {
+                "value": "nariKhomota",
+                "label": "নারীর ক্ষমতায়ন"
+            },
+            {
+                "value": "shikkhaBiplob",
+                "label": "শিক্ষার বিপ্লব"
+            },
+            {
+                "value": "grameenUnnoyon",
+                "label": "গ্রামীণ উন্নয়ন"
+            },
+            {
+                "value": "tathyaProjukti",
+                "label": "তথ্য প্রযুক্তির প্রভাব"
+            },
+            {
+                "value": "samajikNirapotta",
+                "label": "সামাজিক নিরাপত্তা"
+            }
+        ],
+        "samajikSomossa": [
+            {
+                "value": "samajikSomossa",
+                "label": "বাংলাদেশের সামাজিক সমস্যা ও প্রতিকার"
+            },
+            {
+                "value": "darridro",
+                "label": "দারিদ্র্য"
+            },
+            {
+                "value": "jonosonkha",
+                "label": "জনসংখ্যা বৃদ্ধি"
+            },
+            {
+                "value": "nariNirjaton",
+                "label": "নারী নির্যাতন"
+            },
+            {
+                "value": "shikkhaOshomota",
+                "label": "শিক্ষায় অসমতা"
+            },
+            {
+                "value": "poribeshDushon",
+                "label": "পরিবেশ দূষণ"
+            }
+        ],
+        "boishwikoBongladesh": [
+            {
+                "value": "boishwikoBongladesh",
+                "label": "বৈশ্বিকায়ন ও বাংলাদেশ"
+            },
+            {
+                "value": "globalizationEffect",
+                "label": "বৈশ্বিকায়নের প্রভাব"
+            },
+            {
+                "value": "arthoNiti",
+                "label": "অর্থনৈতিক বৈশ্বিকায়ন"
+            },
+            {
+                "value": "sangskritikProyab",
+                "label": "সাংস্কৃতিক প্রভাব"
+            },
+            {
+                "value": "projukti",
+                "label": "প্রযুক্তির ভূমিকা"
+            },
+            {
+                "value": "challenges",
+                "label": "চ্যালেঞ্জসমূহ"
+            }
+        ]
+    },
+    "accounting": {
+        "introductionToAccounting": [
+            {
+                "value": "accountingConceptAndDefinition",
+                "label": "Accounting Concept and Definition"
+            },
+            {
+                "value": "objectivesAndImportanceOfAccounting",
+                "label": "Objectives and Importance of Accounting"
+            },
+            {
+                "value": "functionsOfAccounting",
+                "label": "Functions of Accounting"
+            },
+            {
+                "value": "branchesOfAccounting",
+                "label": "Branches of Accounting"
+            },
+            {
+                "value": "usersOfAccountingInformation",
+                "label": "Users of Accounting Information"
+            },
+            {
+                "value": "accountingPrinciplesAndConcepts",
+                "label": "Accounting Principles and Concepts"
+            }
+        ],
+        "transaction": [
+            {
+                "value": "conceptAndDefinitionOfTransaction",
+                "label": "Concept and Definition of Transaction"
+            },
+            {
+                "value": "characteristicsOfTransaction",
+                "label": "Characteristics of Transaction"
+            },
+            {
+                "value": "classificationOfTransaction",
+                "label": "Classification of Transaction"
+            },
+            {
+                "value": "cashAndCreditTransaction",
+                "label": "Cash and Credit Transaction"
+            },
+            {
+                "value": "businessAndNonBusinessTransaction",
+                "label": "Business and Non-business Transaction"
+            },
+            {
+                "value": "identificationOfTransactionElements",
+                "label": "Identification of Transaction Elements"
+            }
+        ],
+        "doubleEntrySystem": [
+            {
+                "value": "conceptOfDoubleEntrySystem",
+                "label": "Concept of Double Entry System"
+            },
+            {
+                "value": "rulesOfDoubleEntrySystem",
+                "label": "Rules of Double Entry System"
+            },
+            {
+                "value": "advantagesOfDoubleEntrySystem",
+                "label": "Advantages of Double Entry System"
+            },
+            {
+                "value": "accountingEquation",
+                "label": "Accounting Equation"
+            },
+            {
+                "value": "debitAndCreditConcept",
+                "label": "Debit and Credit Concept"
+            },
+            {
+                "value": "applicationOfDoubleEntrySystem",
+                "label": "Application of Double Entry System"
+            }
+        ],
+        "capitalAndRevenueTransaction": [
+            {
+                "value": "conceptOfCapitalTransaction",
+                "label": "Concept of Capital Transaction"
+            },
+            {
+                "value": "conceptOfRevenueTransaction",
+                "label": "Concept of Revenue Transaction"
+            },
+            {
+                "value": "differenceBetweenCapitalAndRevenueTransaction",
+                "label": "Difference Between Capital and Revenue Transaction"
+            },
+            {
+                "value": "capitalExpenditureAndRevenueExpenditure",
+                "label": "Capital Expenditure and Revenue Expenditure"
+            },
+            {
+                "value": "capitalReceiptAndRevenueReceipt",
+                "label": "Capital Receipt and Revenue Receipt"
+            },
+            {
+                "value": "classificationOfBusinessTransactions",
+                "label": "Classification of Business Transactions"
+            }
+        ],
+        "accounts": [
+            {
+                "value": "meaningAndClassificationOfAccounts",
+                "label": "Meaning and Classification of Accounts"
+            },
+            {
+                "value": "personalAccount",
+                "label": "Personal Account"
+            },
+            {
+                "value": "realAccount",
+                "label": "Real Account"
+            },
+            {
+                "value": "nominalAccount",
+                "label": "Nominal Account"
+            },
+            {
+                "value": "rulesOfDebitAndCredit",
+                "label": "Rules of Debit and Credit"
+            },
+            {
+                "value": "preparationOfAccounts",
+                "label": "Preparation of Accounts"
+            }
+        ],
+        "journal": [
+            {
+                "value": "conceptAndImportanceOfJournal",
+                "label": "Concept and Importance of Journal"
+            },
+            {
+                "value": "journalEntries",
+                "label": "Journal Entries"
+            },
+            {
+                "value": "rulesForJournalizingTransactions",
+                "label": "Rules for Journalizing Transactions"
+            },
+            {
+                "value": "compoundJournalEntry",
+                "label": "Compound Journal Entry"
+            },
+            {
+                "value": "adjustmentEntries",
+                "label": "Adjustment Entries"
+            },
+            {
+                "value": "postingJournalEntriesToLedger",
+                "label": "Posting Journal Entries to Ledger"
+            }
+        ],
+        "ledger": [
+            {
+                "value": "conceptAndImportanceOfLedger",
+                "label": "Concept and Importance of Ledger"
+            },
+            {
+                "value": "ledgerAccountFormat",
+                "label": "Ledger Account Format"
+            },
+            {
+                "value": "postingFromJournalToLedger",
+                "label": "Posting from Journal to Ledger"
+            },
+            {
+                "value": "balancingOfLedgerAccounts",
+                "label": "Balancing of Ledger Accounts"
+            },
+            {
+                "value": "debitAndCreditBalance",
+                "label": "Debit and Credit Balance"
+            },
+            {
+                "value": "preparationOfLedger",
+                "label": "Preparation of Ledger"
+            }
+        ],
+        "cashBook": [
+            {
+                "value": "conceptAndPurposeOfCashBook",
+                "label": "Concept and Purpose of Cash Book"
+            },
+            {
+                "value": "typesOfCashBook",
+                "label": "Types of Cash Book"
+            },
+            {
+                "value": "singleColumnCashBook",
+                "label": "Single Column Cash Book"
+            },
+            {
+                "value": "doubleColumnCashBook",
+                "label": "Double Column Cash Book"
+            },
+            {
+                "value": "tripleColumnCashBook",
+                "label": "Triple Column Cash Book"
+            },
+            {
+                "value": "pettyCashBook",
+                "label": "Petty Cash Book"
+            }
+        ],
+        "trialBalance": [
+            {
+                "value": "conceptAndObjectivesOfTrialBalance",
+                "label": "Concept and Objectives of Trial Balance"
+            },
+            {
+                "value": "preparationOfTrialBalance",
+                "label": "Preparation of Trial Balance"
+            },
+            {
+                "value": "methodsOfPreparingTrialBalance",
+                "label": "Methods of Preparing Trial Balance"
+            },
+            {
+                "value": "debitAndCreditBalanceInTrialBalance",
+                "label": "Debit and Credit Balance in Trial Balance"
+            },
+            {
+                "value": "errorsDisclosedByTrialBalance",
+                "label": "Errors Disclosed by Trial Balance"
+            },
+            {
+                "value": "limitationsOfTrialBalance",
+                "label": "Limitations of Trial Balance"
+            }
+        ],
+        "financialStatements": [
+            {
+                "value": "conceptAndImportanceOfFinancialStatements",
+                "label": "Concept and Importance of Financial Statements"
+            },
+            {
+                "value": "tradingAccount",
+                "label": "Trading Account"
+            },
+            {
+                "value": "profitAndLossAccount",
+                "label": "Profit and Loss Account"
+            },
+            {
+                "value": "balanceSheet",
+                "label": "Balance Sheet"
+            },
+            {
+                "value": "adjustmentOfFinancialStatements",
+                "label": "Adjustment of Financial Statements"
+            },
+            {
+                "value": "preparationOfFinancialStatements",
+                "label": "Preparation of Financial Statements"
+            }
+        ],
+        "purchasePriceProductCostsSellingPrice": [
+            {
+                "value": "conceptOfPurchasePrice",
+                "label": "Concept of Purchase Price"
+            },
+            {
+                "value": "calculationOfProductCost",
+                "label": "Calculation of Product Cost"
+            },
+            {
+                "value": "directAndIndirectCost",
+                "label": "Direct and Indirect Cost"
+            },
+            {
+                "value": "conceptOfSellingPrice",
+                "label": "Concept of Selling Price"
+            },
+            {
+                "value": "profitAndLossCalculation",
+                "label": "Profit and Loss Calculation"
+            },
+            {
+                "value": "relationshipBetweenCostPriceAndSellingPrice",
+                "label": "Relationship Between Cost Price and Selling Price"
+            }
+        ],
+        "accountOfFamilyAndSelfEmploymentInitiative": [
+            {
+                "value": "conceptOfFamilyAccounting",
+                "label": "Concept of Family Accounting"
+            },
+            {
+                "value": "familyIncomeAndExpenditure",
+                "label": "Family Income and Expenditure"
+            },
+            {
+                "value": "preparationOfFamilyBudget",
+                "label": "Preparation of Family Budget"
+            },
+            {
+                "value": "conceptOfSelfEmployment",
+                "label": "Concept of Self Employment"
+            },
+            {
+                "value": "smallBusinessAccounting",
+                "label": "Small Business Accounting"
+            },
+            {
+                "value": "financialPlanningForSelfEmployment",
+                "label": "Financial Planning for Self Employment"
+            }
+        ]
+    },
+    "financeAndBanking": {
+        "financeAndBusinessFinance": [
+            {
+                "value": "conceptAndDefinitionOfFinance",
+                "label": "Concept and Definition of Finance"
+            },
+            {
+                "value": "objectivesAndImportanceOfFinance",
+                "label": "Objectives and Importance of Finance"
+            },
+            {
+                "value": "conceptOfBusinessFinance",
+                "label": "Concept of Business Finance"
+            },
+            {
+                "value": "functionsOfBusinessFinance",
+                "label": "Functions of Business Finance"
+            },
+            {
+                "value": "scopeOfBusinessFinance",
+                "label": "Scope of Business Finance"
+            },
+            {
+                "value": "roleOfFinanceManager",
+                "label": "Role of Finance Manager"
+            }
+        ],
+        "sourcesOfFinance": [
+            {
+                "value": "conceptOfSourcesOfFinance",
+                "label": "Concept of Sources of Finance"
+            },
+            {
+                "value": "internalSourcesOfFinance",
+                "label": "Internal Sources of Finance"
+            },
+            {
+                "value": "externalSourcesOfFinance",
+                "label": "External Sources of Finance"
+            },
+            {
+                "value": "shortTermSourcesOfFinance",
+                "label": "Short Term Sources of Finance"
+            },
+            {
+                "value": "longTermSourcesOfFinance",
+                "label": "Long Term Sources of Finance"
+            },
+            {
+                "value": "advantagesAndDisadvantagesOfFinanceSources",
+                "label": "Advantages and Disadvantages of Finance Sources"
+            }
+        ],
+        "shareBondAndDebenture": [
+            {
+                "value": "conceptOfShare",
+                "label": "Concept of Share"
+            },
+            {
+                "value": "typesOfShare",
+                "label": "Types of Share"
+            },
+            {
+                "value": "equityShareAndPreferenceShare",
+                "label": "Equity Share and Preference Share"
+            },
+            {
+                "value": "conceptOfBond",
+                "label": "Concept of Bond"
+            },
+            {
+                "value": "conceptOfDebenture",
+                "label": "Concept of Debenture"
+            },
+            {
+                "value": "differenceBetweenShareBondAndDebenture",
+                "label": "Difference Between Share, Bond and Debenture"
+            }
+        ],
+        "timeValueOfMoney": [
+            {
+                "value": "conceptOfTimeValueOfMoney",
+                "label": "Concept of Time Value of Money"
+            },
+            {
+                "value": "importanceOfTimeValueOfMoney",
+                "label": "Importance of Time Value of Money"
+            },
+            {
+                "value": "presentValueOfMoney",
+                "label": "Present Value of Money"
+            },
+            {
+                "value": "futureValueOfMoney",
+                "label": "Future Value of Money"
+            },
+            {
+                "value": "simpleInterestAndCompoundInterest",
+                "label": "Simple Interest and Compound Interest"
+            },
+            {
+                "value": "calculationOfTimeValueOfMoney",
+                "label": "Calculation of Time Value of Money"
+            }
+        ],
+        "riskAndUncertainty": [
+            {
+                "value": "conceptOfRisk",
+                "label": "Concept of Risk"
+            },
+            {
+                "value": "conceptOfUncertainty",
+                "label": "Concept of Uncertainty"
+            },
+            {
+                "value": "differenceBetweenRiskAndUncertainty",
+                "label": "Difference Between Risk and Uncertainty"
+            },
+            {
+                "value": "typesOfBusinessRisk",
+                "label": "Types of Business Risk"
+            },
+            {
+                "value": "causesOfBusinessRisk",
+                "label": "Causes of Business Risk"
+            },
+            {
+                "value": "riskManagementMethods",
+                "label": "Risk Management Methods"
+            }
+        ],
+        "capitalBudgeting": [
+            {
+                "value": "conceptOfCapitalBudgeting",
+                "label": "Concept of Capital Budgeting"
+            },
+            {
+                "value": "importanceOfCapitalBudgeting",
+                "label": "Importance of Capital Budgeting"
+            },
+            {
+                "value": "processOfCapitalBudgeting",
+                "label": "Process of Capital Budgeting"
+            },
+            {
+                "value": "investmentDecisionMaking",
+                "label": "Investment Decision Making"
+            },
+            {
+                "value": "factorsAffectingCapitalBudgeting",
+                "label": "Factors Affecting Capital Budgeting"
+            },
+            {
+                "value": "advantagesAndLimitationsOfCapitalBudgeting",
+                "label": "Advantages and Limitations of Capital Budgeting"
+            }
+        ],
+        "costOfCapital": [
+            {
+                "value": "conceptOfCostOfCapital",
+                "label": "Concept of Cost of Capital"
+            },
+            {
+                "value": "importanceOfCostOfCapital",
+                "label": "Importance of Cost of Capital"
+            },
+            {
+                "value": "typesOfCostOfCapital",
+                "label": "Types of Cost of Capital"
+            },
+            {
+                "value": "costOfDebt",
+                "label": "Cost of Debt"
+            },
+            {
+                "value": "costOfEquity",
+                "label": "Cost of Equity"
+            },
+            {
+                "value": "calculationOfCostOfCapital",
+                "label": "Calculation of Cost of Capital"
+            }
+        ],
+        "currencyBankAndBanking": [
+            {
+                "value": "conceptAndDefinitionOfCurrency",
+                "label": "Concept and Definition of Currency"
+            },
+            {
+                "value": "functionsOfCurrency",
+                "label": "Functions of Currency"
+            },
+            {
+                "value": "typesOfCurrency",
+                "label": "Types of Currency"
+            },
+            {
+                "value": "conceptAndDefinitionOfBank",
+                "label": "Concept and Definition of Bank"
+            },
+            {
+                "value": "functionsOfBank",
+                "label": "Functions of Bank"
+            },
+            {
+                "value": "typesOfBankInBangladesh",
+                "label": "Types of Bank in Bangladesh"
+            },
+            {
+                "value": "bankingSystemOfBangladesh",
+                "label": "Banking System of Bangladesh"
+            }
+        ],
+        "bankingBusinessAndTypes": [
+            {
+                "value": "conceptAndDefinitionOfBankingBusiness",
+                "label": "Concept and Definition of Banking Business"
+            },
+            {
+                "value": "characteristicsOfBankingBusiness",
+                "label": "Characteristics of Banking Business"
+            },
+            {
+                "value": "functionsOfBankingBusiness",
+                "label": "Functions of Banking Business"
+            },
+            {
+                "value": "typesOfBankingBusiness",
+                "label": "Types of Banking Business"
+            },
+            {
+                "value": "importanceOfBankingBusiness",
+                "label": "Importance of Banking Business"
+            },
+            {
+                "value": "roleOfBankingBusinessInEconomy",
+                "label": "Role of Banking Business in Economy"
+            }
+        ],
+        "commercialBanks": [
+            {
+                "value": "conceptAndDefinitionOfCommercialBank",
+                "label": "Concept and Definition of Commercial Bank"
+            },
+            {
+                "value": "characteristicsOfCommercialBank",
+                "label": "Characteristics of Commercial Bank"
+            },
+            {
+                "value": "functionsOfCommercialBank",
+                "label": "Functions of Commercial Bank"
+            },
+            {
+                "value": "creditCreationByCommercialBank",
+                "label": "Credit Creation by Commercial Bank"
+            },
+            {
+                "value": "importanceOfCommercialBank",
+                "label": "Importance of Commercial Bank"
+            },
+            {
+                "value": "commercialBankingSystemInBangladesh",
+                "label": "Commercial Banking System in Bangladesh"
+            }
+        ],
+        "bankDeposit": [
+            {
+                "value": "conceptOfBankDeposit",
+                "label": "Concept of Bank Deposit"
+            },
+            {
+                "value": "typesOfBankDeposit",
+                "label": "Types of Bank Deposit"
+            },
+            {
+                "value": "currentAccountDeposit",
+                "label": "Current Account Deposit"
+            },
+            {
+                "value": "savingsAccountDeposit",
+                "label": "Savings Account Deposit"
+            },
+            {
+                "value": "fixedDepositAccount",
+                "label": "Fixed Deposit Account"
+            },
+            {
+                "value": "importanceOfBankDeposit",
+                "label": "Importance of Bank Deposit"
+            }
+        ],
+        "bankAndClient": [
+            {
+                "value": "conceptOfBankAndClientRelationship",
+                "label": "Concept of Bank and Client Relationship"
+            },
+            {
+                "value": "typesOfBankClientRelationship",
+                "label": "Types of Bank Client Relationship"
+            },
+            {
+                "value": "rightsAndDutiesOfBank",
+                "label": "Rights and Duties of Bank"
+            },
+            {
+                "value": "rightsAndDutiesOfClient",
+                "label": "Rights and Duties of Client"
+            },
+            {
+                "value": "bankingServicesForClients",
+                "label": "Banking Services for Clients"
+            },
+            {
+                "value": "importanceOfTrustBetweenBankAndClient",
+                "label": "Importance of Trust Between Bank and Client"
+            }
+        ],
+        "centralBank": [
+            {
+                "value": "conceptAndDefinitionOfCentralBank",
+                "label": "Concept and Definition of Central Bank"
+            },
+            {
+                "value": "functionsOfCentralBank",
+                "label": "Functions of Central Bank"
+            },
+            {
+                "value": "centralBankAsBankOfGovernment",
+                "label": "Central Bank as Bank of Government"
+            },
+            {
+                "value": "centralBankAsBankersBank",
+                "label": "Central Bank as Banker's Bank"
+            },
+            {
+                "value": "monetaryPolicyAndCentralBank",
+                "label": "Monetary Policy and Central Bank"
+            },
+            {
+                "value": "bangladeshBankAndItsRole",
+                "label": "Bangladesh Bank and Its Role"
+            }
+        ]
+    },
+    "businessEntrepreneurship": {
+        "introductionToBusiness": [
+            {
+                "value": "conceptAndDefinitionOfBusiness",
+                "label": "Concept and Definition of Business"
+            },
+            {
+                "value": "characteristicsOfBusiness",
+                "label": "Characteristics of Business"
+            },
+            {
+                "value": "objectivesOfBusiness",
+                "label": "Objectives of Business"
+            },
+            {
+                "value": "functionsOfBusiness",
+                "label": "Functions of Business"
+            },
+            {
+                "value": "importanceOfBusiness",
+                "label": "Importance of Business"
+            },
+            {
+                "value": "classificationOfBusiness",
+                "label": "Classification of Business"
+            }
+        ],
+        "businessEntrepreneurshipAndEntrepreneur": [
+            {
+                "value": "conceptOfEntrepreneurship",
+                "label": "Concept of Entrepreneurship"
+            },
+            {
+                "value": "conceptAndDefinitionOfEntrepreneur",
+                "label": "Concept and Definition of Entrepreneur"
+            },
+            {
+                "value": "characteristicsOfEntrepreneur",
+                "label": "Characteristics of Entrepreneur"
+            },
+            {
+                "value": "functionsOfEntrepreneur",
+                "label": "Functions of Entrepreneur"
+            },
+            {
+                "value": "importanceOfEntrepreneurship",
+                "label": "Importance of Entrepreneurship"
+            },
+            {
+                "value": "roleOfEntrepreneurInEconomicDevelopment",
+                "label": "Role of Entrepreneur in Economic Development"
+            }
+        ],
+        "selfEmployment": [
+            {
+                "value": "conceptAndDefinitionOfSelfEmployment",
+                "label": "Concept and Definition of Self-employment"
+            },
+            {
+                "value": "importanceOfSelfEmployment",
+                "label": "Importance of Self-employment"
+            },
+            {
+                "value": "characteristicsOfSelfEmployment",
+                "label": "Characteristics of Self-employment"
+            },
+            {
+                "value": "sourcesOfSelfEmployment",
+                "label": "Sources of Self-employment"
+            },
+            {
+                "value": "advantagesAndDisadvantagesOfSelfEmployment",
+                "label": "Advantages and Disadvantages of Self-employment"
+            },
+            {
+                "value": "selfEmploymentOpportunitiesInBangladesh",
+                "label": "Self-employment Opportunities in Bangladesh"
+            }
+        ],
+        "businessBasedOnOwnership": [
+            {
+                "value": "conceptOfBusinessOwnership",
+                "label": "Concept of Business Ownership"
+            },
+            {
+                "value": "soleProprietorshipBusiness",
+                "label": "Sole Proprietorship Business"
+            },
+            {
+                "value": "partnershipBusiness",
+                "label": "Partnership Business"
+            },
+            {
+                "value": "jointStockCompanyBusiness",
+                "label": "Joint Stock Company Business"
+            },
+            {
+                "value": "cooperativeBusiness",
+                "label": "Cooperative Business"
+            },
+            {
+                "value": "differenceAmongOwnershipTypes",
+                "label": "Difference Among Ownership Types"
+            }
+        ],
+        "legalAspectsOfBusiness": [
+            {
+                "value": "conceptOfBusinessLaw",
+                "label": "Concept of Business Law"
+            },
+            {
+                "value": "importanceOfLegalAspectsInBusiness",
+                "label": "Importance of Legal Aspects in Business"
+            },
+            {
+                "value": "businessRegistrationProcess",
+                "label": "Business Registration Process"
+            },
+            {
+                "value": "tradeLicenseAndBusinessPermission",
+                "label": "Trade License and Business Permission"
+            },
+            {
+                "value": "businessOwnershipLaws",
+                "label": "Business Ownership Laws"
+            },
+            {
+                "value": "consumerRightsAndBusinessEthics",
+                "label": "Consumer Rights and Business Ethics"
+            }
+        ],
+        "businessPlan": [
+            {
+                "value": "conceptAndDefinitionOfBusinessPlan",
+                "label": "Concept and Definition of Business Plan"
+            },
+            {
+                "value": "importanceOfBusinessPlan",
+                "label": "Importance of Business Plan"
+            },
+            {
+                "value": "elementsOfBusinessPlan",
+                "label": "Elements of Business Plan"
+            },
+            {
+                "value": "preparationOfBusinessPlan",
+                "label": "Preparation of Business Plan"
+            },
+            {
+                "value": "financialPlanOfBusiness",
+                "label": "Financial Plan of Business"
+            },
+            {
+                "value": "marketingPlanOfBusiness",
+                "label": "Marketing Plan of Business"
+            }
+        ],
+        "industriesOfBangladesh": [
+            {
+                "value": "conceptOfIndustry",
+                "label": "Concept of Industry"
+            },
+            {
+                "value": "classificationOfIndustries",
+                "label": "Classification of Industries"
+            },
+            {
+                "value": "cottageAndSmallIndustries",
+                "label": "Cottage and Small Industries"
+            },
+            {
+                "value": "largeIndustriesInBangladesh",
+                "label": "Large Industries in Bangladesh"
+            },
+            {
+                "value": "majorIndustriesOfBangladesh",
+                "label": "Major Industries of Bangladesh"
+            },
+            {
+                "value": "problemsAndProspectsOfIndustries",
+                "label": "Problems and Prospects of Industries"
+            }
+        ],
+        "managementOfBusinessOrganization": [
+            {
+                "value": "conceptAndDefinitionOfManagement",
+                "label": "Concept and Definition of Management"
+            },
+            {
+                "value": "functionsOfManagement",
+                "label": "Functions of Management"
+            },
+            {
+                "value": "planningInBusinessManagement",
+                "label": "Planning in Business Management"
+            },
+            {
+                "value": "organizingInBusinessManagement",
+                "label": "Organizing in Business Management"
+            },
+            {
+                "value": "leadershipAndMotivation",
+                "label": "Leadership and Motivation"
+            },
+            {
+                "value": "controlProcessInManagement",
+                "label": "Control Process in Management"
+            }
+        ],
+        "marketing": [
+            {
+                "value": "conceptAndDefinitionOfMarketing",
+                "label": "Concept and Definition of Marketing"
+            },
+            {
+                "value": "importanceOfMarketing",
+                "label": "Importance of Marketing"
+            },
+            {
+                "value": "functionsOfMarketing",
+                "label": "Functions of Marketing"
+            },
+            {
+                "value": "marketingMix",
+                "label": "Marketing Mix"
+            },
+            {
+                "value": "productPricingPromotionAndDistribution",
+                "label": "Product, Pricing, Promotion and Distribution"
+            },
+            {
+                "value": "marketingStrategy",
+                "label": "Marketing Strategy"
+            }
+        ],
+        "assistanceForEntrepreneurshipDevelopment": [
+            {
+                "value": "conceptOfEntrepreneurshipDevelopment",
+                "label": "Concept of Entrepreneurship Development"
+            },
+            {
+                "value": "importanceOfEntrepreneurshipDevelopment",
+                "label": "Importance of Entrepreneurship Development"
+            },
+            {
+                "value": "governmentSupportForEntrepreneurs",
+                "label": "Government Support for Entrepreneurs"
+            },
+            {
+                "value": "financialAssistanceForEntrepreneurs",
+                "label": "Financial Assistance for Entrepreneurs"
+            },
+            {
+                "value": "trainingAndSkillDevelopmentForEntrepreneurs",
+                "label": "Training and Skill Development for Entrepreneurs"
+            },
+            {
+                "value": "roleOfOrganizationsInEntrepreneurshipDevelopment",
+                "label": "Role of Organizations in Entrepreneurship Development"
+            }
+        ],
+        "ethicsAndSocialResponsibilitiesInBusiness": [
+            {
+                "value": "conceptOfBusinessEthics",
+                "label": "Concept of Business Ethics"
+            },
+            {
+                "value": "importanceOfBusinessEthics",
+                "label": "Importance of Business Ethics"
+            },
+            {
+                "value": "socialResponsibilitiesOfBusiness",
+                "label": "Social Responsibilities of Business"
+            },
+            {
+                "value": "responsibilityTowardsCustomers",
+                "label": "Responsibility Towards Customers"
+            },
+            {
+                "value": "responsibilityTowardsEmployeesAndSociety",
+                "label": "Responsibility Towards Employees and Society"
+            },
+            {
+                "value": "environmentalResponsibilityOfBusiness",
+                "label": "Environmental Responsibility of Business"
+            }
+        ],
+        "lessonsFromSuccessfulEntrepreneurs": [
+            {
+                "value": "qualitiesOfSuccessfulEntrepreneurs",
+                "label": "Qualities of Successful Entrepreneurs"
+            },
+            {
+                "value": "entrepreneurialSuccessFactors",
+                "label": "Entrepreneurial Success Factors"
+            },
+            {
+                "value": "challengesFacedByEntrepreneurs",
+                "label": "Challenges Faced by Entrepreneurs"
+            },
+            {
+                "value": "innovationAndCreativityInBusiness",
+                "label": "Innovation and Creativity in Business"
+            },
+            {
+                "value": "leadershipSkillsOfEntrepreneurs",
+                "label": "Leadership Skills of Entrepreneurs"
+            },
+            {
+                "value": "lifeLessonsFromSuccessfulEntrepreneurs",
+                "label": "Life Lessons from Successful Entrepreneurs"
+            }
+        ]
+    },
+    "science": {
+        "healthyLifeBetterLiving": [
+            {
+                "value": "conceptOfHealthyLife",
+                "label": "Concept of Healthy Life"
+            },
+            {
+                "value": "factorsAffectingHealthyLife",
+                "label": "Factors Affecting Healthy Life"
+            },
+            {
+                "value": "balancedDietAndNutrition",
+                "label": "Balanced Diet and Nutrition"
+            },
+            {
+                "value": "personalHygieneAndHealthCare",
+                "label": "Personal Hygiene and Health Care"
+            },
+            {
+                "value": "physicalExerciseAndMentalHealth",
+                "label": "Physical Exercise and Mental Health"
+            },
+            {
+                "value": "diseasePreventionAndHealthyLifestyle",
+                "label": "Disease Prevention and Healthy Lifestyle"
+            }
+        ],
+        "waterForLife": [
+            {
+                "value": "importanceOfWaterForLife",
+                "label": "Importance of Water for Life"
+            },
+            {
+                "value": "sourcesOfWater",
+                "label": "Sources of Water"
+            },
+            {
+                "value": "propertiesOfWater",
+                "label": "Properties of Water"
+            },
+            {
+                "value": "waterCycle",
+                "label": "Water Cycle"
+            },
+            {
+                "value": "waterPollutionAndItsEffects",
+                "label": "Water Pollution and Its Effects"
+            },
+            {
+                "value": "waterPurificationMethods",
+                "label": "Water Purification Methods"
+            }
+        ],
+        "allAboutHeartAndOthers": [
+            {
+                "value": "structureOfHumanHeart",
+                "label": "Structure of Human Heart"
+            },
+            {
+                "value": "functionsOfHeart",
+                "label": "Functions of Heart"
+            },
+            {
+                "value": "bloodCirculationSystem",
+                "label": "Blood Circulation System"
+            },
+            {
+                "value": "bloodVesselsAndTheirFunctions",
+                "label": "Blood Vessels and Their Functions"
+            },
+            {
+                "value": "heartDiseasesAndPrevention",
+                "label": "Heart Diseases and Prevention"
+            },
+            {
+                "value": "healthCareForHeart",
+                "label": "Health Care for Heart"
+            }
+        ],
+        "startingANewLife": [
+            {
+                "value": "conceptOfReproduction",
+                "label": "Concept of Reproduction"
+            },
+            {
+                "value": "humanReproductiveSystem",
+                "label": "Human Reproductive System"
+            },
+            {
+                "value": "pubertyAndAdolescence",
+                "label": "Puberty and Adolescence"
+            },
+            {
+                "value": "fertilizationAndPregnancy",
+                "label": "Fertilization and Pregnancy"
+            },
+            {
+                "value": "birthProcessAndChildDevelopment",
+                "label": "Birth Process and Child Development"
+            },
+            {
+                "value": "reproductiveHealthAndAwareness",
+                "label": "Reproductive Health and Awareness"
+            }
+        ],
+        "lightForSight": [
+            {
+                "value": "natureAndPropertiesOfLight",
+                "label": "Nature and Properties of Light"
+            },
+            {
+                "value": "reflectionOfLight",
+                "label": "Reflection of Light"
+            },
+            {
+                "value": "refractionOfLight",
+                "label": "Refraction of Light"
+            },
+            {
+                "value": "lensAndItsUses",
+                "label": "Lens and Its Uses"
+            },
+            {
+                "value": "humanEyeStructureAndFunction",
+                "label": "Human Eye Structure and Function"
+            },
+            {
+                "value": "defectsOfVisionAndCorrection",
+                "label": "Defects of Vision and Correction"
+            }
+        ],
+        "polymer": [
+            {
+                "value": "conceptAndDefinitionOfPolymer",
+                "label": "Concept and Definition of Polymer"
+            },
+            {
+                "value": "classificationOfPolymer",
+                "label": "Classification of Polymer"
+            },
+            {
+                "value": "naturalAndSyntheticPolymer",
+                "label": "Natural and Synthetic Polymer"
+            },
+            {
+                "value": "monomerAndPolymerization",
+                "label": "Monomer and Polymerization"
+            },
+            {
+                "value": "usesOfPolymer",
+                "label": "Uses of Polymer"
+            },
+            {
+                "value": "environmentalImpactOfPolymer",
+                "label": "Environmental Impact of Polymer"
+            }
+        ],
+        "useOfAcidBaseAndSalt": [
+            {
+                "value": "conceptOfAcidBaseAndSalt",
+                "label": "Concept of Acid, Base and Salt"
+            },
+            {
+                "value": "propertiesOfAcidAndBase",
+                "label": "Properties of Acid and Base"
+            },
+            {
+                "value": "indicatorsAndPhScale",
+                "label": "Indicators and pH Scale"
+            },
+            {
+                "value": "neutralizationReaction",
+                "label": "Neutralization Reaction"
+            },
+            {
+                "value": "usesOfAcidBaseAndSaltInDailyLife",
+                "label": "Uses of Acid, Base and Salt in Daily Life"
+            },
+            {
+                "value": "preparationAndImportanceOfSalt",
+                "label": "Preparation and Importance of Salt"
+            }
+        ],
+        "ourResources": [
+            {
+                "value": "conceptOfNaturalResources",
+                "label": "Concept of Natural Resources"
+            },
+            {
+                "value": "typesOfNaturalResources",
+                "label": "Types of Natural Resources"
+            },
+            {
+                "value": "renewableAndNonRenewableResources",
+                "label": "Renewable and Non-renewable Resources"
+            },
+            {
+                "value": "conservationOfNaturalResources",
+                "label": "Conservation of Natural Resources"
+            },
+            {
+                "value": "environmentalBalanceAndResources",
+                "label": "Environmental Balance and Resources"
+            },
+            {
+                "value": "resourceManagementInBangladesh",
+                "label": "Resource Management in Bangladesh"
+            }
+        ],
+        "livingWithDisaster": [
+            {
+                "value": "conceptOfNaturalDisaster",
+                "label": "Concept of Natural Disaster"
+            },
+            {
+                "value": "typesOfNaturalDisaster",
+                "label": "Types of Natural Disaster"
+            },
+            {
+                "value": "causesAndEffectsOfDisaster",
+                "label": "Causes and Effects of Disaster"
+            },
+            {
+                "value": "disasterManagement",
+                "label": "Disaster Management"
+            },
+            {
+                "value": "disasterPreparednessAndSafetyMeasures",
+                "label": "Disaster Preparedness and Safety Measures"
+            },
+            {
+                "value": "climateChangeAndDisasterRisk",
+                "label": "Climate Change and Disaster Risk"
+            }
+        ],
+        "letUsKnowForce": [
+            {
+                "value": "conceptAndDefinitionOfForce",
+                "label": "Concept and Definition of Force"
+            },
+            {
+                "value": "typesOfForce",
+                "label": "Types of Force"
+            },
+            {
+                "value": "effectsOfForce",
+                "label": "Effects of Force"
+            },
+            {
+                "value": "newtonsLawsOfMotion",
+                "label": "Newton's Laws of Motion"
+            },
+            {
+                "value": "massWeightAndForceRelationship",
+                "label": "Mass, Weight and Force Relationship"
+            },
+            {
+                "value": "frictionalForceAndItsUses",
+                "label": "Frictional Force and Its Uses"
+            }
+        ],
+        "electricityInDailyLife": [
+            {
+                "value": "conceptOfElectricity",
+                "label": "Concept of Electricity"
+            },
+            {
+                "value": "electricCurrentAndVoltage",
+                "label": "Electric Current and Voltage"
+            },
+            {
+                "value": "resistanceAndOhmsLaw",
+                "label": "Resistance and Ohm's Law"
+            },
+            {
+                "value": "electricCircuitAndComponents",
+                "label": "Electric Circuit and Components"
+            },
+            {
+                "value": "seriesAndParallelConnection",
+                "label": "Series and Parallel Connection"
+            },
+            {
+                "value": "electricitySafetyAndEnergyConsumption",
+                "label": "Electricity Safety and Energy Consumption"
+            }
+        ]
+    },
+    "ict": {
+        "informationAndCommunicationTechnologyAndOurBangladesh": [
+            {
+                "value": "conceptOfInformationAndCommunicationTechnology",
+                "label": "Concept of Information and Communication Technology"
+            },
+            {
+                "value": "importanceOfICTInBangladesh",
+                "label": "Importance of ICT in Bangladesh"
+            },
+            {
+                "value": "roleOfICTInEducationAndHealthcare",
+                "label": "Role of ICT in Education and Healthcare"
+            },
+            {
+                "value": "digitalBangladeshAndICTDevelopment",
+                "label": "Digital Bangladesh and ICT Development"
+            },
+            {
+                "value": "ICTInGovernmentServices",
+                "label": "ICT in Government Services"
+            },
+            {
+                "value": "futureProspectsOfICTInBangladesh",
+                "label": "Future Prospects of ICT in Bangladesh"
+            }
+        ],
+        "computerMaintenanceAndCyberSecurity": [
+            {
+                "value": "conceptOfComputerMaintenance",
+                "label": "Concept of Computer Maintenance"
+            },
+            {
+                "value": "hardwareAndSoftwareMaintenance",
+                "label": "Hardware and Software Maintenance"
+            },
+            {
+                "value": "computerVirusAndMalware",
+                "label": "Computer Virus and Malware"
+            },
+            {
+                "value": "conceptOfCyberSecurity",
+                "label": "Concept of Cyber Security"
+            },
+            {
+                "value": "cyberCrimeAndPrevention",
+                "label": "Cyber Crime and Prevention"
+            },
+            {
+                "value": "dataProtectionAndPrivacy",
+                "label": "Data Protection and Privacy"
+            }
+        ],
+        "internetAndIntroductionToWeb": [
+            {
+                "value": "conceptAndHistoryOfInternet",
+                "label": "Concept and History of Internet"
+            },
+            {
+                "value": "internetServicesAndUses",
+                "label": "Internet Services and Uses"
+            },
+            {
+                "value": "conceptOfWorldWideWeb",
+                "label": "Concept of World Wide Web"
+            },
+            {
+                "value": "webBrowserAndSearchEngine",
+                "label": "Web Browser and Search Engine"
+            },
+            {
+                "value": "websiteAndWebpage",
+                "label": "Website and Webpage"
+            },
+            {
+                "value": "internetSafetyAndEthics",
+                "label": "Internet Safety and Ethics"
+            }
+        ],
+        "myWritingsAndAccounts": [
+            {
+                "value": "conceptOfWordProcessing",
+                "label": "Concept of Word Processing"
+            },
+            {
+                "value": "creatingAndEditingDocuments",
+                "label": "Creating and Editing Documents"
+            },
+            {
+                "value": "formattingTextAndDocuments",
+                "label": "Formatting Text and Documents"
+            },
+            {
+                "value": "usingTablesAndListsInDocuments",
+                "label": "Using Tables and Lists in Documents"
+            },
+            {
+                "value": "spreadsheetAndAccountManagement",
+                "label": "Spreadsheet and Account Management"
+            },
+            {
+                "value": "formulaAndFunctionInSpreadsheet",
+                "label": "Formula and Function in Spreadsheet"
+            }
+        ],
+        "multimediaAndGraphics": [
+            {
+                "value": "conceptOfMultimedia",
+                "label": "Concept of Multimedia"
+            },
+            {
+                "value": "elementsOfMultimedia",
+                "label": "Elements of Multimedia"
+            },
+            {
+                "value": "imageAndGraphicsConcept",
+                "label": "Image and Graphics Concept"
+            },
+            {
+                "value": "digitalImageEditing",
+                "label": "Digital Image Editing"
+            },
+            {
+                "value": "animationAndVideoInMultimedia",
+                "label": "Animation and Video in Multimedia"
+            },
+            {
+                "value": "usesOfMultimediaInEducationAndBusiness",
+                "label": "Uses of Multimedia in Education and Business"
+            }
+        ],
+        "problemSolvingThroughProgramming": [
+            {
+                "value": "conceptOfProblemSolving",
+                "label": "Concept of Problem Solving"
+            },
+            {
+                "value": "algorithmAndFlowchart",
+                "label": "Algorithm and Flowchart"
+            },
+            {
+                "value": "conceptOfProgrammingLanguage",
+                "label": "Concept of Programming Language"
+            },
+            {
+                "value": "basicProgrammingConcepts",
+                "label": "Basic Programming Concepts"
+            },
+            {
+                "value": "variablesAndDataTypes",
+                "label": "Variables and Data Types"
+            },
+            {
+                "value": "conditionalStatementAndLoop",
+                "label": "Conditional Statement and Loop"
+            }
+        ]
+    },
+    "economics": {
+        "introductionToEconomics": [
+            {
+                "value": "conceptAndDefinitionOfEconomics",
+                "label": "Concept and Definition of Economics"
+            },
+            {
+                "value": "natureAndScopeOfEconomics",
+                "label": "Nature and Scope of Economics"
+            },
+            {
+                "value": "importanceOfEconomics",
+                "label": "Importance of Economics"
+            },
+            {
+                "value": "branchesOfEconomics",
+                "label": "Branches of Economics"
+            },
+            {
+                "value": "basicEconomicProblems",
+                "label": "Basic Economic Problems"
+            },
+            {
+                "value": "scarcityChoiceAndOpportunityCost",
+                "label": "Scarcity, Choice and Opportunity Cost"
+            }
+        ],
+        "theImportantIdeasOfEconomics": [
+            {
+                "value": "conceptOfEconomicResources",
+                "label": "Concept of Economic Resources"
+            },
+            {
+                "value": "factorsOfProduction",
+                "label": "Factors of Production"
+            },
+            {
+                "value": "landLabourCapitalAndOrganization",
+                "label": "Land, Labour, Capital and Organization"
+            },
+            {
+                "value": "conceptOfIncomeAndWealth",
+                "label": "Concept of Income and Wealth"
+            },
+            {
+                "value": "economicSystem",
+                "label": "Economic System"
+            },
+            {
+                "value": "microeconomicsAndMacroeconomics",
+                "label": "Microeconomics and Macroeconomics"
+            }
+        ],
+        "utilityDemandSupplyAndEquilibrium": [
+            {
+                "value": "conceptOfUtility",
+                "label": "Concept of Utility"
+            },
+            {
+                "value": "typesOfUtility",
+                "label": "Types of Utility"
+            },
+            {
+                "value": "conceptOfDemand",
+                "label": "Concept of Demand"
+            },
+            {
+                "value": "lawOfDemand",
+                "label": "Law of Demand"
+            },
+            {
+                "value": "conceptOfSupply",
+                "label": "Concept of Supply"
+            },
+            {
+                "value": "marketEquilibrium",
+                "label": "Market Equilibrium"
+            }
+        ],
+        "productionAndOrganization": [
+            {
+                "value": "conceptAndMeaningOfProduction",
+                "label": "Concept and Meaning of Production"
+            },
+            {
+                "value": "factorsOfProduction",
+                "label": "Factors of Production"
+            },
+            {
+                "value": "typesOfProduction",
+                "label": "Types of Production"
+            },
+            {
+                "value": "divisionOfLabour",
+                "label": "Division of Labour"
+            },
+            {
+                "value": "businessOrganization",
+                "label": "Business Organization"
+            },
+            {
+                "value": "productionCostAndRevenue",
+                "label": "Production Cost and Revenue"
+            }
+        ],
+        "market": [
+            {
+                "value": "conceptAndDefinitionOfMarket",
+                "label": "Concept and Definition of Market"
+            },
+            {
+                "value": "typesOfMarket",
+                "label": "Types of Market"
+            },
+            {
+                "value": "marketStructure",
+                "label": "Market Structure"
+            },
+            {
+                "value": "demandAndSupplyInMarket",
+                "label": "Demand and Supply in Market"
+            },
+            {
+                "value": "priceDeterminationInMarket",
+                "label": "Price Determination in Market"
+            },
+            {
+                "value": "roleOfMarketInEconomy",
+                "label": "Role of Market in Economy"
+            }
+        ],
+        "nationalIncomeAndItsMeasurement": [
+            {
+                "value": "conceptAndDefinitionOfNationalIncome",
+                "label": "Concept and Definition of National Income"
+            },
+            {
+                "value": "importanceOfNationalIncome",
+                "label": "Importance of National Income"
+            },
+            {
+                "value": "methodsOfMeasuringNationalIncome",
+                "label": "Methods of Measuring National Income"
+            },
+            {
+                "value": "grossDomesticProductGDP",
+                "label": "Gross Domestic Product (GDP)"
+            },
+            {
+                "value": "grossNationalProductGNP",
+                "label": "Gross National Product (GNP)"
+            },
+            {
+                "value": "problemsOfMeasuringNationalIncome",
+                "label": "Problems of Measuring National Income"
+            }
+        ],
+        "moneyAndBankingSystem": [
+            {
+                "value": "conceptAndDefinitionOfMoney",
+                "label": "Concept and Definition of Money"
+            },
+            {
+                "value": "functionsOfMoney",
+                "label": "Functions of Money"
+            },
+            {
+                "value": "typesOfMoney",
+                "label": "Types of Money"
+            },
+            {
+                "value": "conceptOfBankingSystem",
+                "label": "Concept of Banking System"
+            },
+            {
+                "value": "functionsOfCommercialBank",
+                "label": "Functions of Commercial Bank"
+            },
+            {
+                "value": "roleOfCentralBank",
+                "label": "Role of Central Bank"
+            }
+        ],
+        "theEconomyOfBangladesh": [
+            {
+                "value": "featuresOfBangladeshEconomy",
+                "label": "Features of Bangladesh Economy"
+            },
+            {
+                "value": "sectorsOfBangladeshEconomy",
+                "label": "Sectors of Bangladesh Economy"
+            },
+            {
+                "value": "agricultureSectorOfBangladesh",
+                "label": "Agriculture Sector of Bangladesh"
+            },
+            {
+                "value": "industrialSectorOfBangladesh",
+                "label": "Industrial Sector of Bangladesh"
+            },
+            {
+                "value": "economicProblemsOfBangladesh",
+                "label": "Economic Problems of Bangladesh"
+            },
+            {
+                "value": "economicDevelopmentOfBangladesh",
+                "label": "Economic Development of Bangladesh"
+            }
+        ],
+        "importantEconomicIssuesInBangladesh": [
+            {
+                "value": "conceptOfEconomicIssues",
+                "label": "Concept of Economic Issues"
+            },
+            {
+                "value": "populationProblemAndEconomicImpact",
+                "label": "Population Problem and Economic Impact"
+            },
+            {
+                "value": "unemploymentProblemInBangladesh",
+                "label": "Unemployment Problem in Bangladesh"
+            },
+            {
+                "value": "povertyAndIncomeInequality",
+                "label": "Poverty and Income Inequality"
+            },
+            {
+                "value": "inflationAndPriceRise",
+                "label": "Inflation and Price Rise"
+            },
+            {
+                "value": "economicDevelopmentChallenges",
+                "label": "Economic Development Challenges"
+            }
+        ],
+        "thePublicFinanceOfBangladeshGovernment": [
+            {
+                "value": "conceptAndDefinitionOfPublicFinance",
+                "label": "Concept and Definition of Public Finance"
+            },
+            {
+                "value": "importanceOfPublicFinance",
+                "label": "Importance of Public Finance"
+            },
+            {
+                "value": "sourcesOfGovernmentRevenue",
+                "label": "Sources of Government Revenue"
+            },
+            {
+                "value": "taxAndNonTaxRevenue",
+                "label": "Tax and Non-tax Revenue"
+            },
+            {
+                "value": "governmentExpenditure",
+                "label": "Government Expenditure"
+            },
+            {
+                "value": "nationalBudgetOfBangladesh",
+                "label": "National Budget of Bangladesh"
+            }
+        ]
+    },
+    "agriculture": {
+        "agriculturalTechnology": [
+            {
+                "value": "conceptOfAgriculturalTechnology",
+                "label": "Concept of Agricultural Technology"
+            },
+            {
+                "value": "importanceOfAgriculturalTechnology",
+                "label": "Importance of Agricultural Technology"
+            },
+            {
+                "value": "traditionalAndModernAgriculturalTechnology",
+                "label": "Traditional and Modern Agricultural Technology"
+            },
+            {
+                "value": "agriculturalMachineryAndEquipment",
+                "label": "Agricultural Machinery and Equipment"
+            },
+            {
+                "value": "improvedCultivationMethods",
+                "label": "Improved Cultivation Methods"
+            },
+            {
+                "value": "roleOfTechnologyInAgricultureDevelopment",
+                "label": "Role of Technology in Agriculture Development"
+            }
+        ],
+        "agriculturalInputs": [
+            {
+                "value": "conceptOfAgriculturalInputs",
+                "label": "Concept of Agricultural Inputs"
+            },
+            {
+                "value": "typesOfAgriculturalInputs",
+                "label": "Types of Agricultural Inputs"
+            },
+            {
+                "value": "seedsAndQualitySeeds",
+                "label": "Seeds and Quality Seeds"
+            },
+            {
+                "value": "fertilizerAndManure",
+                "label": "Fertilizer and Manure"
+            },
+            {
+                "value": "irrigationAndWaterManagement",
+                "label": "Irrigation and Water Management"
+            },
+            {
+                "value": "pestControlAndAgriculturalChemicals",
+                "label": "Pest Control and Agricultural Chemicals"
+            }
+        ],
+        "agricultureAndClimate": [
+            {
+                "value": "relationshipBetweenAgricultureAndClimate",
+                "label": "Relationship Between Agriculture and Climate"
+            },
+            {
+                "value": "climateElementsAffectingAgriculture",
+                "label": "Climate Elements Affecting Agriculture"
+            },
+            {
+                "value": "effectOfTemperatureAndRainfall",
+                "label": "Effect of Temperature and Rainfall"
+            },
+            {
+                "value": "climateChangeAndAgriculture",
+                "label": "Climate Change and Agriculture"
+            },
+            {
+                "value": "naturalDisasterImpactOnAgriculture",
+                "label": "Natural Disaster Impact on Agriculture"
+            },
+            {
+                "value": "climateAdaptiveAgriculture",
+                "label": "Climate Adaptive Agriculture"
+            }
+        ],
+        "agriculturalProduction": [
+            {
+                "value": "conceptOfAgriculturalProduction",
+                "label": "Concept of Agricultural Production"
+            },
+            {
+                "value": "cropProductionInBangladesh",
+                "label": "Crop Production in Bangladesh"
+            },
+            {
+                "value": "foodCropAndCashCrop",
+                "label": "Food Crop and Cash Crop"
+            },
+            {
+                "value": "cropCultivationMethods",
+                "label": "Crop Cultivation Methods"
+            },
+            {
+                "value": "agriculturalProductionProcess",
+                "label": "Agricultural Production Process"
+            },
+            {
+                "value": "problemsAndProspectsOfAgriculturalProduction",
+                "label": "Problems and Prospects of Agricultural Production"
+            }
+        ],
+        "afforestation": [
+            {
+                "value": "conceptAndDefinitionOfAfforestation",
+                "label": "Concept and Definition of Afforestation"
+            },
+            {
+                "value": "importanceOfAfforestation",
+                "label": "Importance of Afforestation"
+            },
+            {
+                "value": "causesOfDeforestation",
+                "label": "Causes of Deforestation"
+            },
+            {
+                "value": "socialAndEnvironmentalBenefitsOfForest",
+                "label": "Social and Environmental Benefits of Forest"
+            },
+            {
+                "value": "forestConservationMethods",
+                "label": "Forest Conservation Methods"
+            },
+            {
+                "value": "afforestationProgramsInBangladesh",
+                "label": "Afforestation Programs in Bangladesh"
+            }
+        ],
+        "agriculturalCooperatives": [
+            {
+                "value": "conceptAndDefinitionOfAgriculturalCooperative",
+                "label": "Concept and Definition of Agricultural Co-operative"
+            },
+            {
+                "value": "objectivesOfAgriculturalCooperative",
+                "label": "Objectives of Agricultural Co-operative"
+            },
+            {
+                "value": "importanceOfAgriculturalCooperative",
+                "label": "Importance of Agricultural Co-operative"
+            },
+            {
+                "value": "functionsOfAgriculturalCooperative",
+                "label": "Functions of Agricultural Co-operative"
+            },
+            {
+                "value": "roleOfCooperativeInRuralDevelopment",
+                "label": "Role of Co-operative in Rural Development"
+            },
+            {
+                "value": "problemsAndProspectsOfAgriculturalCooperative",
+                "label": "Problems and Prospects of Agricultural Co-operative"
+            }
+        ],
+        "householdFarming": [
+            {
+                "value": "conceptOfHouseholdFarming",
+                "label": "Concept of Household Farming"
+            },
+            {
+                "value": "importanceOfHouseholdFarming",
+                "label": "Importance of Household Farming"
+            },
+            {
+                "value": "typesOfHouseholdFarming",
+                "label": "Types of Household Farming"
+            },
+            {
+                "value": "vegetableCultivationAtHome",
+                "label": "Vegetable Cultivation at Home"
+            },
+            {
+                "value": "poultryAndLivestockFarmingAtHome",
+                "label": "Poultry and Livestock Farming at Home"
+            },
+            {
+                "value": "benefitsOfHouseholdFarming",
+                "label": "Benefits of Household Farming"
+            }
+        ]
+    },
+    "homeScinece": {
+        "homeManagement": [
+            {
+                "value": "conceptAndDefinitionOfHomeManagement",
+                "label": "Concept and Definition of Home Management"
+            },
+            {
+                "value": "importanceOfHomeManagement",
+                "label": "Importance of Home Management"
+            },
+            {
+                "value": "principlesOfHomeManagement",
+                "label": "Principles of Home Management"
+            },
+            {
+                "value": "functionsOfHomeManagement",
+                "label": "Functions of Home Management"
+            },
+            {
+                "value": "decisionMakingInHomeManagement",
+                "label": "Decision Making in Home Management"
+            },
+            {
+                "value": "familyNeedsAndHomeManagement",
+                "label": "Family Needs and Home Management"
+            }
+        ],
+        "homeManager": [
+            {
+                "value": "conceptOfHomeManager",
+                "label": "Concept of Home Manager"
+            },
+            {
+                "value": "qualitiesOfHomeManager",
+                "label": "Qualities of Home Manager"
+            },
+            {
+                "value": "rolesAndResponsibilitiesOfHomeManager",
+                "label": "Roles and Responsibilities of Home Manager"
+            },
+            {
+                "value": "skillsOfAnEffectiveHomeManager",
+                "label": "Skills of an Effective Home Manager"
+            },
+            {
+                "value": "timeManagementInHome",
+                "label": "Time Management in Home"
+            },
+            {
+                "value": "importanceOfLeadershipInFamily",
+                "label": "Importance of Leadership in Family"
+            }
+        ],
+        "homeResource": [
+            {
+                "value": "conceptAndDefinitionOfHomeResource",
+                "label": "Concept and Definition of Home Resource"
+            },
+            {
+                "value": "typesOfHomeResources",
+                "label": "Types of Home Resources"
+            },
+            {
+                "value": "humanAndNonHumanResources",
+                "label": "Human and Non-human Resources"
+            },
+            {
+                "value": "characteristicsOfHomeResources",
+                "label": "Characteristics of Home Resources"
+            },
+            {
+                "value": "importanceOfHomeResources",
+                "label": "Importance of Home Resources"
+            },
+            {
+                "value": "properUseOfHomeResources",
+                "label": "Proper Use of Home Resources"
+            }
+        ],
+        "homeResourceManagement": [
+            {
+                "value": "conceptOfHomeResourceManagement",
+                "label": "Concept of Home Resource Management"
+            },
+            {
+                "value": "stepsOfResourceManagement",
+                "label": "Steps of Resource Management"
+            },
+            {
+                "value": "planningAndOrganizationOfResources",
+                "label": "Planning and Organization of Resources"
+            },
+            {
+                "value": "moneyManagementInFamily",
+                "label": "Money Management in Family"
+            },
+            {
+                "value": "timeAndEnergyManagement",
+                "label": "Time and Energy Management"
+            },
+            {
+                "value": "importanceOfEfficientResourceManagement",
+                "label": "Importance of Efficient Resource Management"
+            }
+        ],
+        "interiorDecorationOfHome": [
+            {
+                "value": "conceptAndImportanceOfInteriorDecoration",
+                "label": "Concept and Importance of Interior Decoration"
+            },
+            {
+                "value": "principlesOfInteriorDecoration",
+                "label": "Principles of Interior Decoration"
+            },
+            {
+                "value": "elementsOfInteriorDecoration",
+                "label": "Elements of Interior Decoration"
+            },
+            {
+                "value": "colorAndLightingInHomeDecoration",
+                "label": "Color and Lighting in Home Decoration"
+            },
+            {
+                "value": "selectionAndArrangementOfFurniture",
+                "label": "Selection and Arrangement of Furniture"
+            },
+            {
+                "value": "beautificationAndMaintenanceOfHome",
+                "label": "Beautification and Maintenance of Home"
+            }
+        ],
+        "growthAndDevelopmentOfChild": [
+            {
+                "value": "conceptOfChildGrowthAndDevelopment",
+                "label": "Concept of Child Growth and Development"
+            },
+            {
+                "value": "differenceBetweenGrowthAndDevelopment",
+                "label": "Difference Between Growth and Development"
+            },
+            {
+                "value": "stagesOfChildDevelopment",
+                "label": "Stages of Child Development"
+            },
+            {
+                "value": "physicalDevelopmentOfChild",
+                "label": "Physical Development of Child"
+            },
+            {
+                "value": "mentalAndEmotionalDevelopment",
+                "label": "Mental and Emotional Development"
+            },
+            {
+                "value": "factorsAffectingChildDevelopment",
+                "label": "Factors Affecting Child Development"
+            }
+        ],
+        "childDevelopmentAndFamilyEnvironment": [
+            {
+                "value": "conceptOfFamilyEnvironment",
+                "label": "Concept of Family Environment"
+            },
+            {
+                "value": "roleOfFamilyInChildDevelopment",
+                "label": "Role of Family in Child Development"
+            },
+            {
+                "value": "healthyFamilyRelationship",
+                "label": "Healthy Family Relationship"
+            },
+            {
+                "value": "effectOfFamilyEnvironmentOnChild",
+                "label": "Effect of Family Environment on Child"
+            },
+            {
+                "value": "parentalRoleAndResponsibilities",
+                "label": "Parental Role and Responsibilities"
+            },
+            {
+                "value": "childCareAndProtection",
+                "label": "Child Care and Protection"
+            }
+        ],
+        "psychoSocialProblemsOfAdolescence": [
+            {
+                "value": "conceptOfAdolescence",
+                "label": "Concept of Adolescence"
+            },
+            {
+                "value": "physicalAndPsychologicalChangesInAdolescence",
+                "label": "Physical and Psychological Changes in Adolescence"
+            },
+            {
+                "value": "commonPsychoSocialProblemsOfAdolescence",
+                "label": "Common Psycho-Social Problems of Adolescence"
+            },
+            {
+                "value": "causesOfAdolescentProblems",
+                "label": "Causes of Adolescent Problems"
+            },
+            {
+                "value": "preventionAndRemediesOfAdolescentProblems",
+                "label": "Prevention and Remedies of Adolescent Problems"
+            },
+            {
+                "value": "roleOfFamilyAndSocietyInAdolescentDevelopment",
+                "label": "Role of Family and Society in Adolescent Development"
+            }
+        ],
+        "retardedChild": [
+            {
+                "value": "conceptOfRetardedChild",
+                "label": "Concept of Retarded Child"
+            },
+            {
+                "value": "typesOfIntellectualDisability",
+                "label": "Types of Intellectual Disability"
+            },
+            {
+                "value": "causesOfChildRetardation",
+                "label": "Causes of Child Retardation"
+            },
+            {
+                "value": "characteristicsOfRetardedChild",
+                "label": "Characteristics of Retarded Child"
+            },
+            {
+                "value": "careAndEducationOfRetardedChild",
+                "label": "Care and Education of Retarded Child"
+            },
+            {
+                "value": "roleOfFamilyInSupportingRetardedChild",
+                "label": "Role of Family in Supporting Retarded Child"
+            }
+        ],
+        "functionsOfFoodAndNutrients": [
+            {
+                "value": "conceptOfFoodAndNutrition",
+                "label": "Concept of Food and Nutrition"
+            },
+            {
+                "value": "typesOfNutrients",
+                "label": "Types of Nutrients"
+            },
+            {
+                "value": "functionsOfCarbohydrateProteinAndFat",
+                "label": "Functions of Carbohydrate, Protein and Fat"
+            },
+            {
+                "value": "functionsOfVitaminsAndMinerals",
+                "label": "Functions of Vitamins and Minerals"
+            },
+            {
+                "value": "importanceOfWaterAndFiber",
+                "label": "Importance of Water and Fiber"
+            },
+            {
+                "value": "balancedDietAndNutritionalNeeds",
+                "label": "Balanced Diet and Nutritional Needs"
+            }
+        ],
+        "digestionOfFoodsAndPlanningOfMeals": [
+            {
+                "value": "conceptOfDigestion",
+                "label": "Concept of Digestion"
+            },
+            {
+                "value": "digestiveSystemAndOrgans",
+                "label": "Digestive System and Organs"
+            },
+            {
+                "value": "processOfDigestion",
+                "label": "Process of Digestion"
+            },
+            {
+                "value": "absorptionAndUtilizationOfNutrients",
+                "label": "Absorption and Utilization of Nutrients"
+            },
+            {
+                "value": "conceptOfMealPlanning",
+                "label": "Concept of Meal Planning"
+            },
+            {
+                "value": "principlesOfMealPlanning",
+                "label": "Principles of Meal Planning"
+            }
+        ],
+        "disciplinedLifestyleAndMealPlanning": [
+            {
+                "value": "conceptOfDisciplinedLifestyle",
+                "label": "Concept of Disciplined Lifestyle"
+            },
+            {
+                "value": "importanceOfHealthyDailyRoutine",
+                "label": "Importance of Healthy Daily Routine"
+            },
+            {
+                "value": "relationshipBetweenLifestyleAndHealth",
+                "label": "Relationship Between Lifestyle and Health"
+            },
+            {
+                "value": "regularMealHabitAndHealth",
+                "label": "Regular Meal Habit and Health"
+            },
+            {
+                "value": "planningBalancedMealsForFamily",
+                "label": "Planning Balanced Meals for Family"
+            },
+            {
+                "value": "foodSafetyAndHygiene",
+                "label": "Food Safety and Hygiene"
+            }
+        ],
+        "preparingAndServingOfFood": [
+            {
+                "value": "principlesOfFoodPreparation",
+                "label": "Principles of Food Preparation"
+            },
+            {
+                "value": "methodsOfFoodPreparation",
+                "label": "Methods of Food Preparation"
+            },
+            {
+                "value": "selectionAndCleaningOfFood",
+                "label": "Selection and Cleaning of Food"
+            },
+            {
+                "value": "foodCookingTechniques",
+                "label": "Food Cooking Techniques"
+            },
+            {
+                "value": "principlesOfFoodServing",
+                "label": "Principles of Food Serving"
+            },
+            {
+                "value": "foodPresentationAndHygiene",
+                "label": "Food Presentation and Hygiene"
+            }
+        ],
+        "textileFibres": [
+            {
+                "value": "conceptAndDefinitionOfTextileFibre",
+                "label": "Concept and Definition of Textile Fibre"
+            },
+            {
+                "value": "classificationOfTextileFibres",
+                "label": "Classification of Textile Fibres"
+            },
+            {
+                "value": "naturalFibres",
+                "label": "Natural Fibres"
+            },
+            {
+                "value": "syntheticFibres",
+                "label": "Synthetic Fibres"
+            },
+            {
+                "value": "propertiesOfTextileFibres",
+                "label": "Properties of Textile Fibres"
+            },
+            {
+                "value": "usesOfDifferentTextileFibres",
+                "label": "Uses of Different Textile Fibres"
+            }
+        ],
+        "artElementsAndArtPrinciplesOfTextile": [
+            {
+                "value": "conceptOfArtElementsInTextile",
+                "label": "Concept of Art Elements in Textile"
+            },
+            {
+                "value": "elementsOfDesign",
+                "label": "Elements of Design"
+            },
+            {
+                "value": "principlesOfArtAndDesign",
+                "label": "Principles of Art and Design"
+            },
+            {
+                "value": "lineShapeColourAndTexture",
+                "label": "Line, Shape, Colour and Texture"
+            },
+            {
+                "value": "balanceRhythmAndHarmonyInDesign",
+                "label": "Balance, Rhythm and Harmony in Design"
+            },
+            {
+                "value": "applicationOfArtPrinciplesInTextile",
+                "label": "Application of Art Principles in Textile"
+            }
+        ],
+        "printingAndColouringInClothing": [
+            {
+                "value": "conceptOfTextilePrinting",
+                "label": "Concept of Textile Printing"
+            },
+            {
+                "value": "typesOfClothingPrinting",
+                "label": "Types of Clothing Printing"
+            },
+            {
+                "value": "methodsOfTextilePrinting",
+                "label": "Methods of Textile Printing"
+            },
+            {
+                "value": "conceptOfClothingColouring",
+                "label": "Concept of Clothing Colouring"
+            },
+            {
+                "value": "typesAndUsesOfDyes",
+                "label": "Types and Uses of Dyes"
+            },
+            {
+                "value": "careOfPrintedAndColouredClothes",
+                "label": "Care of Printed and Coloured Clothes"
+            }
+        ],
+        "drafting": [
+            {
+                "value": "conceptAndImportanceOfDrafting",
+                "label": "Concept and Importance of Drafting"
+            },
+            {
+                "value": "principlesOfClothingDrafting",
+                "label": "Principles of Clothing Drafting"
+            },
+            {
+                "value": "measurementForDrafting",
+                "label": "Measurement for Drafting"
+            },
+            {
+                "value": "draftingToolsAndMaterials",
+                "label": "Drafting Tools and Materials"
+            },
+            {
+                "value": "basicPatternDrafting",
+                "label": "Basic Pattern Drafting"
+            },
+            {
+                "value": "importanceOfAccurateDraftingInClothing",
+                "label": "Importance of Accurate Drafting in Clothing"
+            }
+        ],
+        "clothingCareAndTidinessInClothing": [
+            {
+                "value": "conceptOfClothingCare",
+                "label": "Concept of Clothing Care"
+            },
+            {
+                "value": "importanceOfClothingCare",
+                "label": "Importance of Clothing Care"
+            },
+            {
+                "value": "washingAndCleaningOfClothes",
+                "label": "Washing and Cleaning of Clothes"
+            },
+            {
+                "value": "dryingIroningAndStorageOfClothes",
+                "label": "Drying, Ironing and Storage of Clothes"
+            },
+            {
+                "value": "removalOfStainsFromClothes",
+                "label": "Removal of Stains from Clothes"
+            },
+            {
+                "value": "tidinessAndPersonalAppearance",
+                "label": "Tidiness and Personal Appearance"
+            }
+        ]
+    }
+}

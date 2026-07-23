@@ -1,0 +1,756 @@
+{
+    "physics": [
+        {
+            "value": "force",
+            "label": "Force"
+        },
+        {
+            "value": "physicalQualitiesAndTheirMeasurement",
+            "label": "Physical Qualities and Their Measurement"
+        },
+        {
+            "value": "motion",
+            "label": "Motion"
+        },
+        {
+            "value": "motion",
+            "label": "Motion"
+        },
+        {
+            "value": "workPowerAndEnergy",
+            "label": "Work, Power and Energy"
+        },
+        {
+            "value": "wavesAndSound",
+            "label": "Waves and Sound"
+        },
+        {
+            "value": "reflectionOfLight",
+            "label": "Reflection of Light"
+        },
+        {
+            "value": "staticElectricity",
+            "label": "Static Electricity"
+        }
+    ],
+    "math": [
+        {
+            "value": "realNumbers",
+            "label": "Real Numbers"
+        },
+        {
+            "value": "setsAndFunctions",
+            "label": "Sets and Functions"
+        },
+        {
+            "value": "algebraicExpressions",
+            "label": "Algebraic Expressions"
+        },
+        {
+            "value": "exponentsAndLogarithms",
+            "label": "Exponents and Logarithms"
+        },
+        {
+            "value": "equationsInOneVariable",
+            "label": "Equations in One Variable"
+        },
+        {
+            "value": "linesAnglesAndTriangles",
+            "label": "Lines, Angles and Triangles"
+        },
+        {
+            "value": "practicalGeometry",
+            "label": "Practical Geometry"
+        },
+        {
+            "value": "circle",
+            "label": "Circle"
+        },
+        {
+            "value": "trigonometricRatio",
+            "label": "Trigonometric Ratio"
+        },
+        {
+            "value": "distanceAndElevation",
+            "label": "Distance and Elevation"
+        },
+        {
+            "value": "algebraicRatioAndProportion",
+            "label": "Algebraic Ratio and Proportion"
+        },
+        {
+            "value": "simpleSimultaneousEquations",
+            "label": "Simple Simultaneous Equations in Two Variables"
+        },
+        {
+            "value": "finiteSeries",
+            "label": "Finite Series"
+        },
+        {
+            "value": "ratioSimilarityAndSymmetry",
+            "label": "Ratio, Similarity and Symmetry"
+        },
+        {
+            "value": "areaRelatedTheoremsAndConstructions",
+            "label": "Area Related Theorems and Constructions"
+        },
+        {
+            "value": "mensuration",
+            "label": "Mensuration"
+        },
+        {
+            "value": "statistics",
+            "label": "Statistics"
+        }
+    ],
+    "chemistry": [
+        {
+            "value": "conceptsOfChemistry",
+            "label": "Concepts of Chemistry"
+        },
+        {
+            "value": "statesOfMatter",
+            "label": "States of Matter"
+        },
+        {
+            "value": "structureOfMatter",
+            "label": "Structure of Matter"
+        },
+        {
+            "value": "periodicTable",
+            "label": "Periodic Table"
+        },
+        {
+            "value": "chemicalBond",
+            "label": "Chemical Bond"
+        },
+        {
+            "value": "conceptOfMole",
+            "label": "Concept of Mole and Chemical Counting"
+        },
+        {
+            "value": "chemicalReactions",
+            "label": "Chemical Reactions"
+        },
+        {
+            "value": "chemistryAndEnergy",
+            "label": "Chemistry and Energy"
+        },
+        {
+            "value": "acidBaseBalance",
+            "label": "Acid - Base Balance"
+        },
+        {
+            "value": "mineralResourcesMetals",
+            "label": "Mineral Resources: Metal - Nonmetal"
+        },
+        {
+            "value": "mineralResourcesFossils",
+            "label": "Mineral Resources: Fossils"
+        },
+        {
+            "value": "chemistryInOurLives",
+            "label": "Chemistry in Our Lives"
+        }
+    ],
+    "biology": [
+        {
+            "value": "lessonsOnLife",
+            "label": "Lessons on Life"
+        },
+        {
+            "value": "cellsAndTissues",
+            "label": "Cells and Tissues of Organisms"
+        },
+        {
+            "value": "cellDivision",
+            "label": "Cell Division"
+        },
+        {
+            "value": "bioenergetics",
+            "label": "Bioenergetics"
+        },
+        {
+            "value": "foodNutritionAndDigestion",
+            "label": "Food, Nutrition and Digestion"
+        },
+        {
+            "value": "transportInOrganisms",
+            "label": "Transport in Organisms"
+        },
+        {
+            "value": "exchangeOfGases",
+            "label": "Exchange of Gases"
+        },
+        {
+            "value": "excretorySystem",
+            "label": "Excretory System"
+        },
+        {
+            "value": "firmnessAndLocomotion",
+            "label": "Firmness and Locomotion"
+        },
+        {
+            "value": "coordination",
+            "label": "Co-ordination"
+        },
+        {
+            "value": "reproductionInOrganisms",
+            "label": "Reproduction in Organism"
+        },
+        {
+            "value": "heredityAndEvolution",
+            "label": "Heredity in Organisms and Biological Evolution"
+        },
+        {
+            "value": "environmentOfLife",
+            "label": "Environment of Life"
+        },
+        {
+            "value": "biotechnology",
+            "label": "Biotechnology"
+        }
+    ],
+    "higherMath": [
+        {
+            "value": "setAndFunction",
+            "label": "Set and Function"
+        },
+        {
+            "value": "algebraicExpression",
+            "label": "Algebraic Expression"
+        },
+        {
+            "value": "geometry",
+            "label": "Geometry"
+        },
+        {
+            "value": "geometricConstructions",
+            "label": "Geometric Constructions"
+        },
+        {
+            "value": "equation",
+            "label": "Equation"
+        },
+        {
+            "value": "inequality",
+            "label": "Inequality"
+        },
+        {
+            "value": "infiniteSeries",
+            "label": "Infinite Series"
+        },
+        {
+            "value": "trigonometry",
+            "label": "Trigonometry"
+        },
+        {
+            "value": "exponentialAndLogarithmicFunction",
+            "label": "Exponential and Logarithmic Function"
+        },
+        {
+            "value": "binomialExpansion",
+            "label": "Binomial Expansion"
+        },
+        {
+            "value": "coordinateGeometry",
+            "label": "Coordinate Geometry"
+        },
+        {
+            "value": "planarVector",
+            "label": "Planar Vector"
+        },
+        {
+            "value": "solidGeometry",
+            "label": "Solid Geometry"
+        },
+        {
+            "value": "probability",
+            "label": "Probability"
+        }
+    ],
+    "history": [
+        {
+            "value": "british",
+            "label": "British"
+        },
+        {
+            "value": "mughal",
+            "label": "Mughal"
+        },
+        {
+            "value": "babylon",
+            "label": "Babylon"
+        },
+        {
+            "value": "bangladesh-liberation-war",
+            "label": "Bangladesh liberation war"
+        }
+    ],
+    "bangla": [
+        {
+            "value": "stories",
+            "label": "Stories"
+        },
+        {
+            "value": "poems",
+            "label": "Poems"
+        }
+    ],
+    "islam": [
+        {
+            "value": "akaid",
+            "label": "আকাইদ"
+        },
+        {
+            "value": "islamicShariahSources",
+            "label": "ইসলামি শরিয়তের উৎস"
+        },
+        {
+            "value": "ibadat",
+            "label": "ইবাদত"
+        },
+        {
+            "value": "akhlaq",
+            "label": "আখলাক"
+        },
+        {
+            "value": "adarshaJibonchorit",
+            "label": "আদর্শ জীবনচরিত"
+        }
+    ],
+    "bgs": [
+        {
+            "value": "purboBanglarAndolon",
+            "label": "পূর্ববাংলার আন্দোলন ও ভাষাতান্দোলনের উত্থান (১৯৪৭-১৯৫২)"
+        },
+        {
+            "value": "bangladeshSwadhinota",
+            "label": "বাংলাদেশের স্বাধীনতা"
+        },
+        {
+            "value": "muktijuddho",
+            "label": "মুক্তিযুদ্ধ"
+        },
+        {
+            "value": "bhugolOPrakritikSompod",
+            "label": "বাংলাদেশের ভৌগোলিক অবস্থান ও প্রাকৃতিক সম্পদ"
+        },
+        {
+            "value": "rashtroNagorikotaAin",
+            "label": "রাষ্ট্র, নাগরিকতা ও আইন"
+        },
+        {
+            "value": "sorkarerAngoOProshason",
+            "label": "বাংলাদেশ সরকারের বিভিন্ন অঙ্গ ও প্রশাসন ব্যবস্থা"
+        },
+        {
+            "value": "orthonitiOBanijjo",
+            "label": "বাংলাদেশের অর্থনীতি ও বাণিজ্য"
+        },
+        {
+            "value": "antorjatikSomporko",
+            "label": "আন্তর্জাতিক সম্পর্ক ও বাংলাদেশ"
+        },
+        {
+            "value": "jatioSompadOitijjo",
+            "label": "জাতীয় সম্পদ ও ঐতিহ্যিক বাংলাদেশ"
+        },
+        {
+            "value": "orthonaitikUnnoyon",
+            "label": "অর্থনৈতিক উন্নয়ন ও বাংলাদেশের অর্থনৈতিক প্রকৃতি"
+        },
+        {
+            "value": "sorkarerOrthoBank",
+            "label": "বাংলাদেশ সরকারের অর্থ ও ব্যাংক ব্যবস্থা"
+        },
+        {
+            "value": "poribeshKaryokrom",
+            "label": "বাংলাদেশের পরিবেশ কার্যক্রম ও সমন্বয়করণ"
+        },
+        {
+            "value": "samajikPoriborton",
+            "label": "বাংলাদেশের সামাজিক পরিবর্তন"
+        },
+        {
+            "value": "samajikSomossa",
+            "label": "বাংলাদেশের সামাজিক সমস্যা ও প্রতিকার"
+        },
+        {
+            "value": "boishwikoBongladesh",
+            "label": "বৈশ্বিকায়ন ও বাংলাদেশ"
+        }
+    ],
+    "accounting": [
+        {
+            "label": "Introduction to Accounting",
+            "value": "introductionToAccounting"
+        },
+        {
+            "label": "Transaction",
+            "value": "transaction"
+        },
+        {
+            "label": "Double Entry System",
+            "value": "doubleEntrySystem"
+        },
+        {
+            "label": "Capital and Revenue Transaction",
+            "value": "capitalAndRevenueTransaction"
+        },
+        {
+            "label": "Accounts",
+            "value": "accounts"
+        },
+        {
+            "label": "Journal",
+            "value": "journal"
+        },
+        {
+            "label": "Ledger",
+            "value": "ledger"
+        },
+        {
+            "label": "Cash Book",
+            "value": "cashBook"
+        },
+        {
+            "label": "Trial Balance",
+            "value": "trialBalance"
+        },
+        {
+            "label": "Financial Statements",
+            "value": "financialStatements"
+        },
+        {
+            "label": "Purchase Price of Products, Product Costs and Selling Price",
+            "value": "purchasePriceProductCostsSellingPrice"
+        },
+        {
+            "label": "Account of Family and Self Employment Initiative",
+            "value": "accountOfFamilyAndSelfEmploymentInitiative"
+        }
+    ],
+    "financeAndBanking": [
+        {
+            "value": "financeAndBusinessFinance",
+            "label": "Finance and Business Finance"
+        },
+        {
+            "value": "sourcesOfFinance",
+            "label": "Sources of Finance"
+        },
+        {
+            "value": "shareBondAndDebenture",
+            "label": "Share, Bond and Debenture"
+        },
+        {
+            "value": "timeValueOfMoney",
+            "label": "Time Value of Money"
+        },
+        {
+            "value": "riskAndUncertainty",
+            "label": "Risk and Uncertainty"
+        },
+        {
+            "value": "capitalBudgeting",
+            "label": "Capital Budgeting"
+        },
+        {
+            "value": "costOfCapital",
+            "label": "Cost of Capital"
+        },
+        {
+            "value": "currencyBankAndBanking",
+            "label": "Currency, Bank and Banking"
+        },
+        {
+            "value": "bankingBusinessAndTypes",
+            "label": "Banking Business and Types"
+        },
+        {
+            "value": "commercialBanks",
+            "label": "Commercial Banks"
+        },
+        {
+            "value": "bankDeposit",
+            "label": "Bank Deposit"
+        },
+        {
+            "value": "bankAndClient",
+            "label": "Bank and Client"
+        },
+        {
+            "value": "centralBank",
+            "label": "Central Bank"
+        }
+    ],
+    "businessEntrepreneurship": [
+        {
+            "value": "introductionToBusiness",
+            "label": "Introduction to Business"
+        },
+        {
+            "value": "businessEntrepreneurshipAndEntrepreneur",
+            "label": "Business Entrepreneurship and Entrepreneur"
+        },
+        {
+            "value": "selfEmployment",
+            "label": "Self-employment"
+        },
+        {
+            "value": "businessBasedOnOwnership",
+            "label": "Business Based on Ownership"
+        },
+        {
+            "value": "legalAspectsOfBusiness",
+            "label": "Legal Aspects of Business"
+        },
+        {
+            "value": "businessPlan",
+            "label": "Business Plan"
+        },
+        {
+            "value": "industriesOfBangladesh",
+            "label": "Industries of Bangladesh"
+        },
+        {
+            "value": "managementOfBusinessOrganization",
+            "label": "Management of Business Organization"
+        },
+        {
+            "value": "marketing",
+            "label": "Marketing"
+        },
+        {
+            "value": "assistanceForEntrepreneurshipDevelopment",
+            "label": "Assistance for Entrepreneurship Development"
+        },
+        {
+            "value": "ethicsAndSocialResponsibilitiesInBusiness",
+            "label": "Ethics and Social Responsibilities in Business"
+        },
+        {
+            "value": "lessonsFromSuccessfulEntrepreneurs",
+            "label": "Lessons to learn from the Lives of Successful Entrepreneurs"
+        }
+    ],
+    "science": [
+        {
+            "value": "healthyLifeBetterLiving",
+            "label": "Healthy Life, Better Living"
+        },
+        {
+            "value": "waterForLife",
+            "label": "Water for Life"
+        },
+        {
+            "value": "allAboutHeartAndOthers",
+            "label": "All about Heart and others"
+        },
+        {
+            "value": "startingANewLife",
+            "label": "Starting a New Life"
+        },
+        {
+            "value": "lightForSight",
+            "label": "Light for Sight"
+        },
+        {
+            "value": "polymer",
+            "label": "Polymer"
+        },
+        {
+            "value": "useOfAcidBaseAndSalt",
+            "label": "Use of Acid, Base and Salt"
+        },
+        {
+            "value": "ourResources",
+            "label": "Our Resources"
+        },
+        {
+            "value": "livingWithDisaster",
+            "label": "Living with Disaster"
+        },
+        {
+            "value": "letUsKnowForce",
+            "label": "Let Us Know Force"
+        },
+        {
+            "value": "electricityInDailyLife",
+            "label": "Electricity in Daily Life"
+        }
+    ],
+    "ict": [
+        {
+            "value": "informationAndCommunicationTechnologyAndOurBangladesh",
+            "label": "Information and Communication Technology and Our Bangladesh"
+        },
+        {
+            "value": "computerMaintenanceAndCyberSecurity",
+            "label": "Computer Maintenance and Cyber Security"
+        },
+        {
+            "value": "internetAndIntroductionToWeb",
+            "label": "Internet and Introduction to Web"
+        },
+        {
+            "value": "myWritingsAndAccounts",
+            "label": "My Writings and Accounts"
+        },
+        {
+            "value": "multimediaAndGraphics",
+            "label": "Multimedia and Graphics"
+        },
+        {
+            "value": "problemSolvingThroughProgramming",
+            "label": "Problem Solving through Programming"
+        }
+    ],
+    "economics": [
+        {
+            "value": "introductionToEconomics",
+            "label": "Introduction to Economics"
+        },
+        {
+            "value": "theImportantIdeasOfEconomics",
+            "label": "The Important Ideas of Economics"
+        },
+        {
+            "value": "utilityDemandSupplyAndEquilibrium",
+            "label": "Utility, Demand, Supply, and Equilibrium"
+        },
+        {
+            "value": "productionAndOrganization",
+            "label": "Production and Organization"
+        },
+        {
+            "value": "market",
+            "label": "Market"
+        },
+        {
+            "value": "nationalIncomeAndItsMeasurement",
+            "label": "National Income and Its Measurement"
+        },
+        {
+            "value": "moneyAndBankingSystem",
+            "label": "Money and Banking System"
+        },
+        {
+            "value": "theEconomyOfBangladesh",
+            "label": "The Economy of Bangladesh"
+        },
+        {
+            "value": "importantEconomicIssuesInBangladesh",
+            "label": "Important Economic Issues in Bangladesh"
+        },
+        {
+            "value": "thePublicFinanceOfBangladeshGovernment",
+            "label": "The Public Finance of Bangladesh Government"
+        }
+    ],
+    "agriculture": [
+        {
+            "value": "agriculturalTechnology",
+            "label": "Agricultural Technology"
+        },
+        {
+            "value": "agriculturalInputs",
+            "label": "Agricultural Inputs"
+        },
+        {
+            "value": "agricultureAndClimate",
+            "label": "Agriculture and Climate"
+        },
+        {
+            "value": "agriculturalProduction",
+            "label": "Agricultural Production"
+        },
+        {
+            "value": "afforestation",
+            "label": "Afforestation"
+        },
+        {
+            "value": "agriculturalCooperatives",
+            "label": "Agricultural Co-operatives"
+        },
+        {
+            "value": "householdFarming",
+            "label": "Household Farming"
+        }
+    ],
+    "homeScience": [
+        {
+            "value": "homeManagement",
+            "label": "Home Management"
+        },
+        {
+            "value": "homeManager",
+            "label": "Home Manager"
+        },
+        {
+            "value": "homeResource",
+            "label": "Home Resource"
+        },
+        {
+            "value": "homeResourceManagement",
+            "label": "Home Resource Management"
+        },
+        {
+            "value": "interiorDecorationOfHome",
+            "label": "Interior Decoration of Home"
+        },
+        {
+            "value": "growthAndDevelopmentOfChild",
+            "label": "Growth and Development of Child"
+        },
+        {
+            "value": "childDevelopmentAndFamilyEnvironment",
+            "label": "Child Development & Family Environment"
+        },
+        {
+            "value": "psychoSocialProblemsOfAdolescence",
+            "label": "Psycho-Social Problems of Adolescence- Remedies and Prevention"
+        },
+        {
+            "value": "retardedChild",
+            "label": "Retarded Child"
+        },
+        {
+            "value": "functionsOfFoodAndNutrients",
+            "label": "Functions of Food and Nutrients"
+        },
+        {
+            "value": "digestionOfFoodsAndPlanningOfMeals",
+            "label": "Digestion of Foods and Planning of Meals"
+        },
+        {
+            "value": "disciplinedLifestyleAndMealPlanning",
+            "label": "Disciplined Lifestyle and Meal Planning"
+        },
+        {
+            "value": "preparingAndServingOfFood",
+            "label": "Preparing and Serving of Food"
+        },
+        {
+            "value": "textileFibres",
+            "label": "Textile Fibres"
+        },
+        {
+            "value": "artElementsAndArtPrinciplesOfTextile",
+            "label": "Art Elements and Art Principles of Textile"
+        },
+        {
+            "value": "printingAndColouringInClothing",
+            "label": "Printing and Colouring in Clothing"
+        },
+        {
+            "value": "drafting",
+            "label": "Drafting"
+        },
+        {
+            "value": "clothingCareAndTidinessInClothing",
+            "label": "Clothing Care & Tidiness in Clothing"
+        }
+    ]
+}

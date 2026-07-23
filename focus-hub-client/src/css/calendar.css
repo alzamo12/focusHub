@@ -1,0 +1,49 @@
+.fc {
+    background-color: var(--color-base-100);
+    color: var(--color-base-content);
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th,
+.fc-scrollgrid {
+    border-color: var(--color-base-300);
+}
+
+.fc-col-header-cell {
+    background-color: var(--color-base-200);
+    color: var(--color-base-content);
+}
+
+.fc-daygrid-day {
+    background-color: var(--color-base-100);
+}
+
+.fc-daygrid-day-number {
+    color: var(--color-base-content);
+}
+
+.fc-day-today {
+    background-color: color-mix(in srgb, var(--color-primary) 15%, transparent) !important;
+}
+
+.fc-button {
+    background-color: var(--color-neutral) !important;
+    border-color: var(--color-neutral) !important;
+    color: var(--color-neutral-content) !important;
+}
+
+.fc-button:hover {
+    filter: brightness(1.1);
+}
+
+.fc-button-active,
+.fc-button:active {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    color: var(--color-primary-content) !important;
+}
+
+.fc-event {
+    border: none;
+    border-radius: 6px;
+}

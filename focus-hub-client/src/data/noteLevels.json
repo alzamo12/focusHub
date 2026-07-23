@@ -1,0 +1,14 @@
+[
+    {
+        "value": "basic",
+        "label": "Basic"
+    },
+    {
+        "value": "intermediate",
+        "label": "Intermediate"
+    },
+    {
+        "value": "depth",
+        "label": "Depth"
+    }
+]

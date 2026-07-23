@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+
+
+@plugin "daisyui" {
+  themes: light --default, dark
+    /* dark --prefersdark; */
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  /* set as default */
+
+  --color-primary: "#7DD3FC";
+  /* --color-primary: "#B7E5CD"; */
+  /* --color-primary: "#9400D3"; */
+   /* --color-base-200: "#000000"; */
+  --color-secondary: "#0284C7";
+  /* --color-accent: "#305669"; */
+  /* --color-accent: "#D5C7A3", ; */
+  /* --color-secondary: "#8ABEB9", ; */
+  /* --color-base-100: "#F6F0F0"; */
+
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: true;
+  /* set as default */
+
+  --color-primary: "#33c7d8";
+  /* --color-primary: "#B7E5CD"; */
+  /* --color-primary: "#9400D3"; */
+  --color-secondary: "#0284C7";
+  /* --color-base-200: "#FFFFFF"; */
+  /* --color-accent: "#305669"; */
+  /* --color-accent: "#33c7d8", ; */
+  --color-accent: "#B7E5CD", ;
+  /* --color-secondary: "#8ABEB9", ; */
+  /* --color-base-100: "#F6F0F0"; */
+
+};
+
+[data-theme='dark'] .input-style{
+  border: 2px solid #33c7d8 !important;
+  background-color: black;
+}
+[data-theme='light'] .input-style{
+  border: 2px solid #7DD3FC !important;
+}
+
+/* ensures mini-toolbar is visible */
+.ql-increaseImageSize::before {
+  content: "I+";
+  /* text shown on button */
+  /* font-size: 12px; */
+  color: black;
+}
+
+.ql-decreaseImageSize::before {
+  content: "I-";
+  color: black;
+}
+
+.ql-editor img {
+  width: 400px;
+}
+
+/* Remove Quill border */
+.ql-container.ql-snow {
+  border: none !important;
+}
+
+/* Optional: control editor padding */
+.ql-editor {
+  padding: 8px !important;
+  border: none !important;
+}
+
+.note-content p {
+    margin-bottom: 1rem !important;
+}

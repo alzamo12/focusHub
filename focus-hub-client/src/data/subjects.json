@@ -1,0 +1,66 @@
+[
+    {
+        "value": "physics",
+        "label": "Physics"
+    },
+    {
+        "value": "math",
+        "label": "Math"
+    },
+    {
+        "value": "chemistry",
+        "label": "Chemistry"
+    },
+    {
+        "value": "biology",
+        "label": "Biology"
+    },
+    {
+        "value": "higherMath",
+        "label": "Higher Math"
+    },
+    {
+        "value": "history",
+        "label": "History"
+    },
+    {
+        "value": "bangla",
+        "label": "Bangla"
+    },
+    {
+        "value": "islam",
+        "label": "Islam"
+    },
+    {
+        "value": "bgs",
+        "label": "Bangladesh and Global Studies"
+    },
+    {
+        "value": "accounting",
+        "label": "Accounting"
+    },
+    {
+        "value": "financeAndBanking",
+        "label": "Finance And Banking"
+    },
+    {
+        "value": "businessEntrepreneurship",
+        "label": "Business Entrepreneurship"
+    },
+    {
+        "value": "science",
+        "label": "Science"
+    },
+    {
+        "value": "ict",
+        "label": "ICT"
+    },
+    {
+        "value": "agriculture",
+        "label": "Agriculture"
+    },
+    {
+        "value": "homeScience",
+        "label": "Home Science"
+    }
+]

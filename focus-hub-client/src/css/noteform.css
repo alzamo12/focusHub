@@ -1,0 +1,163 @@
+/* .ProseMirror table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.ProseMirror table td,
+.ProseMirror table th {
+  border: 1px solid #d1d5db;
+  padding: 8px;
+  min-width: 80px;
+}
+
+.ProseMirror table th {
+  background: #f3f4f6;
+  font-weight: bold;
+}
+
+.ProseMirror table tr {
+  background: white;
+}
+
+.ProseMirror table td:focus,
+.ProseMirror table th:focus {
+  outline: 2px solid #3b82f6;
+} */
+
+.ql-toolbar .ql-table-insert-row-above::before {
+  content: "↑R";
+}
+
+.ql-toolbar .ql-table-insert-row-below::before {
+  content: "↓R";
+  /* color:; */
+}
+
+.ql-toolbar .ql-table-insert-column-left::before {
+  content: "←C";
+}
+
+.ql-toolbar .ql-table-insert-column-right::before {
+  content: "→C";
+  /* background-color: blac; */
+}
+
+.ql-toolbar .ql-table-delete-row::before {
+  content: "xR";
+  /* padding-right: 50px; */
+}
+
+.ql-toolbar .ql-table-delete-row::after {
+  /* content: "✕xR"; */
+  /* padding: 10; */
+  /* padding-right: 50px; */
+}
+
+.ql-toolbar .ql-table-delete-column::before {
+  content: "xC";
+}
+
+.ql-toolbar .ql-table-delete-table::before {
+  content: "🗑";
+  /* color: blac; */
+}
+
+.ql-toolbar .ql-table-edit::before {
+  /* content: "🗑";  */
+  content: "📄";
+  /* color: blac; */
+}
+
+
+
+[data-theme="dark"] [class*="ql-table-"] {
+  /* border-top: 2px solid #3b82f6 !important; Brighter blue for dark backgrounds */
+  /* background-color: #1e293b !important; Dark slate background */
+  color: #171717a9;
+  font-weight: 700;
+}
+
+
+[data-theme='dark'] .ql-formats {
+  /* color: white; */
+  background-color: #33c7d8;
+  /* margin: 8px 15px; */
+  /* padding-right: 10px; */
+  /* margin: 5px; */
+}
+
+.ql-formats {
+  background-color: #7DD3FC;
+  /* color: white; */
+  padding-right: 10px;
+  margin: 5px;
+}
+
+[data-theme='dark'] .ql-toolbar {
+  /* color: black; */
+  /* background-color: black; */
+  border: none;
+  border-bottom: 2px solid #33c7d8;
+  /* color: black; */
+}
+
+.ql-toolbar {
+  border: none !important;
+  border-bottom: 2px solid #7DD3FC !important;
+}
+
+/* .ql-formats > *{
+  padding-left: 5px;
+} */
+
+.ql-container {
+  background-color: white !important;
+  /* color: white !important; */
+  overflow-x: hidden !important;
+}
+
+;
+
+.ql-editor {
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  hyphens: auto !important;
+  overflow-x: hidden !important;
+
+}
+
+/* @media (max-width: 767px) {
+  .quill-toolbar-wrapper .ql-toolbar {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .quill-toolbar-wrapper .ql-toolbar .ql-formats {
+    display: inline-block;
+  }
+} */
+
+/* 
+@media (max-width: 767px) {
+  .ql-toolbar.ql-snow {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .ql-toolbar.ql-snow::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ql-toolbar.ql-snow .ql-formats {
+    display: inline-block;
+    white-space: nowrap;
+  }
+} */
