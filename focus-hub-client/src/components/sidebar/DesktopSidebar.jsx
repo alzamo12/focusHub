@@ -5,7 +5,7 @@ import AddClass from "../../features/classschedule/AddClass";
 import { AnimatePresence, motion } from "motion/react"
 import AddTask from "../../features/Tasks/AddTask";
 import SidebarButton from "../buttons/SidebarModelOpenButton/SidebarButton";
-
+import logo from "../../assets/my-logo.png"
 const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
     const [extraNavs, setExtraNavs] = useState([]);
     // const [showClock, setShowClock] = useState(false);
@@ -60,11 +60,17 @@ const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
             {/* Logo */}
             <div className="h-16 flex items-center gap-3 pl-1">
                 {/* PLACE YOUR LOGO + SITE NAME HERE */}
-                {/* Example: <img src="/logo.png" alt="StudentLife" className="w-8 h-8 rounded" /> */}
                 <div className="px-2 flex justify-between w-full">
                     <div>
-                        <div className="text-xl font-bold">[LOGO]</div>
-                        <div className="text-sm font-semibold">Focus Hub</div>
+                        <div className="text-xl font-bold p-3">
+                            <div className="avatar">
+                                <div className="w-16 rounded dark:bg-primary">
+                                    <img
+                                        src={logo} />
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div className="text-sm font-semibold">Focus Hub</div> */}
                     </div>
                     <button
                         aria-label="Close menu"
