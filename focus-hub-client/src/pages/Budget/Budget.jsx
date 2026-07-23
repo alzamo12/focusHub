@@ -120,7 +120,7 @@ const Budget = () => {
                 {/* Budget Overview */}
                 <div className="w-full md:w-7/12">
                     {!budget ?
-                        <div className="card-title">PLease add a budget first</div> :
+                        <div className="card-title dark:text-white">PLease add a budget first</div> :
 
                         <div className="w-full">
                             <BudgetOverview budget={budget} expenses={myExpenses} />

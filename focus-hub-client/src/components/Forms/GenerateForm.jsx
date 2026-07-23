@@ -102,87 +102,92 @@ const GenerateForm = ({ formType, handleSubmit, retryAfter, isPending }) => {
     }, [formType])
 
     return (
-        <div className="w-full mx-auto mt-5 p-6 bg-base-100
-         border border-primary shadow-lg rounded-xl 
+        <div className="w-full border border-primary shadow-lg rounded-xl mt-5 p-6">
+            <div className="w-full mx-auto bg-base-100
+        
          grid grid-cols-1 lg:grid-cols-2 
          gap-5 dark:text-white">
 
-            {/* Subjects */}
-            <div className="mb-4 w-full">
-                <label className="block mb-2 font-medium">Subject</label>
-                <Select
-                    styles={customStyles}
-                    options={subjects}
-                    value={subject}
-                    onChange={setSubject}
-                    placeholder="Select subject..."
-                />
-            </div>
+                {/* Subjects */}
+                <div className="mb-4 w-full">
+                    <label className="block mb-2 font-medium">Subject</label>
+                    <Select
+                        styles={customStyles}
+                        options={subjects}
+                        value={subject}
+                        onChange={setSubject}
+                        placeholder="Select subject..."
+                    />
+                </div>
 
-            {/* Levels -- easy,hard, medium */}
-            <div className="mb-4 w-full">
-                <label className="block mb-2 font-medium">Level</label>
-                <Select
-                    styles={customStyles}
-                    options={questionLevels}
-                    value={level}
-                    onChange={setLevel}
-                    placeholder="Select difficulty level..."
-                />
-            </div>
+                {/* Levels -- easy,hard, medium */}
+                <div className="mb-4 w-full">
+                    <label className="block mb-2 font-medium">Level</label>
+                    <Select
+                        styles={customStyles}
+                        options={questionLevels}
+                        value={level}
+                        onChange={setLevel}
+                        placeholder="Select difficulty level..."
+                    />
+                </div>
 
-            {/* Chapter */}
-            <div className="mb-4 full">
-                <label className="block mb-2 font-medium">Chapter</label>
-                <Select
-                    styles={customStyles}
-                    options={subject ? chapters[subject.value] : []}
-                    value={chapter}
-                    onChange={setChapter}
-                    placeholder={subject ? "Select chapter..." : "Select a subject first"}
-                    isDisabled={!subject}
-                />
-            </div>
+                {/* Chapter */}
+                <div className="mb-4 full">
+                    <label className="block mb-2 font-medium">Chapter</label>
+                    <Select
+                        styles={customStyles}
+                        options={subject ? chapters[subject.value] : []}
+                        value={chapter}
+                        onChange={setChapter}
+                        placeholder={subject ? "Select chapter..." : "Select a subject first"}
+                        isDisabled={!subject}
+                    />
+                </div>
 
-            {/* sub topic */}
-            <div className="mb-4 full">
-                <label className="block mb-2 font-medium">Sub Topic</label>
-                <Select
-                    styles={customStyles}
-                    options={chapter ? subTopics[subject.value][chapter.value] : []}
-                    value={subTopic}
-                    onChange={setSubTopic}
-                    placeholder={chapter ? "Select sub topic..." : "Select a chapter first"}
-                    isDisabled={!chapter}
-                />
-            </div>
+                {/* sub topic */}
+                <div className="mb-4 full">
+                    <label className="block mb-2 font-medium">Sub Topic</label>
+                    <Select
+                        styles={customStyles}
+                        options={chapter ? subTopics[subject.value][chapter.value] : []}
+                        value={subTopic}
+                        onChange={setSubTopic}
+                        placeholder={chapter ? "Select sub topic..." : "Select a chapter first"}
+                        isDisabled={!chapter}
+                    />
+                </div>
 
-            {/* Question Type */}
-            <div className="mb-4 full">
-                <label className="block mb-2 font-medium">Question Type</label>
-                <Select
-                    styles={customStyles}
-                    options={questionTypes}
-                    value={type}
-                    onChange={setType}
-                    placeholder="Select question type..."
-                />
-            </div>
+                {/* Question Type */}
+                {
+                    formType === 'question' && <div className="mb-4 full">
+                        <label className="block mb-2 font-medium">Question Type</label>
+                        <Select
+                            styles={customStyles}
+                            options={questionTypes}
+                            value={type}
+                            onChange={setType}
+                            placeholder="Select question type..."
+                        />
+                    </div>
+                }
 
-            {/* language */}
-            <div className="mb-4 full">
-                <label className="block mb-2 font-medium">Language</label>
-                <Select
-                    styles={customStyles}
-                    options={languages}
-                    value={language}
-                    onChange={setLanguage}
-                    placeholder={subject ? "Select language ..." : "Select a subject first"}
-                />
-            </div>
+                {/* language */}
+                <div className="mb-4 full">
+                    <label className="block mb-2 font-medium">Language</label>
+                    <Select
+                        styles={customStyles}
+                        options={languages}
+                        value={language}
+                        onChange={setLanguage}
+                        placeholder={subject ? "Select language ..." : "Select a subject first"}
+                    />
+                </div>
 
+
+            </div>
             <button
-                className={`w-64  bg-primary font-bold py-2 px-4 rounded text-black transition 
+                className={`w-full md:w-64 mt-4 bg-primary font-bold py-2 px-4 rounded text-black transition 
                        ${isDisabled ? 'cursor-not-allowed' : 'cursor-pointer'}
                     `}
                 onClick={() => {

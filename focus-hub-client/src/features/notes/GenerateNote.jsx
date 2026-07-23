@@ -148,13 +148,20 @@ const GenerateNote = ({ handleGeneratedSaveNote }) => {
                                     className='btn bg-primary text-black font-bold border-none'
                                 >Save</button>
                             </div>
-                            <article className="prose prose-lg max-w-none ">
-                                <ReactQuill
+                            <article className="prose prose-lg max-w-none overflow-x-hidden">
+                                {/* <ReactQuill
                                     value={note}
                                     readOnly
                                     theme="bubble"
                                     formats={formats}
                                     className='dark:text-black'
+                                /> */}
+                                <ReactQuill
+                                    value={note}
+                                    readOnly
+                                    theme="bubble"
+                                    // className='dark:b'
+                                    className='dark:text-black overflow-x-hidden'
                                 />
                             </article>
                         </div>
