@@ -86,15 +86,15 @@ Instead of switching between different apps for notes, schedules, budgets, AI as
 
 #### AI Question Generator
 
-- **Client Route:** `/dashboard/generate-questions`
-- **Server Route:** `/api/generate-questions`
+- **Client Route:** `/api/generate-questions`
+- **Server Route:** `/api/ai/generate-questions`
 
 - AI Question Generator
 
 #### AI Note Generator
 
-- **Client Route:** `/dashboard/notes`
-- **Server Route:** `/api/generate-notes`
+- **Client Route:** `/api/notes`
+- **Server Route:** `/api/ai/generate-notes`
 
 - AI Note Generator
 - Rate Limited API
