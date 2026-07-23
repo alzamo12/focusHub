@@ -40,11 +40,10 @@ Instead of switching between different apps for notes, schedules, budgets, AI as
 ---
 
 # ✨ Features
+### 📅 Class Management
 
-### 📅 Class Management 
-
-client route: /dashboard/class-schedule-tracker
-server route: /api/classes
+- **Client Route:** `/dashboard/class-schedule-tracker`
+- **Server Route:** `/api/classes`
 
 - Add, edit and delete classes
 - View upcoming and previous classes
@@ -53,23 +52,26 @@ server route: /api/classes
 - Pagination support
 - Detailed class information
 
+---
+
 ### ✅ Task Management
 
-client route: /dashboard/tasks
-server route: /api/tasks
+- **Client Route:** `/dashboard/tasks`
+- **Server Route:** `/api/tasks`
 
 - Create and organize study tasks
 - Update task status
 - Delete tasks
 - Date-wise grouping
 - Pagination
-- Detailed task view
 - Detailed task information
+
+---
 
 ### 📝 Smart Notes
 
-client route: /dashboard/notes
-server route: /api/notes
+- **Client Route:** `/dashboard/notes`
+- **Server Route:** `/api/notes`
 
 - Rich Text Editor (React Quill)
 - Image Upload
@@ -78,39 +80,52 @@ server route: /api/notes
 - Code Blocks
 - AI Generated Notes
 
+---
+
 ### 🤖 AI Study Assistant
 
+#### AI Question Generator
 
-client route: /dashboard/generate-questions
-server route: /api/generate-questions
+- **Client Route:** `/dashboard/generate-questions`
+- **Server Route:** `/api/generate-questions`
 
 - AI Question Generator
 
-client route: /dashboard/notes
-server route: /api/generate-notes
+#### AI Note Generator
+
+- **Client Route:** `/dashboard/notes`
+- **Server Route:** `/api/generate-notes`
 
 - AI Note Generator
-
 - Rate Limited API
 - Markdown & Rich Text Support
 
+---
+
 ### 💰 Budget Tracker
 
-client route: /dashboard/budgets ** for both budget and expense**
-server route: /api/budget
+#### Budget
+
+- **Client Route:** `/dashboard/budgets`
+- **Server Route:** `/api/budget`
 
 - Add Budget
 - Budget Overview
 
-server route: /api/expenses
+#### Expense
+
+- **Client Route:** `/dashboard/budgets`
+- **Server Route:** `/api/expenses`
 
 - Add Expenses
 - Expense Categories
 
+---
+
 ### 📊 Dashboard
 
-client route: /dashboard
-server route: /api/dashboard
+- **Client Route:** `/dashboard`
+- **Server Route:** `/api/dashboard`
 
 - Interactive Calendar
 - Upcoming Classes
