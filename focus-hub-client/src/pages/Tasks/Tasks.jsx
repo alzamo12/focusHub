@@ -28,7 +28,8 @@ const Tasks = () => {
     };
 
     return (
-        <div className="w-full mx-auto bg-[--color-base-100] min-h-screen grid dark:text-white" >
+        <div className="w-full mx-auto bg-[--color-base-100] 
+        min-h-[calc(100%-4rem)] grid dark:text-white" >
             <div>
                 <TabAndView
                     handleActiveTab={handleActiveTab}

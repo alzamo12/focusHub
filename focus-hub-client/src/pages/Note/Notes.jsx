@@ -193,11 +193,12 @@ const Notes = () => {
     // console.log('this is notes data', notesData)
 
     return (
-        <div className='max-w-screen-2xl overflow-y-hidden dark:text-white' >
+        <div 
+        className='max-w-screen-2xl overflow-y-hidden dark:text-white' >
 
-            <h2 className="text-2xl font-bold text-center my-4">📒 Study Notes</h2>
+            {/* <h2 className="text-2xl font-bold text-center my-4">📒 Study Notes</h2> */}
 
-            <div className=" w-full mx-auto bg-[--color-base-100] min-h-screen grid">
+            <div className=" w-full mx-auto bg-[--color-base-100] grid">
                 <div>
                     <NoteTab activeTab={activeTab} handleActiveTab={handleActiveTab} />
 

@@ -3,7 +3,6 @@ import SignIn from "../pages/SignIn/SignIn"
 import SignUp from "../pages/SignUp/SignUp"
 import RootLayout from "../layout/RootLayout";
 import AuthLayout from "../layout/AuthLayout";
-import Home from "../pages/home/Home";
 import ClassScheduleTracker from "../pages/classScheduleTracker/ClassScheduleTracker";
 import GenerateQuestions from "../pages/GenerateQuestions/GenerateQuestions";
 import Budget from "../pages/Budget/Budget";
@@ -14,6 +13,7 @@ import EditNote from "../pages/EditNote/EditNote";
 import Tasks from "../pages/Tasks/Tasks";
 import Settings from "../pages/Settings/Settings";
 import LandingPage from "../pages/LandingPage/LandingPage";
+import Dashboard from "../pages/dashboard/Dashboard";
 
 const router = createBrowserRouter([
     {
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                Component: Home
+                Component: Dashboard
             },
             {
                 path: 'class-schedule-tracker',

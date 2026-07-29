@@ -3,7 +3,7 @@ import React from 'react';
 const Pagination = ({ setPage, page, totalPage = 1 }) => {
     // console.log(totalPage)
     return (
-        <div className="join items-center justify-center mt-8 md:md-0">
+        <div className="join items-end justify-center mt-8 md:md-0">
             <button
                 onClick={() => { setPage(page - 1) }}
                 disabled={page === 1}

@@ -9,7 +9,7 @@ import LoadingSpinner from '../../components/Spinner/LoadingSpinner';
 import '../../css/calendar.css'
 import { useState } from 'react';
 import useAuth from '../../hooks/useAuth';
-const Dashboard = () => {
+const Calendar = () => {
     // State Management
     const axiosSecure = useAxiosSecure();
     const [currentDate, setCurrentDate] = useState(new Date());
@@ -61,7 +61,10 @@ const Dashboard = () => {
     // }
 
     return (
-        <div className="min-h-screen">
+        <div 
+        // className="min-h-screen"
+        className=''
+        >
             <FullCalendar
                 plugins={[
                     dayGridPlugin,
@@ -83,4 +86,4 @@ const Dashboard = () => {
 
 };
 
-export default Dashboard;
+export default Calendar;

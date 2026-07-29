@@ -28,7 +28,9 @@ const ClassScheduleTracker = () => {
 
 
     return (
-        <div className=" w-full mx-auto bg-[--color-base-100] min-h-screen grid">
+        <div
+            className=" w-full mx-auto bg-[--color-base-100] 
+        min-h-[calc(100%-4rem)] grid">
             <div>
                 {/* name of each tab group should be unique */}
                 <TabAndView
@@ -56,11 +58,9 @@ const ClassScheduleTracker = () => {
                     </Suspense>
                 </ErrorBoundary>
             </div>
-            <Pagination
-                setPage={setPage}
+            <Pagination setPage={setPage}
                 page={page}
-                totalPage={totalPage}
-            />
+                totalPage={totalPage} />
         </div>
     );
 };
