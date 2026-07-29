@@ -77,13 +77,15 @@ const GenerateForm = ({ formType, handleSubmit, retryAfter, isPending }) => {
     const [chapter, setChapter] = useState(null);
     const [language, setLanguage] = useState(null);
     const [type, setType] = useState(null);
+    const [isQuestionFormType, setIsQuestionFormType] = useState(null);
     const [subTopic, setSubTopic] = useState(null);
     const [questionLevels, setQuestionLevels] = useState(null);
     const customStyles = useInputStyles();
-    const isDisabled = !subject || !level || !chapter || isPending || retryAfter > 0;
+    const isDisabled = !subject || !level || !chapter || !subTopic || isPending || retryAfter > 0;
 
     useEffect(() => {
         if (formType === 'questions') {
+            setIsQuestionFormType(true)
             const load = async () => {
                 const module = await import(`../../data/questionLevels.json`);
                 setQuestionLevels(module.default)
@@ -91,6 +93,7 @@ const GenerateForm = ({ formType, handleSubmit, retryAfter, isPending }) => {
             load()
         } else if (formType === "notes") {
             // load("noteLevels")
+            setIsQuestionFormType(false);
             const load = async () => {
                 const module = await import("../../data/noteLevels.json");
                 setQuestionLevels(module.default)
@@ -160,7 +163,7 @@ const GenerateForm = ({ formType, handleSubmit, retryAfter, isPending }) => {
 
                 {/* Question Type */}
                 {
-                    formType === 'question' && <div className="mb-4 full">
+                    isQuestionFormType && <div className="mb-4 full">
                         <label className="block mb-2 font-medium">Question Type</label>
                         <Select
                             styles={customStyles}
