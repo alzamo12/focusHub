@@ -118,7 +118,12 @@ const GenerateQuestions = () => {
                         </div>
                         :
                         <div>
-                            <h2 className="card-title font-bold mb-4 ">Here is the answer:</h2>
+                            <div className='flex justify-between'>
+                                <h2 className="card-title font-bold mb-4 text-base-content ">Here is the answer:</h2>
+                                <button
+                                    className='btn bg-primary text-black font-bold border-none'
+                                >Save</button>
+                            </div>
                             <p className='whitespace-pre-line '>{questionsData?.data}</p>
                         </div>
                 }
