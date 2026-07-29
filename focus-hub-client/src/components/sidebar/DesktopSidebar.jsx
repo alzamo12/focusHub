@@ -62,7 +62,7 @@ const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
                 {/* PLACE YOUR LOGO + SITE NAME HERE */}
                 <div className="px-2 flex justify-between w-full">
                     <div>
-                        <div className="text-xl font-bold p-3">
+                        <div className="text-xl font-bold p-3 pt-8 lg:pt-3">
                             <div className="avatar">
                                 <div className="w-16 rounded dark:bg-primary">
                                     <img
@@ -83,7 +83,7 @@ const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
             </div>
 
             {/* sidebar links */}
-            <nav className="flex-1 overflow-auto p-4">
+            <nav className="flex-1 overflow-auto p-4 pt-8 lg:pt-4">
                 {/* navlinks */}
                 <ul className="space-y-5 text-lg font-medium mb-10">{navLinks}</ul>
 

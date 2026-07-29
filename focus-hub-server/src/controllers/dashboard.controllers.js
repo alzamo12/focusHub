@@ -4,8 +4,8 @@ import sendResponse from "../utils/sendResponse.js";
 import sendError from "../utils/sendError.js"
 export const getDashboardData = async (req, res) => {
     try {
-        // const url = "http://localhost:5000";
-        const url = "https://focus-hub-server.vercel.app";
+        const url ="http://localhost:5000";
+        // const url = "https://focus-hub-server.vercel.app";
         const headers = {
             'Authorization': `${req.headers.authorization}`,
             'Accept': 'application/json'

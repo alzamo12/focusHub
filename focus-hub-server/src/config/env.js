@@ -14,6 +14,8 @@ const config = {
     access_token: process.env.ACCESS_TOKEN,
     DB_DEV: process.env.DB_DEV,
     DB_PROD: process.env.DB_PROD
-}
+};
+
+// console.log(config)
 
 export default config;
