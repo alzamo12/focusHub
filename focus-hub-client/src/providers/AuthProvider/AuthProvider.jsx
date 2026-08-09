@@ -1,5 +1,5 @@
 import app from "../../services/firebase/firebase.config";
-import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, sendEmailVerification, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { AuthContext } from "./AuthContext";
 import { useEffect, useState } from "react";
 
@@ -45,6 +45,10 @@ const AuthProvider = ({ children }) => {
         } catch (error) {
             console.log("logout error", error);
         }
+    };
+
+    const emailVerification = () => {
+        return sendEmailVerification(auth.currentUser)
     }
 
     useEffect(() => {
@@ -54,7 +58,7 @@ const AuthProvider = ({ children }) => {
             }
             setLoading(false)
             // setUser(currentUser)
-            // console.log(currentUser)
+            console.log(currentUser)
             // console.log('token', currentUser?.accessToken)
             // console.log(currentUser)
         })
@@ -71,7 +75,8 @@ const AuthProvider = ({ children }) => {
         signIn,
         logout,
         updateUser,
-        googleLogin
+        googleLogin,
+        emailVerification
     };
 
     return (

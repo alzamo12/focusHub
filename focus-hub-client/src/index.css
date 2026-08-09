@@ -16,14 +16,14 @@
   /* set as default */
 
   --color-primary: "#7DD3FC";
-  /* --color-primary: "#B7E5CD"; */
-  /* --color-primary: "#9400D3"; */
-   /* --color-base-200: "#000000"; */
   --color-secondary: "#0284C7";
   /* --color-accent: "#305669"; */
   /* --color-accent: "#D5C7A3", ; */
   /* --color-secondary: "#8ABEB9", ; */
   /* --color-base-100: "#F6F0F0"; */
+  /* * --color-primary: "#B7E5CD"; */ 
+  /* --color-primary: "#9400D3"; */
+   /* --color-base-200: "#000000"; */
 
 }
 
@@ -33,13 +33,8 @@
   /* set as default */
 
   --color-primary: "#33c7d8";
-  /* --color-primary: "#B7E5CD"; */
-  /* --color-primary: "#9400D3"; */
   --color-secondary: "#0284C7";
-  /* --color-base-200: "#FFFFFF"; */
-  /* --color-accent: "#305669"; */
-  /* --color-accent: "#33c7d8", ; */
-  --color-accent: "#B7E5CD", ;
+  --color-accent: "#B7E5CD" ;
   /* --color-secondary: "#8ABEB9", ; */
   /* --color-base-100: "#F6F0F0"; */
 

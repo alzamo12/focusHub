@@ -1,8 +1,8 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 import config from "./env.js";
 
-// const uri = `mongodb+srv://${config.db_user}:${config.db_pass}@cluster0.g8eto.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
-const uri = config.DB_DEV;
+const uri = `mongodb+srv://${config.db_user}:${config.db_pass}@cluster0.g8eto.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+// const uri = config.DB_DEV;
 
 const client = new MongoClient(uri, {
   serverApi: {
@@ -14,7 +14,7 @@ const client = new MongoClient(uri, {
 
 let db;
 let dbPromise;
-console.log(uri)
+// console.log(uri)
 
 // db = null;
 // dbPromise = null;
@@ -31,9 +31,9 @@ export const dbConnect = async () => {
 
     await dbPromise;
 
-    // db = client.db("focusHub");
-    db = client.db("focus-hub");
-
+    db = client.db("focusHub");
+    // db = client.db("focus-hub");  // dev database name
+    // console.log(uri)
     // console.log("MongoDB connected", db);
 
     return db;

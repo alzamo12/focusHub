@@ -14,6 +14,7 @@ import Tasks from "../pages/Tasks/Tasks";
 import Settings from "../pages/Settings/Settings";
 import LandingPage from "../pages/LandingPage/LandingPage";
 import Dashboard from "../pages/dashboard/Dashboard";
+import Profile from "../pages/profile/Profile";
 
 const router = createBrowserRouter([
     {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
             {
                 path: "settings",
                 Component: Settings
+            },
+            {
+                path: "profile",
+                Component: Profile
             }
         ]
     },
