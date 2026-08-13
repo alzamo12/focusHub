@@ -8,6 +8,7 @@ import useAxiosPublic from "../../hooks/useAxiosPublic";
 import useTittle from "../../hooks/useTittle";
 import { toast } from "react-toastify";
 
+
 const SignUp = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const [showPassword, setShowPassword] = useState(false);

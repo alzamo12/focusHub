@@ -43,3 +43,15 @@ export const handleDeleteUser = async (req, res) => {
         res.status(500).send({ message: "Error deleting user" });
     }
 };
+
+export const handleUpdateUser = async (req, res) => {
+    try {
+        const result = await userServices.updateUserInDB(req.query.email, req.body);
+        sendResponse(res, 200, 'User updated successfully', result)
+
+    } catch (err) {
+        console.log("PUT /users error:", err);
+        sendError(res, err.statusCode, err.message, err)
+    }
+}
+

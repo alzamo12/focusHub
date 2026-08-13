@@ -21,11 +21,8 @@ const AuthProvider = ({ children }) => {
         return signInWithEmailAndPassword(auth, email, password)
     };
 
-    const updateUser = (name, photo) => {
-        return updateProfile(auth.currentUser, {
-            displayName: name,
-            photoURL: photo
-        })
+    const updateUser = (updatedData) => {
+        return updateProfile(auth.currentUser, updatedData)
     };
 
     const googleLogin = () => {

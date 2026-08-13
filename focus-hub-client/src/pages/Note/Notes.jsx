@@ -96,15 +96,12 @@ const Notes = () => {
     const handleSaveNote = async () => {
         const parser = new DOMParser();
         const doc = parser.parseFromString(currentNote, "text/html");
-        // console.log(doc.body.textContent)
         if (!sub) return toast.error("Please select a subject")
         if (!title) return toast.error("Please give a title")
         if (!doc.body.textContent) return toast.error("Please write something on your note")
 
 
-        // const images = doc.querySelectorAll("img");
         const images = Array.from(doc.querySelectorAll("img"));
-        // console.log("Total images:", images.length);
 
         const uploadImages = images.map(async (img) => {
             const src = img.src;

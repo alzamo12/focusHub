@@ -1,6 +1,6 @@
 import { getCollection } from "../config/db.js";
 import { AppError } from "../utils/customError.js"
-
+import { validateUser } from "../utils/validateUser.js";
 const insertUserIntoDB = async (user) => {
     const usersCollection = await getCollection("users");
 
@@ -20,8 +20,43 @@ const insertUserIntoDB = async (user) => {
     return result
 }
 
+const updateUserInDB = async (email, userData) => {
+    const usersCollection = await getCollection("users");
+
+    const normalizedEmail = email.trim().toLowerCase();
+
+    const updatedData = {
+        email: normalizedEmail,
+        updatedAt: new Date(),
+    };
+
+    if (userData.name !== undefined && userData.name !== null) {
+        updatedData.name = userData.name.trim();
+    };
+
+    if (userData.photo !== undefined && userData.photo !== null) {
+        updatedData.photo = userData.photo.trim();
+    };
+
+    if (userData.password !== undefined) {
+        updatedData.password = userData.password;
+    };
+
+    const result = await usersCollection.updateOne(
+        {
+            email: normalizedEmail,
+        },
+        {
+            $set: updatedData,
+        }
+    );
+
+    return result;
+}
+
 
 export const userServices = {
-    insertUserIntoDB
+    insertUserIntoDB,
+    updateUserInDB
 
 }

@@ -5,10 +5,9 @@ import AddClass from "../../features/classschedule/AddClass";
 import { AnimatePresence, motion } from "motion/react"
 import AddTask from "../../features/Tasks/AddTask";
 import SidebarButton from "../buttons/SidebarModelOpenButton/SidebarButton";
-import logo from "../../assets/my-logo.png"
+import logo from '../../assets/my-logo.png'
 const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
     const [extraNavs, setExtraNavs] = useState([]);
-    // const [showClock, setShowClock] = useState(false);
     const [showNav, setShowNav] = useState(false);
     const handleAddNav = () => {
         // Example: Add a new UL with some placeholder items
@@ -38,18 +37,6 @@ const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
         }
     };
 
-    const subjects = [
-        { value: "math", label: "Math" },
-        { value: "english", label: "English" },
-        { value: "bangla", label: "Bangla" },
-        { value: "physics", label: "Physics" },
-        { value: "chemistry", label: "Chemistry" },
-        { value: "biology", label: "Biology" },
-        { value: "ict", label: "ICT" },
-        { value: "religion", label: "Religion" },
-        { value: "economics", label: "Economics" },
-        { value: "geography", label: "Geography" }
-    ];
     return (
         <aside className={`lg:flex lg:translate-x-0 flex-col w-64 
             border-r border-black lg:p-4 lg:pl-1
@@ -85,7 +72,9 @@ const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
             {/* sidebar links */}
             <nav className="flex-1 overflow-auto p-4 pt-8 lg:pt-4">
                 {/* navlinks */}
-                <ul className="space-y-5 text-lg font-medium mb-10">{navLinks}</ul>
+                <ul className="space-y-5 text-lg font-medium mb-10">
+                    {navLinks}
+                </ul>
 
                 {/* add new Button and more */}
                 <AnimatePresence>

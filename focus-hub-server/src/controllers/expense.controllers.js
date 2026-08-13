@@ -1,12 +1,12 @@
 import { getCollection } from "../config/db.js";
 import { expenseServices } from "../services/expense.service.js";
 import sendResponse from "../utils/sendResponse.js";
-
+import sendError from "../utils/sendError.js";
 export const handleCreateExpense = async (req, res) => {
     try {
         const result = await expenseServices.insertExpenseIntoDB(req.body);
         // res.send(result)
-        sendResponse(req, 201, 'Expense created successfully', result)
+        sendResponse(res, 201, 'Expense created successfully', result)
     }
     catch (err) {
         console.log(err)
