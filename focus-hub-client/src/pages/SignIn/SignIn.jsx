@@ -3,7 +3,11 @@ import { Link, useLocation, useNavigate } from "react-router";
 import useAuth from "../../hooks/useAuth";
 import GoogleLogin from "../../components/SocialLogin/GoogleLogin";
 import useTittle from "../../hooks/useTittle";
-import { toast } from "react-toastify"
+import { toast } from "react-toastify";
+import Swal from 'sweetalert2';
+import { X } from 'lucide-react';
+
+
 const SignIn = () => {
     const [showPassword, setShowPassword] = useState(false);
     const { signIn } = useAuth();
@@ -30,10 +34,45 @@ const SignIn = () => {
             })
     };
 
+    const handleForgotPassword = (email) => {
+        Swal.fire({
+            icon: "success",
+            title: "Password Reset Email Sent!",
+            html: `
+        <p>
+            We've sent a password reset link to
+            <strong>${email}</strong>.
+        </p>
+
+        <p class="mt-3">
+            Check your email and click the
+            <strong>password reset link</strong>
+            to create a new password.
+        </p>
+
+        <a
+            href="https://mail.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block mt-4 underline font-semibold"
+        >
+            Open your email
+        </a>
+    `,
+            background: document.documentElement.classList.contains("dark")
+                ? "#1f2937"
+                : "#ffffff",
+            color: document.documentElement.classList.contains("dark")
+                ? "#f9fafb"
+                : "#111827",
+            confirmButtonText: "Done",
+        });
+    }
+
     return (
         <div className="card bg-base-100 dark:border dark:border-primary dark:text-white shadow-lg rounded-2xl p-6">
             <h1 className="text-2xl font-semibold mb-1">Sign in</h1>
-            <p className="text-sm text-neutral-700 dark:text-accent mb-6">Welcome back — sign in to continue to StudentLife</p>
+            <p className="text-sm text-neutral-700 dark:text-accent mb-6">Welcome back — sign in to continue to Focus Hub</p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
                 {/* Email */}
@@ -115,6 +154,56 @@ const SignIn = () => {
                     Register
                 </Link>
             </div>
+            <button
+                className="bg-none text-secondary dark:text-primary hover:underline 
+            font-medium mt-2 text-sm cursor-pointer w-fit mx-auto"
+                onClick={() => document.getElementById('my_modal_1').showModal()}>
+                Forgot Password
+            </button>
+
+            <dialog id="my_modal_1" className="modal">
+                <div className="modal-box relative">
+                    <div className="">
+                        <h3 className="font-bold text-lg">
+                            Type Your Email here
+                        </h3>
+                        {/* Email */}
+                        <div className="mt-4">
+                            <label htmlFor="email" className="text-sm font-medium text-neutral-800 dark:text-accent block mb-2">
+                                Email
+                            </label>
+                            <input
+                                id="email"
+                                name="email"
+                                type="email"
+                                required
+                                placeholder="you@example.com"
+                                className="input input-bordered w-full rounded-lg bg-white input-style"
+                                aria-label="Email"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        className="w-full grid justify-items-end mt-4"
+                    >
+                        <button
+                            className="btn bg-primary text-base-100 mb-0">
+                            Submit
+                        </button>
+                    </div>
+                    <div
+                    // className="modal-action"
+                    >
+                        <form method="dialog"
+                            className=" absolute top-2 right-2" >
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="font-bold text-primary text-xl cursor-pointer">
+                                <X />
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
         </div>
     );
 };
