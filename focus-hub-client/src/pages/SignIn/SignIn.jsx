@@ -6,13 +6,15 @@ import useTittle from "../../hooks/useTittle";
 import { toast } from "react-toastify";
 import Swal from 'sweetalert2';
 import { X } from 'lucide-react';
+import { useRef } from "react";
 
 
 const SignIn = () => {
     const [showPassword, setShowPassword] = useState(false);
-    const { signIn } = useAuth();
+    const { signIn, resetPassword } = useAuth();
     const navigate = useNavigate();
     const location = useLocation();
+    const forgotPasswordModal = useRef(null);
     const from = location.state?.from || "/dashboard";
     useTittle("Sign In")
 
@@ -34,11 +36,17 @@ const SignIn = () => {
             })
     };
 
-    const handleForgotPassword = (email) => {
-        Swal.fire({
-            icon: "success",
-            title: "Password Reset Email Sent!",
-            html: `
+    const handleForgotPassword = (e) => {
+        e.preventDefault();
+        forgotPasswordModal.current.close();
+        const form = e.target;
+        const email = form.email.value;
+        resetPassword(email)
+            .then(() => {
+                Swal.fire({
+                    icon: "success",
+                    title: "Password Reset Email Sent!",
+                    html: `
         <p>
             We've sent a password reset link to
             <strong>${email}</strong>.
@@ -59,14 +67,21 @@ const SignIn = () => {
             Open your email
         </a>
     `,
-            background: document.documentElement.classList.contains("dark")
-                ? "#1f2937"
-                : "#ffffff",
-            color: document.documentElement.classList.contains("dark")
-                ? "#f9fafb"
-                : "#111827",
-            confirmButtonText: "Done",
-        });
+                    background: document.documentElement.classList.contains("dark")
+                        ? "#1f2937"
+                        : "#ffffff",
+                    color: document.documentElement.classList.contains("dark")
+                        ? "#f9fafb"
+                        : "#111827",
+                    confirmButtonText: "Done",
+                });
+            })
+            .catch(err => {
+                console.log(err);
+                toast.error("Bad request")
+            })
+
+
     }
 
     return (
@@ -161,36 +176,46 @@ const SignIn = () => {
                 Forgot Password
             </button>
 
-            <dialog id="my_modal_1" className="modal">
+            <dialog
+                ref={forgotPasswordModal}
+                id="my_modal_1"
+                className="modal">
                 <div className="modal-box relative">
-                    <div className="">
-                        <h3 className="font-bold text-lg">
-                            Type Your Email here
-                        </h3>
-                        {/* Email */}
-                        <div className="mt-4">
-                            <label htmlFor="email" className="text-sm font-medium text-neutral-800 dark:text-accent block mb-2">
-                                Email
+                    <form
+                        onSubmit={handleForgotPassword}
+                        action="">
+                        <div className="">
+                            <label className="font-bold text-lg">
+                                Type Your Email here
                             </label>
-                            <input
-                                id="email"
-                                name="email"
-                                type="email"
-                                required
-                                placeholder="you@example.com"
-                                className="input input-bordered w-full rounded-lg bg-white input-style"
-                                aria-label="Email"
-                            />
+                            {/* Email */}
+                            <div className="mt-4">
+                                <label htmlFor="email" className="text-sm font-medium text-neutral-800 dark:text-accent block mb-2">
+                                    Email
+                                </label>
+                                <input
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    required
+                                    placeholder="you@example.com"
+                                    className="input input-bordered w-full rounded-lg bg-white input-style"
+                                    aria-label="Email"
+                                />
+                            </div>
                         </div>
-                    </div>
-                    <div
-                        className="w-full grid justify-items-end mt-4"
-                    >
-                        <button
-                            className="btn bg-primary text-base-100 mb-0">
-                            Submit
-                        </button>
-                    </div>
+                        <div
+                            method="dialog"
+                            className="w-full grid justify-items-end mt-4"
+                        >
+                            <button
+                                type="submit"
+                                // onClick={() => handleForgotPassword()}
+                                className="btn bg-primary text-base-100 mb-0">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
                     <div
                     // className="modal-action"
                     >

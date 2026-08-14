@@ -23,8 +23,11 @@ const SignUp = () => {
         createUser(email, password)
             .then(async () => {
                 updateUser(name, photo)
+                const userData = {
+                    email, name, photo
+                }
                 // console.log(result)
-                const res = await axiosPublic.post('/users', data);
+                const res = await axiosPublic.post('/users', userData);
                 // console.log(res?.data)
                 navigate("/dashboard")
             })
