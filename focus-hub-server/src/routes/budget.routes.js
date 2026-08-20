@@ -18,10 +18,7 @@ router.get(
     handleGetBudget
 );
 
-router.get(
-    "/all",
-    handleGetBudgets
-);
+// router.get("/all", handleGetBudgets);
 
 
 export default router;

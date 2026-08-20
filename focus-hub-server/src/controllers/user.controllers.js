@@ -36,8 +36,8 @@ export const handleGetUsers = async (req, res) => {
 export const handleDeleteUser = async (req, res) => {
     const usersCollection = await getCollection("users");
     try {
-        const { id } = req.params;
-        const result = await usersCollection.deleteOne({ _id: new ObjectId(id) });
+        const { email } = req.params;
+        const result = await usersCollection.deleteOne({email});
         res.send(result);
     } catch (err) {
         res.status(500).send({ message: "Error deleting user" });
