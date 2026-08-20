@@ -17,12 +17,16 @@ const SignUp = () => {
     const axiosPublic = useAxiosPublic();
     useTittle("Sign Up")
     function onSubmit(data) {
-        // Design-only: do nothing
         // console.log(data);
         const { email, name, password, photo } = data;
+        console.log(data)
         createUser(email, password)
             .then(async () => {
-                updateUser(name, photo)
+                const updateData = {
+                    displayName: name,
+                    photoURL: photo
+                }
+                updateUser(updateData)
                 const userData = {
                     email, name, photo
                 }

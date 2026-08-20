@@ -107,12 +107,7 @@ const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
             </nav>
 
             {/* logout button */}
-            <div className="p-4 ">
-                {/* small footer / version or logout */}
-                <button onClick={() => logout()} className="btn btn-ghost btn-lg text-black not-dark:hover:text-white hover:border-none hover:bg-secondary dark:text-white w-full justify-start">
-                    Logout
-                </button>
-            </div>
+          
 
             {/* dialog for add class */}
             <dialog id="my_modal_2" className="modal">

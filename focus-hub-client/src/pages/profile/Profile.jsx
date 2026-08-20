@@ -12,6 +12,7 @@ import axios from "axios";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 import { useMutation } from "@tanstack/react-query";
 import { toast } from "react-toastify"
+import Swal from 'sweetalert2'
 
 const uploadImageToCloudinary = async (file) => {
     if (!file) return null;
@@ -33,7 +34,7 @@ const uploadImageToCloudinary = async (file) => {
 };
 
 const Profile = () => {
-    const { user, updateUser } = useAuth();
+    const { user, updateUser, emailVerification } = useAuth();
 
     const [isEditing, setIsEditing] = useState(false);
     const [name, setName] = useState(user?.displayName || "");
@@ -116,6 +117,31 @@ const Profile = () => {
         setName(user?.displayName || "");
         setSelectedImage(null);
         setIsEditing(false);
+    };
+
+    const handleVerifyEmail = () => {
+        emailVerification()
+            .then(() => {
+                Swal.fire({
+                    icon: "success",
+                    title: "Verification Email Sent!",
+                    html: `
+        We've sent a verification link to your email address.<br>
+        Please check your inbox and click the link to verify your account.
+    `,
+                    showCancelButton: true,
+                    confirmButtonText: "Open Email",
+                    cancelButtonText: "Close",
+                    focusConfirm: false,
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.open("https://mail.google.com/", "_blank");
+                    }
+                });
+
+            }).catch(err => {
+                console.log(err)
+            })
     };
 
     const previewImage = selectedImage
@@ -332,7 +358,7 @@ const Profile = () => {
                             {!user?.emailVerified && (
                                 <button
                                     onClick={() => {
-                                        // sendEmailVerification(user)
+                                        handleVerifyEmail()
                                     }}
                                     className="btn btn-sm border-none bg-secondary text-white hover:bg-secondary/90"
                                 >
