@@ -3,7 +3,7 @@ import { Menu } from 'lucide-react';
 import { Link } from 'react-router';
 import useTheme from '../../hooks/useTheme';
 
-const DesktopNavbar = ({ timeString, dateString, setDrawerOpen }) => {
+const Navbar = ({ timeString, dateString, setDrawerOpen }) => {
     const { user, logout } = useAuth();
     const { toggleTheme, theme } = useTheme();
     // console.log(user)
@@ -63,6 +63,7 @@ const DesktopNavbar = ({ timeString, dateString, setDrawerOpen }) => {
                                     tabIndex={0}
                                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                                     <li><Link to="/dashboard/profile" className='w-full h-full'>Profile</Link></li>
+                                    <li><Link to="/pricing" className='w-full h-full'>Pricing</Link></li>
                                     <li><button className='w-full h-full' onClick={handleLogout}>Logout</button></li>
                                     {/* <li><button className='w-full h-full' onClick={handleLogout}>Logout</button></li> */}
                                 </ul>
@@ -81,4 +82,4 @@ const DesktopNavbar = ({ timeString, dateString, setDrawerOpen }) => {
     );
 };
 
-export default DesktopNavbar;
+export default Navbar;

@@ -4,7 +4,7 @@ export const aiRateLimit = async (req, res, next) => {
     const aiRequestLimitsCollection = await getCollection("ai_request_limits");
     try {
         const { email } = req.user;
-        const BLOCK_TIME = 30 * 1000; // 5 minutes
+        const BLOCK_TIME = 30 * 1000; // 30 seconds
         const now = new Date();
 
         const record = await aiRequestLimitsCollection.findOne({ email });

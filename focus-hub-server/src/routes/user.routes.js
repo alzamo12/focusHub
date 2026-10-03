@@ -8,6 +8,6 @@ const router = express.Router();
 router.post("/", handleCreateUser);
 router.patch("/", verifyToken, verifyEmail, handleUpdateUser); // Update user route
 // router.patch("/:id", verifyToken, handleUpdateUser);
-// router.delete("/:email", verifyToken, handleDeleteUser);
+router.delete("/:email", verifyToken, handleDeleteUser);
 
 export default router;

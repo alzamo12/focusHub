@@ -15,6 +15,7 @@ import Settings from "../pages/Settings/Settings";
 import LandingPage from "../pages/LandingPage/LandingPage";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Profile from "../pages/profile/Profile";
+import Pricing from "../pages/Pricing/Pricing";
 
 const router = createBrowserRouter([
     {
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
             {
                 path: "profile",
                 Component: Profile
+            },
+            {
+                path: "pricing",
+                Component: Pricing
             }
         ]
     },

@@ -4,9 +4,9 @@ import { useNavigate } from "react-router";
 import { getAuth } from "firebase/auth";
 import app from "../services/firebase/firebase.config";
 const axiosSecure = axios.create({
-    // baseURL: "http://localhost:5000/api",
+    baseURL: "http://localhost:5000/api",
     // baseURL: "https://focus-hub-server.onrender.com/",
-    baseURL: "https://focus-hub-server.vercel.app/api"
+    // baseURL: "https://focus-hub-server.vercel.app/api"
 })
 const useAxiosSecure = () => {
     const { user, logout, isLoading } = useAuth();

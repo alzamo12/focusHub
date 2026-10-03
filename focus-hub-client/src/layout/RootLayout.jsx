@@ -1,8 +1,8 @@
 // src/layouts/DashboardLayout.jsx
 import { useEffect, useState } from "react";
 import { Link, Outlet } from "react-router";
-import DesktopNavbar from "../components/navbar/DesktopNavbar";
-import DesktopSidebar from "../components/sidebar/DesktopSidebar";
+import Navbar from "../components/navbar/Navbar";
+import Sidebar from "../components/sidebar/Sidebar";
 import useAuth from "../hooks/useAuth";
 import { ToastContainer } from 'react-toastify';
 
@@ -58,6 +58,12 @@ const RootLayout = () => {
                     Generate Questions
                 </Link>
             </li>
+            <li>
+                <Link to="/dashboard/pricing" className="rounded-md px-4 py-1 hover:bg-secondary/30">
+                    Pricing
+                </Link>
+            </li>
+    
             {/* <li>
                 <Link to="/settings" className="rounded-md px-4 py-1 hover:bg-secondary/30">
                     Settings
@@ -70,7 +76,7 @@ const RootLayout = () => {
         <div className="flex min-h-screen text-neutral-900">
             <ToastContainer />
             {/* sidebar */}
-            <DesktopSidebar setDrawerOpen={setDrawerOpen}
+            <Sidebar setDrawerOpen={setDrawerOpen}
                 drawerOpen={drawerOpen}
                 logout={logout}
                 navLinks={navLinks}
@@ -79,7 +85,7 @@ const RootLayout = () => {
             <div className="flex-1 flex flex-col ">
                 {/* navbar */}
                 <header className="sticky top-0 z-40 w-full border-b border-primary dark:border-primary">
-                    <DesktopNavbar
+                    <Navbar
                         setDrawerOpen={setDrawerOpen}
                         timeString={timeString}
                         dateString={dateString} />

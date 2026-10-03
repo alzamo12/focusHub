@@ -1,7 +1,4 @@
-import React from 'react';
 import { Link, Outlet } from 'react-router';
-import SignIn from '../pages/SignIn/SignIn';
-import DesktopNavbar from '../components/navbar/DesktopNavbar';
 import useTheme from '../hooks/useTheme';
 import { ToastContainer } from 'react-toastify';
 
@@ -42,13 +39,6 @@ const AuthLayout = () => {
                     </div>
                 </div>
             </header>
-            {/* <DesktopNavbar /> */}
-            {/* <div> */}
-
-            {/* <h2 className="text-3xl">Opps!! You cant go forward without Signing In</h2> */}
-
-            {/* Main content */}
-            {/* <div className="flex-1 flex flex-col items-center justify-center p-6"> */}
 
             <main className="flex-1 flex flex-col items-center justify-center p-6 space-y-10">
                 <div className=''>
@@ -62,8 +52,6 @@ const AuthLayout = () => {
                     </div>
                 </div>
             </main>
-            {/* </div> */}
-            {/* </div> */}
         </div>
     );
 };

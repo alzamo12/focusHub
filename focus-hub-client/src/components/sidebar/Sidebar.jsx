@@ -1,41 +1,14 @@
 import { useState } from "react";
-import Classes from "../../pages/classScheduleTracker/ClassScheduleTracker";
 import { X } from "lucide-react";
 import AddClass from "../../features/classschedule/AddClass";
 import { AnimatePresence, motion } from "motion/react"
 import AddTask from "../../features/Tasks/AddTask";
 import SidebarButton from "../buttons/SidebarModelOpenButton/SidebarButton";
 import logo from '../../assets/my-logo.png'
-const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
+
+const Sidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
     const [extraNavs, setExtraNavs] = useState([]);
     const [showNav, setShowNav] = useState(false);
-    const handleAddNav = () => {
-        // Example: Add a new UL with some placeholder items
-        if (extraNavs.length <= 0) {
-            const newNav = (
-                <AnimatePresence>
-                    <motion.ul
-                        key={extraNavs.length}
-                        initial={{ opacity: 0, y: -20, }}   // starts slightly up and transparent
-                        animate={{ opacity: 1, y: 0 }}     // slides down and fades in
-                        exit={{ opacity: 0, y: -20, }}      // slides up and fades out
-                        transition={{ duration: 0.4, ease: "easeInOut" }} className="space-y-2  text-lg font-medium mt-4 my-4 pt-2 border-l px-1 border-primary">
-                        <li>
-                            {/* <button className="btn btn-secondary text-black" onClick={() => document.getElementById('my_modal_1').showModal()}>Add Task</button> */}
-                        </li>                        {/* Open the modal using document.getElementById('ID').showModal() method */}
-                        <li>
-                            <button className="btn btn-secondary text-black" onClick={() => document.getElementById('my_modal_2').showModal()}>Add Class</button>
-                        </li>
-
-                    </motion.ul>
-                </AnimatePresence >
-            );
-            setExtraNavs([...extraNavs, newNav]);
-        }
-        else {
-            setExtraNavs([])
-        }
-    };
 
     return (
         <aside className={`lg:flex lg:translate-x-0 flex-col w-64 
@@ -132,4 +105,4 @@ const DesktopSidebar = ({ navLinks, logout, setDrawerOpen, drawerOpen }) => {
     );
 };
 
-export default DesktopSidebar;
+export default Sidebar;

@@ -1,14 +1,3 @@
-// // import app from "./app.js";
-
-// // const PORT = process.env.PORT || 5000;
-
-// // app.listen(PORT, () => {
-// //     console.log(`Server running on ${PORT}`);
-// // });
-
-// import app from "./app.js";
-// import { dbConnect } from "./config/db.js";
-// const PORT = process.env.PORT || 5000;
 
 import app from "./app.js";
 import { dbConnect } from "./config/db.js";
@@ -37,4 +26,4 @@ const startServer = async () => {
 startServer();
 
 
-export default app;
+// export default app;
