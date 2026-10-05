@@ -9,6 +9,7 @@ import budgetRoutes from "./routes/budget.routes.js";
 import expenseRoutes from "./routes/expense.routes.js";
 import notesRoutes from "./routes/note.routes.js";
 import dashboardRoutes from "./routes/dashboard.routes.js";
+import paymentRoutes from "./routes/payment.routes.js";
 import { getCollection } from "./config/db.js";
 
 const app = express();
@@ -39,5 +40,6 @@ app.use("/api/budget", budgetRoutes);
 app.use("/api/expenses", expenseRoutes);
 app.use("/api/notes", notesRoutes);
 app.use("/api/dashboard", dashboardRoutes);
+app.use("/api/create_payment_intent", paymentRoutes);
 
 export default app;

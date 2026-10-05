@@ -13,7 +13,8 @@ const config = {
     firebase_access_token: process.env.FIREBASE_ACCESS_TOKEN,
     access_token: process.env.ACCESS_TOKEN,
     DB_DEV: process.env.DB_DEV,
-    DB_PROD: process.env.DB_PROD
+    DB_PROD: process.env.DB_PROD,
+    stripe_secret_key: process.env.stripe_secret_key
 };
 
 // console.log(config)
