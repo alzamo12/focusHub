@@ -14,8 +14,14 @@ const config = {
     access_token: process.env.ACCESS_TOKEN,
     DB_DEV: process.env.DB_DEV,
     DB_PROD: process.env.DB_PROD,
-    stripe_secret_key: process.env.stripe_secret_key
+    stripe_secret_key: process.env.stripe_secret_key,
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
 };
+
+
+// console.log(config)
 
 // console.log(config)
 

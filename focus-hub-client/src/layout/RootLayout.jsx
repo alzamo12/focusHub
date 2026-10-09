@@ -59,6 +59,16 @@ const RootLayout = () => {
                 </Link>
             </li>
             <li>
+                <Link to="/dashboard/summarizer" className="rounded-md px-4 py-1 hover:bg-secondary/30">
+                AI Summarizer
+                </Link>
+            </li>
+            <li>
+                <Link to="/dashboard/post-questions" className="rounded-md px-4 py-1 hover:bg-secondary/30">
+                Post Ques.
+                </Link>
+            </li>
+            <li>
                 <Link to="/dashboard/pricing" className="rounded-md px-4 py-1 hover:bg-secondary/30">
                     Pricing
                 </Link>

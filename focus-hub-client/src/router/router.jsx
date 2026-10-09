@@ -16,6 +16,9 @@ import LandingPage from "../pages/LandingPage/LandingPage";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Profile from "../pages/profile/Profile";
 import Pricing from "../pages/Pricing/Pricing";
+import AiSummarizer from "../pages/AiSummarizer/AiSummarizer";
+import PostQuestions from "../pages/PostQuestions/PostQuestions";
+import PostQuestionDetails from "../pages/PostQuestionDetails/PostQuestionDetails"
 
 const router = createBrowserRouter([
     {
@@ -69,6 +72,18 @@ const router = createBrowserRouter([
             {
                 path: "pricing",
                 Component: Pricing
+            },
+            {
+                path: 'summarizer',
+                Component: AiSummarizer
+            },
+            {
+                path: "post-questions",
+                Component: PostQuestions
+            },
+            {
+                path: 'post-questions/:id',
+                Component: PostQuestionDetails
             }
         ]
     },

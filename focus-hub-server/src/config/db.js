@@ -32,6 +32,15 @@ export const dbConnect = async () => {
     await dbPromise;
 
     db = client.db("focusHub");
+    await db.collection("questions").createIndex({
+      createdAt: -1,
+    });
+
+    await db.collection("questions").createIndex({
+      className: 1,
+      subject: 1,
+      createdAt: -1,
+    });
     // db = client.db("focus-hub");  // dev database name
     // console.log(uri)
     // console.log("MongoDB connected", db);

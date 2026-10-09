@@ -36,7 +36,7 @@ const PriceCard = ({category, price}) => {
                             <span className="line-through">Real-time collaboration tools</span>
                         </li>
                     </ul>
-                    <div className="mt-6">
+                    <div className="mt-6 ">
                         <button className="btn btn-primary not-dark:text-black btn-block">Subscribe</button>
                     </div>
                 </div>
